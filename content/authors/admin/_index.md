@@ -44,7 +44,7 @@ social:
     link: 'mailto:c.a.dransfeld@tudelft.nl'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://x.com/AMT_at_TUDelft
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.ch/citations?user=lVBJ26kAAAAJ&hl=de
