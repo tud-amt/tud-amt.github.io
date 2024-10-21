@@ -1,28 +1,27 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Onur Yuksel
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Onur
+last_name: Yuksel
 
 # Username (this should match the folder name)
-authors:
-  - 吳恩達
+authors: Onur
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Continuous process simulation
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Delft University of Technology
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests includes process simulation of composites
 
 interests:
   - Artificial Intelligence
@@ -31,9 +30,9 @@ interests:
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
+    - course: PhD
+      institution: University of Twente
+      year: 2024
     - course: MEng in Artificial Intelligence
       institution: Massachusetts Institute of Technology
       year: 2009
@@ -70,8 +69,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
-  - Visitors
+  - Postdoctoral Researcher
 ---
 
 吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
