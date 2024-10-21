@@ -20,8 +20,8 @@ sections:
         country: The Netherlands
         country_code: NL
       coordinates:
-        latitude: '51.99010757608108'
-        longitude: '4.376244177565761'
+        latitude: '51.9901'
+        longitude: '4.3762'
       directions: Enter Building 1 and ask for me at the receptio
       office_hours:
         - 'Monday 10:00 to 13:00'
