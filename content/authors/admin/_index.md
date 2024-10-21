@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Clem Dransfeld
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Clemens
+last_name: Dransfeld
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Delft University of Technology
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -27,15 +27,12 @@ interests:
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
+    - course: Master in  Industrial Design
+      institution: Domus Academy
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: Dipl. Ing. in Materials Science
+      institution: ETH Zurich
       year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,16 +41,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:c.a.dransfeld@tudelft.nl'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.ch/citations?user=lVBJ26kAAAAJ&hl=de
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/tud-amt
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
