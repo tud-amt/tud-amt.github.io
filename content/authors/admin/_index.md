@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Clem Dransfeld
+title: Clemens Dransfeld
 
 # Full Name (for SEO)
 first_name: Clemens
