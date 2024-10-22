@@ -13,7 +13,7 @@ authors: Diwakar
 superuser: false
 
 # Role/position
-role: Machine learning in Composite processing
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
