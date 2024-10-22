@@ -69,7 +69,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Principal Investigator
 ---
 
 After studying Materials Sciences at the Swiss Federal Institute of Technology (ETH Zurich) in 1990 and first professional experience at Dow Chemical in the development of automotive application in composites, Clemens Dransfeld earned a Master’s Degree in Industrial Design at the Domus Academy in Milano in 1992. He founded dyne design engineering in 1995, quickly becoming an established partner for award winning product developments requiring special expertise in polymer composites engineering. After 15 years in industry he was appointed Professor at the FHNW University of Applied Sciences of Northwestern Switzerland and Arts in 2006 where he was heading the Institute of Polymer Engineering. His research focusses on innovations in product and processes with a focus on high-performance polymers and composites. The focus being the application of polymer based composites for a sustainable mobility. His work with a strong impact on industrial valorisation contributed to scientific publications and patents. Clemens Dransfeld served 4 years as  Innovation Council of Innosuisse, The Swiss Innovation Agency, a federal entity whose role is to promote and fund science-based innovation in the interests of industry and society in Switzerland. As per 1st of September 2018, Clemens Dransfeld has been appointed full professor of aerospace manufacturing technologies at TU Delft.
