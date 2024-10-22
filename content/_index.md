@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Processing Advanced Architected Materials Lab
+        Processing Advanced Architected Materials
       image:
         filename: ujala_cropped.jpg
       text: |
