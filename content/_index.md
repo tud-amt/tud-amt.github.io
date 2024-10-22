@@ -8,14 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Processing Advanced Architected Materials Lab
       image:
-        filename: welcome.jpg
+        filename: ujala_cropped.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The PAAM Lab is investigaating the structure-processing-property relation ship of lightweight architected materials, such as composites, contributing to a sustainable aviation.
   
   - block: collection
     content:
