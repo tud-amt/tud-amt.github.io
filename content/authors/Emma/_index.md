@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Emma 
+title: Emma Chiavelli
 
 # Full name (for SEO)
 first_name: Emma
