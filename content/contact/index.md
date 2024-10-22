@@ -22,7 +22,7 @@ sections:
       coordinates:
         latitude: '51.9901'
         longitude: '4.3762'
-      directions: Enter Building 1 and ask for me at the receptio
+      directions: Enter Building 1 and ask for me at the reception
       office_hours:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
