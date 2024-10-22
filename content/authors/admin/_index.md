@@ -14,8 +14,8 @@ role: Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: Delft University of Technology
-    url: ''
+  - name: DTU Delft, Faculty of Aerospace Engineering
+    url: 'www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
 bio: I liek exploring the relationship between structure-processing-property relationship of architected materials.

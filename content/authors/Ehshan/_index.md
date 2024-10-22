@@ -14,27 +14,27 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoctoral researcher
+role: Doctoral candidate (together with Dr. Baris Caglar)
 
 # Organizations/Affiliations
 organizations:
-  - name: Delft University of Technology
-    url: ''
+  - name: TU Delft, Faculty of Aerospace Engineering
+    url: 'www.tudelft.nl/ae/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include spreading of carbon fibre tows and defect detection and imaging
 
 interests:
   - Composite processing
-  - Pultrusion
-  - Imaging
+  - Tow spreading
+  - Imaging methods
   - Microstructures
 
 education:
   courses:
-    - course: PhD
-      institution: University of Twente
-      year: 2024
+    - course: Master Degree
+      institution: TU Delft
+      year: 2023
 
 
 # Social/Academic Networking
@@ -44,16 +44,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:o.yuksel@tudelft.nl'
+    link: 'mailto:E.ul-Haq@tudelft.nl'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=eAEBQvQAAAAJ&hl=en
-#  - icon: github
-#    icon_pack: fab
-#    link: https://github.com/gcushen
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: https://scholar.google.com/citations?user=eAEBQvQAAAAJ&hl=en
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/ehshan-ul-haq-405963208/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

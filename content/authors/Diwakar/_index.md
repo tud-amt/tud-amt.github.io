@@ -17,28 +17,25 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Delft
-    url: ''
+  - name: TU Delft, Faculty of Aerospace Engineering
+    url: 'www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning
+bio: Exploring material structures with machine learning
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Microstructures
+  - Imaging
 
 education:
   courses:
-    - course: PhD in machine learning
-      institution: IIT
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD 
+      institution: IIT Mandi
+      year: 2024
+    - course: MTech
+      institution: IIT Mandi
+      year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -47,16 +44,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: 'mailto:test@D.Singh-2@tudelft.nl'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
+    link: https://scholar.google.com/citations?user=N4TeJfIAAAAJ&hl=en
+  - icon: linkedin
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://www.linkedin.com/in/diwakar-singh-650067104/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,6 +66,4 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-Diwakar is postdoctoral reseracher of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Diwakar holds a PhD from the Indian Institute of Technology, Mandi, and has research experience at the University of Alberta. He specializes in wave propagation in structures and finite element analysis (FEA), with expertise in COMSOL Multiphysics. Currently, he explores the structure of recycled polymer composites with machine learning.
