@@ -65,6 +65,6 @@ user_groups:
   - Doctoral Candidates
 ---
 
-Ran is doctoral candidate at PAAM lab. Her research interests includes microstructural characterisation of composites. 
+Silvia is doctoral candidate at PAAM lab (with CO-PIs Dr. Bilim Atli Veltin and Dr. Daniël Peeters) Her research interests includes microstructural characterisation of composites. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
