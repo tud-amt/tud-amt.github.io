@@ -18,8 +18,8 @@ role: Postdoctoral researcher
 
 # Organizations/Affiliations
 organizations:
-  - name: Delft University of Technology
-    url: ''
+  - name: TU Deflt, Faculty of Aerospace Engineering
+    url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.

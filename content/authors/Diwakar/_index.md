@@ -18,7 +18,7 @@ role: Postdoctoral Researcher
 # Organizations/Affiliations
 organizations:
   - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'www.tudelft.nl/ae'
+    url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
 bio: Exploring material structures with machine learning

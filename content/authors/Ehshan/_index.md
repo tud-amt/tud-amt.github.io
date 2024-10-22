@@ -19,7 +19,7 @@ role: Doctoral candidate (together with Dr. Baris Caglar)
 # Organizations/Affiliations
 organizations:
   - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'www.tudelft.nl/ae/'
+    url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include spreading of carbon fibre tows and defect detection and imaging
