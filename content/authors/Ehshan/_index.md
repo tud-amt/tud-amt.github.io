@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Doctoral candidate (together with Dr. Baris Caglar)
+role: Doctoral candidate (with co-PI Dr. Baris Caglar)
 
 # Organizations/Affiliations
 organizations:

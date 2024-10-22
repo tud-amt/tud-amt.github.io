@@ -13,7 +13,7 @@ authors: Silvia
 superuser: false
 
 # Role/position
-role: Doctoral Candidate
+role: Doctoral Candidate (with co-PIs Dr. B. Atli Veltin and Dr. D. Peeters)
 
 # Organizations/Affiliations
 organizations:
