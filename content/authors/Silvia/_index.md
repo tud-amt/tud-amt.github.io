@@ -24,9 +24,8 @@ organizations:
 bio: I really like microstructures
 
 interests:
-  - Composite structures
-  - Adhesive joints
-  - Toughening
+  - Microstructures
+  - Micro Computed Tomography
 
 education:
   courses:
