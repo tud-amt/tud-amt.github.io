@@ -8,13 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Processing Advanced Architected Materials
+        Processing of Advanced Architected Materials
       image:
         filename: ujala_cropped.jpg
       text: |
         <br>
         
-        The PAAM Lab is investigaating the structure-processing-property relation ship of lightweight architected materials, such as composites, contributing to a sustainable aviation.
+        The PAAM Lab is investigaating the structure-processing-property relation ship of lightweight architected materials, such as composites, contributing to a sustainable aviation. We are at the Faculty 
   
   - block: collection
     content:
