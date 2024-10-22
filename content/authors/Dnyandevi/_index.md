@@ -1,40 +1,40 @@
 ---
 # Display name
-title: Silvia Gomarasca
+title: Dnyandevi Deorukhkar
 
 # Full name (for SEO)
-first_name: Silvia
-last_name: Gomarasca
+first_name: Dnyandevi
+last_name: Deorukhkar
 
 # Username (this should match the folder name)
-authors: Silvia
+authors: Dnyandevi
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Doctoral Candidate
+role: Doctoral Candidate (with co-PI Dr. Laura Rossi)
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'https://www.tudelft.nl/ae/'
+  - name: TU Delft, Faculty of Applied Sciences
+    url: 'https://www.tudelft.nl/en/faculty-of-applied-sciences'
 
 # Short bio (displayed in user profile at end of posts)
-bio: I really like microstructures
+bio: I really like magnetic nanoparticles
 
 interests:
-  - Microstructures
-  - Micro Computed Tomography
+  - Magnetism
+  - Nanoparticles
 
 education:
   courses:
-    - course: MSc
-      institution: TU Delft, Faculty of Aerospace Engineering
-      year: 2018
-    - course: BSc
-      institution: Università degli Studi di Padova
-      year: 2015
+    - course: MSc, Chemical Engineering
+      institution: TU Delft, Faculty of Applied Sciences
+      year: 2024
+    - course: BSc, Chemical Engineering
+      institution: Savitribai Phule Pune University
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -43,13 +43,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:s.gomarasca@tudelft.nl'
+    link: 'mailto:s.D.D.Deorukhkar@tudelft.nl'
 #  - icon: google-scholar
 #    icon_pack: ai
 #    link: https://scholar.google.com/citations?user=yJYiGtsAAAAJ&hl=en
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/silvia-gomarasca-5636a3107/
+    link: https://www.linkedin.com/in/dnyandevideorukhkar/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -65,4 +65,6 @@ user_groups:
   - Doctoral Candidates
 ---
 
-I am a dedicated chemical engineer with strong commitment to fostering sustainable practices and driving innovation for better future. With blend of expertise in research and development (R&D) and conceptual process design engineering, I thrive tackling challenges and turning them into opportunities for growth.
+Silvia is doctoral candidate at PAAM lab (with CO-PIs Dr. Bilim Atli Veltin and Dr. Daniël Peeters) Her research interests includes microstructural characterisation of composites. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
