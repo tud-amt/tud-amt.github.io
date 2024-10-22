@@ -18,12 +18,15 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I liek exploring the relationship between structure-processing-property relationship of architected materials.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Fibre reinforced composites
+  - Polymer composites manufacturing
+  - Microstructures
+  - Interphases
+  - Processing
+  - Manufacturing
 
 education:
   courses:
