@@ -7,7 +7,10 @@ first_name: Clemens
 last_name: Dransfeld
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
+
+# Username (this should match the folder name)
+authors: Clemens
 
 # Role/position
 role: Professor
