@@ -7,7 +7,7 @@ first_name: Clemens
 last_name: Dransfeld
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Professor
@@ -18,7 +18,7 @@ organizations:
     url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
-bio: I liek exploring the relationship between structure-processing-property relationship of architected materials.
+bio: I like exploring the relationship between structure-processing-property relationship of architected materials.
 
 interests:
   - Fibre reinforced composites
