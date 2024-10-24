@@ -10,7 +10,7 @@ last_name: Dransfeld
 authors: Clemens
 
 # Is this the primary user of the site?
-superuser: false
+# superuser: false
 
 # Role/position
 role: Principal Investigator
