@@ -1,10 +1,10 @@
 ---
-title: Example Event
+title: Inauguration Tapeline
 
-event: Wowchemy Conference
+event: Open research facility for unidirectional thermoplastic composites
 event_url: https://example.org
 
-location: Wowchemy HQ
+location: TU Delft, Faculty of Aerospace Engineering
 address:
   street: 450 Serra Mall
   city: Stanford
@@ -17,18 +17,18 @@ abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2025-02-06T15:30:00Z'
+date_end: '2025-02-07T16:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-10-01T00:00:00Z'
 
 authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
