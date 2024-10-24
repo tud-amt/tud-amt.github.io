@@ -7,7 +7,7 @@ first_name: Clemens
 last_name: Dransfeld
 
 # Is this the primary user of the site?
-superuser: true
+#superuser: true
 
 # Username (this should match the folder name)
 authors: Clemens
