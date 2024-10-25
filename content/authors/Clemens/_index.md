@@ -30,7 +30,7 @@ interests:
 
 education:
   courses:
-    - course: Industrials Design, MDes
+    - course: Industrial Design, MDes
       institution: Domus Academy Milano
       year: 1992
     - course: Materials Science, Dipl. Ing ETH
