@@ -30,12 +30,12 @@ interests:
 
 education:
   courses:
-    - course: Master in Industrials Design MDes
+    - course: Industrials Design, MDes
       institution: Domus Academy Milano
       year: 1992
-    - course: Diploma in Materials Science, Dipl. Ing ETH
+    - course: Materials Science, Dipl. Ing ETH
       institution: ETH Zurich
-      year: 1992
+      year: 1990
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -66,4 +66,4 @@ user_groups:
   - Principal Investigator
 ---
 
-Clemens has and industrial background in composites enginering and was an acomplished industrial designed for innovative composite products in Switzerland. Her the became head of the Institute of Polymer Engineering at The University of Applied Sciences ans Art Northwestern Switzerland, exploring novel processig technologies for advanced polymer composites. In 2018 he was appointed full professor in aerospace manufacturing technologies at TU Delft.
+Clemens has and industrial background in composites enginering and become an acomplished industrial designer for innovative composite products. Her then joined the University of Applied Sciences ans Art Northwestern Switzerland as head of the Institute of Polymer Engineering, exploring novel processig technologies for advanced polymer composites. In 2018 he was appointed full professor in aerospace manufacturing technologies at TU Delft.
