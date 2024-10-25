@@ -66,4 +66,4 @@ user_groups:
   - Principal Investigator
 ---
 
-Clemens has and industrial background in composites enginering and become an acomplished industrial designer for innovative composite products. Her then joined the University of Applied Sciences ans Art Northwestern Switzerland as head of the Institute of Polymer Engineering, exploring novel processig technologies for advanced polymer composites. In 2018 he was appointed full professor in aerospace manufacturing technologies at TU Delft.
+Clemens has an industrial background in composites enginering and become an acomplished industrial designer for innovative composite products. He then joined the University of Applied Sciences ans Art Northwestern Switzerland as head of the Institute of Polymer Engineering, exploring novel processig technologies for advanced polymer composites. In 2018 he was appointed full professor in aerospace manufacturing technologies at TU Delft.

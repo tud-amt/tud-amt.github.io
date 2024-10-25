@@ -13,7 +13,7 @@ authors: Emma
 superuser: false
 
 # Role/position
-role: Master Student (with Dr. Laura Rossi - Colloidal Engineering and Materials design)
+role: Master Student
 
 # Organizations/Affiliations
 organizations:
@@ -66,6 +66,4 @@ user_groups:
   - Master Students
 ---
 
-Diwakar is postdoctoral reseracher of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Emma is a Master student with [*Dr. Laura Rossi*](http://www.mycolloids.com). She investigates the heating properties of magnetic nanoparticles.
