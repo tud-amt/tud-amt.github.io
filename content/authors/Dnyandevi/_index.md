@@ -13,7 +13,7 @@ authors: Dnyandevi
 superuser: false
 
 # Role/position
-role: Doctoral Candidate (with co-PI Dr. Laura Rossi)
+role: Doctoral Candidate
 
 # Organizations/Affiliations
 organizations:

@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Doctoral candidate (with co-PI Dr. Baris Caglar)
+role: Doctoral candidate
 
 # Organizations/Affiliations
 organizations:
@@ -69,6 +69,4 @@ user_groups:
   - Doctoral Candidates
 ---
 
-吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Eshhan is a co-PI [*Dr Baris Caglar*](https://www.tudelft.nl/en/staff/b.caglar/?cHash=1f8bd95bbc5cf393098b97aad0304377). He works on non-destructive monitoring  of UD tapes based on spatially resolved Eddy currents.

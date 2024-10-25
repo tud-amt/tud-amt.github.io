@@ -13,7 +13,7 @@ authors: Silvia
 superuser: false
 
 # Role/position
-role: Doctoral Candidate (with co-PIs Dr. B. Atli Veltin and Dr. D. Peeters)
+role: Doctoral Candidate
 
 # Organizations/Affiliations
 organizations:
@@ -65,4 +65,4 @@ user_groups:
   - Doctoral Candidates
 ---
 
-I am a dedicated chemical engineer with strong commitment to fostering sustainable practices and driving innovation for better future. With blend of expertise in research and development (R&D) and conceptual process design engineering, I thrive tackling challenges and turning them into opportunities for growth.
+ Silvia is a doctoral candidate with co-PIs [*Dr. B. Atli Veltin*](https://www.linkedin.com/in/bilimatliveltin/?originalSubdomain=nl) and [*Dr. D. Peeters*](https://www.linkedin.com/in/daniël-peeters-17601262/?originalSubdomain=nl). She investigates the microstructural organisation in unidirectional composites.
