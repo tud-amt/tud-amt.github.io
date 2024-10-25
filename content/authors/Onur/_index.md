@@ -18,11 +18,11 @@ role: Postdoctoral researcher
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Deflt, Faculty of Aerospace Engineering
+  - name: TU Delft, Faculty of Aerospace Engineering
     url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include composite microstructures and processing
 
 interests:
   - Composite processing
@@ -69,6 +69,5 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+In his PhD at the University of Twente, Onur investigated the role of microstructural varialbility in pultrusion.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
