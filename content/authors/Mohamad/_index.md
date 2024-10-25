@@ -73,4 +73,4 @@ user_groups:
   - Doctoral Candidates
 ---
 
-Mohamad is a doctoral candidate with  with co-PI [* Dr. Boyang Chen*](https://sites.google.com/view/boyangchenswebsite/home) working on computational micromechanics-driven analysis of composites.
+Mohamad is a doctoral candidate with  with co-PI [*Dr. Boyang Chen*](https://sites.google.com/view/boyangchenswebsite/home) working on computational micromechanics-driven analysis of composites.
