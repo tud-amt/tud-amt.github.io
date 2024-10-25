@@ -4,7 +4,7 @@ title: Alejandro Jimenez del Toro
 
 # Full name (for SEO)
 first_name: Alejandro
-last_name: Jimenez del Toro
+last_name: Jimenez
 
 # Username (this should match the folder name)
 authors:
