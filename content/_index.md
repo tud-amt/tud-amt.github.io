@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
         
-        The PAAM Lab at the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at Delft University of Technology is investigating the structure-processing-property relation ship of lightweight architected materials, such as composites, contributing to a sustainable aviation. We are at the Faculty 
+        The PAAM Lab at the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at Delft University of Technology is investigating the structure-processing-property relationship of lightweight architected materials.
   
   - block: collection
     content:
