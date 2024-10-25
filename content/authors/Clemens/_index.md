@@ -21,21 +21,21 @@ organizations:
     url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Exploring material structures with machine learning
+bio: Exploring the structure of material through processing
 
 interests:
-  - Artificial Intelligence
+  - Composites
   - Microstructures
-  - Imaging
+  - Processing
 
 education:
   courses:
-    - course: PhD 
-      institution: IIT Mandi
-      year: 2024
-    - course: MTech
-      institution: IIT Mandi
-      year: 2019
+    - course: Master in Industrials Design MDes
+      institution: Domus Academy Milano
+      year: 1992
+    - course: Diploma in Materials Science, Dipl. Ing ETH
+      institution: ETH Zurich
+      year: 1992
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,13 +44,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@D.Singh-2@tudelft.nl'
+    link: 'mailto:c.a.dransfeld@tudelft.nl'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=N4TeJfIAAAAJ&hl=en
+    link: https://scholar.google.ch/citations?user=lVBJ26kAAAAJ&hl=de
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/diwakar-singh-650067104/
+    link: https://www.linkedin.com/in/clemensdransfeld/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,4 +66,4 @@ user_groups:
   - Principal Investigator
 ---
 
-Diwakar holds a PhD from the Indian Institute of Technology, Mandi, and has research experience at the University of Alberta. He specializes in wave propagation in structures and finite element analysis (FEA), with expertise in COMSOL Multiphysics. Currently, he explores the structure of recycled polymer composites with machine learning.
+Clemens has and industrial background in composites enginering and was an acomplished industrial designed for innovative composite products in Switzerland. Her the became head of the Institute of Polymer Engineering at The University of Applied Sciences ans Art Northwestern Switzerland, exploring novel processig technologies for advanced polymer composites. In 2018 he was appointed full professor in aerospace manufacturing technologies at TU Delft.
