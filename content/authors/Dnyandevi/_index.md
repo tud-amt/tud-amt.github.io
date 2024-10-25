@@ -65,6 +65,6 @@ user_groups:
   - Doctoral Candidates
 ---
 
-Silvia is doctoral candidate at PAAM lab (with CO-PIs Dr. Bilim Atli Veltin and Dr. Daniël Peeters) Her research interests includes microstructural characterisation of composites. 
+Dnyandevi is doctoral candidate together with with co-PI Dr. [*Laura Rossi*](http://www.mycolloids.com) Her research interests includes the synthesis of tailored magnetic nanoparticles. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
