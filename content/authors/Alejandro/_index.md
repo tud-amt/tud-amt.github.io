@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alessandro
+title: Alejandro Jimenez de Toro
 
 # Full name (for SEO)
-first_name: Dnyandevi
-last_name: Deorukhkar
+first_name: Alejandro
+last_name: Jimenez del Toro
 
 # Username (this should match the folder name)
-authors: Dnyandevi
+authors: Alejandro
 
 # Is this the primary user of the site?
 superuser: false
@@ -17,15 +17,15 @@ role: Doctoral Candidate
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Delft, Faculty of Applied Sciences
-    url: 'https://www.tudelft.nl/en/faculty-of-applied-sciences'
+  - name: TU Delft, Faculty of Aerospace Engineering
+    url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
 bio: I really like magnetic nanoparticles
 
 interests:
-  - Magnetism
-  - Nanoparticles
+  - Thermnoplastic Composites
+  - Crystallisation Kinetics
 
 education:
   courses:
