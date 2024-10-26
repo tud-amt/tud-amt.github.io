@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alejandro Jimenez de Toro
+title: Alejandro Jimenez del Toro
 
 # Full name (for SEO)
 first_name: Alejandro
