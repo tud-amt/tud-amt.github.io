@@ -1,42 +1,40 @@
 ---
 # Display name
-title: Alejandro Jimenez del Toro
+title: Alessandro
 
 # Full name (for SEO)
-first_name: Alejandro
-last_name: Jimenez
+first_name: Dnyandevi
+last_name: Deorukhkar
 
 # Username (this should match the folder name)
-authors: Alejandro
+authors: Dnyandevi
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Doctoral candidate
+role: Doctoral Candidate
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'https://www.tudelft.nl/ae'
+  - name: TU Delft, Faculty of Applied Sciences
+    url: 'https://www.tudelft.nl/en/faculty-of-applied-sciences'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include (re)crystallisation of polymers.
+bio: I really like magnetic nanoparticles
 
 interests:
-  - Laser assistet tape laying
-  - Crystallisation kinetcis
-  
+  - Magnetism
+  - Nanoparticles
 
 education:
   courses:
-    - course: Master Degree
-      institution: Yes
-      year: 2023
-    - course: Bachelor Degree
-      institution: Yes
-      year: 2000
-
+    - course: MSc, Chemical Engineering
+      institution: TU Delft, Faculty of Applied Sciences
+      year: 2024
+    - course: BSc, Chemical Engineering
+      institution: Savitribai Phule Pune University
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -45,16 +43,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto: A.JimenezdelToro@tudelft.nl'
-#  - icon: twitter
-#    icon_pack: fab
-#    link: https://twitter.com/GeorgeCushen
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: https://scholar.google.com/citations?user=qCw54h4AAAAJ&hl=en
- - icon: linkedin
-   icon_pack: fab
-   link: https://www.linkedin.com/in/ajdeltoro/?locale=en_US
+    link: 'mailto:s.D.D.Deorukhkar@tudelft.nl'
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: https://scholar.google.com/citations?user=yJYiGtsAAAAJ&hl=en
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/dnyandevideorukhkar/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
