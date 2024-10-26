@@ -65,4 +65,4 @@ user_groups:
   - Doctoral Candidates
 ---
 
-Alejandro is part of the ITN [*STEP4WIND*](https://step4wind.eu) European Industrial Doctorate with co-PI {*Dr. Julie Teuwen*](https://julieteuwen.com).He investigates the (re)crystallisation kinetics of polyphenylenesulfide.
+Alejandro is part of the ITN [*STEP4WIND*](https://step4wind.eu) European Industrial Doctorate with co-PI [*Dr. Julie Teuwen*](https://julieteuwen.com).He investigates the (re)crystallisation kinetics of polyphenylenesulfide.
