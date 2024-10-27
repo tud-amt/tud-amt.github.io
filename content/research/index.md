@@ -14,6 +14,7 @@ sections:
         background:
           image:
             filename: 01_HiFi.jpg
+            fit: contain
             filters:
               brightness: 0.7
           position: right
