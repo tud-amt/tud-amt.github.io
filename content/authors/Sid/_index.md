@@ -44,7 +44,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:J.J.E.Teuwen@tudelft.nl'
+    link: 'mailto:Sid.Kumar@tudelft.nl'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
@@ -53,7 +53,7 @@ social:
 #    link: https://scholar.google.com/citations?user=eAEBQvQAAAAJ&hl=en
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/julie-teuwen-8a768542/
+    link: https://www.linkedin.com/in/sid41/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,6 +66,6 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Cooperations with Research Groups
+  - Cooperation with Research Groups
 ---
 
