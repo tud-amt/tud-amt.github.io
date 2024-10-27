@@ -5,44 +5,44 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: table
+  - block: slider
     content:
-      rows:
-        - image:
+      slides:
+      - title: 👋 Welcome to the group
+        content: Take a look at what we're working on...
+        align: center
+        background:
+          image:
             filename: 01_HiFi.jpg
             filters:
               brightness: 0.7
-            position: left
-          text:
-            title: 👋 Welcome to the group
-            content: Take a look at what we're working on...
-            align: left
-            color: '#666'
-        - image:
+          position: right
+          color: '#666'
+      - title: Lunch & Learn ☕️
+        content: 'Share your knowledge with the group and explore exciting new topics together!'
+        align: left
+        background:
+          image:
             filename: 02_dusca.jpg
             filters:
               brightness: 0.7
-            position: left
-          text:
-            title: Lunch & Learn ☕️
-            content: 'Share your knowledge with the group and explore exciting new topics together!'
-            align: left
-            color: '#555'
-        - image:
+          position: center
+          color: '#555'
+      - title: World-Class Semiconductor Lab
+        content: 'Just opened last month!'
+        align: right
+        background:
+          image:
             filename: welcome.jpg
             filters:
               brightness: 0.5
-            position: left
-          text:
-            title: World-Class Semiconductor Lab
-            content: 'Just opened last month!'
-            align: left
-            color: '#333'
-            link:
-              icon: graduation-cap
-              icon_pack: fas
-              text: Join Us
-              url: ../contact/
+          position: center
+          color: '#333'
+        link:
+          icon: graduation-cap
+          icon_pack: fas
+          text: Join Us
+          url: ../contact/
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
