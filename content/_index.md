@@ -10,11 +10,11 @@ sections:
       title: |
         Processing of Advanced Architected Materials
       image:
-        filename: ujala_cropped.jpg
+        filename: research.jpg
       text: |
         <br>
         
-        The PAAM Lab at the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at Delft University of Technology is investigating the structure-processing-property relationship of lightweight architected materials.
+        The PAAM Lab at the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at Delft University of Technology is investigating the structure-processing-property relationship of lightweight architected materials. We combine (self) assembly, processing und manufacturing methods to architect maerials at multiple scale to explore their synergistic properties. Our research is motivated by materials and applications relevant to aerospace industry.
   
   - block: collection
     content:
@@ -57,7 +57,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest Preprints
+      title: Latest Publications
       text: ""
       count: 5
       filters:
