@@ -10,7 +10,7 @@ sections:
       title: |
         Processing of Advanced Architected Materials
       image:
-        filename: research.jpg
+        filename: researchthemes.jpg
       text: |
         <br>
         
