@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: Architecting fibres at the smallest scale
-        content: ...like growing carbon nanotubes on carbon fibres
+      - title: Architecting at the smallest scale
+        content: ...like growing carbon nanotubes on carbon fibres (Szmyt et al.)
         align: right
         background:
           image:
@@ -19,7 +19,7 @@ sections:
           position: right
           color: '#666'
       - title: Tailoring perfoming phase morphologies
-        content: ...by using time and temperature phase behaviors between thermosets and thermoplastics
+        content: ...by tailoring time and temperature dependent phase separation between thermosets and thermoplastics (Farooq et al.)
         align: left
         background:
           image:
@@ -29,8 +29,8 @@ sections:
           position: center
           color: '#555'
       - title: Exploring fibre microstructures
-        content: By advanced imaging methods
-        align: right
+        content: By advanced imaging methods (Gomarasca et al.)
+        align: center
         background:
           image:
             filename: 03.jpg
@@ -44,7 +44,7 @@ sections:
           text: Join Us
           url: ../contact/
       - title: Understanding mesoscopic assembly
-        content: through bio inspired approaches
+        content: through bio inspired approaches (Gulmez et al.)
         align: right
         background:
           image:
@@ -59,7 +59,7 @@ sections:
           text: Join Us
           url: ../contact/
       - title: Characterizing microstructures
-        content: By applying temporal correlation to spatial descriptors
+        content: ...y applying temporal correlation to spatial descriptors (Gomarasca et al.)
         align: left
         background:
           image:
@@ -69,7 +69,7 @@ sections:
           position: center
           color: '#555'
       - title: ...towards scalable technologies
-        content: Translating scienntific knowledge to scalable technologies
+        content: Translating scientific knowledge to industrial technologies (TapeLine)
         align: left
         background:
           image:
