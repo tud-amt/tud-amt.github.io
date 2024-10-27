@@ -8,9 +8,9 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
-        align: center
+      - title: Architecting fibres at the smallest scale
+        content: ...like growing carbon nanotubes on carbon fibres
+        align: right
         background:
           image:
             filename: 01.jpg
@@ -18,8 +18,8 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: Tailoring perfoming phase morphologies
+        content: ...by using time and temperature phase behaviors between thermosets and thermoplastics
         align: left
         background:
           image:
@@ -28,8 +28,8 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      - title: Exploring fibre microstructures
+        content: By advanced imaging methods
         align: right
         background:
           image:
@@ -43,8 +43,8 @@ sections:
           icon_pack: fas
           text: Join Us
           url: ../contact/
-      - title: World-Class Semi Lab
-        content: 'Just opened last month!'
+      - title: Understanding mesoscopic assembly
+        content: through bio inspired approaches
         align: right
         background:
           image:
@@ -58,6 +58,26 @@ sections:
           icon_pack: fas
           text: Join Us
           url: ../contact/
+      - title: Characterizing microstructures
+        content: By applying temporal correlation to spatial descriptors
+        align: left
+        background:
+          image:
+            filename: 05.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+      - title: ...towards scalable technologies
+        content: Translating scienntific knowledge to scalable technologies
+        align: left
+        background:
+          image:
+            filename: 06.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
