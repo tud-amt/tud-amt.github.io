@@ -48,7 +48,7 @@ sections:
         align: right
         background:
           image:
-            filename: 04_micro.jpg
+            filename: 04.jpg
             filters:
               brightness: 0.5
           position: center
