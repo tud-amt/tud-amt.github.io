@@ -15,6 +15,7 @@ sections:
           - Postdoctoral Researchers
           - Doctoral Candidates
           - Master Students
+          - Cooperations with Research Groups
           - Visitors
           - Alumni
       sort_by: Params.last_name
