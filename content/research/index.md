@@ -38,11 +38,6 @@ sections:
               brightness: 0.5
           position: center
           color: '#333'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
       - title: Understanding mesoscopic assembly
         content: through bio inspired approaches (Gulmez et al.)
         align: right
@@ -53,11 +48,6 @@ sections:
               brightness: 0.5
           position: center
           color: '#333'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
       - title: Characterizing microstructures
         content: ...y applying temporal correlation to spatial descriptors (Gomarasca et al.)
         align: left
@@ -78,6 +68,11 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
+        link:
+          icon: graduation-cap
+          icon_pack: fas
+          text: Join Us
+          url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
