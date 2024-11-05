@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Baris Kumru
+title: Dr. Baris Caglar
 
 # Full name (for SEO)
 first_name: Baris
@@ -19,7 +19,7 @@ role: Assistant Professor
 # Organizations/Affiliations
 organizations:
   - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'http://www.tudelft.nl/ae/'
+    url: 'https://www.tudelft.nl/en/staff/b.caglar/'
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include spreading of carbon fibre tows and defect detection and imaging
@@ -44,7 +44,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:B.Kumru@tudelft.nl'
+    link: 'mailto:b.caglar@tudelft.nl'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
