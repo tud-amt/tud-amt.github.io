@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Baris Caglar
+title: Dr. Baris Kumru
 
 # Full name (for SEO)
 first_name: Baris
@@ -19,7 +19,7 @@ role: Assistant Professor
 # Organizations/Affiliations
 organizations:
   - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'https://www.tudelft.nl/en/staff/b.caglar/'  `
+    url: 'http://www.tudelft.nl/ae/'
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include spreading of carbon fibre tows and defect detection and imaging
@@ -44,16 +44,16 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:b.caglar@tudelft.nl'
+    link: 'mailto:B.Kumru@tudelft.nl'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=nShlEwMAAAAJ&hl=en
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/bacaglar/
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: https://scholar.google.com/citations?user=eAEBQvQAAAAJ&hl=en
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: https://www.linkedin.com/in/laura-rossi-9b05584b/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
