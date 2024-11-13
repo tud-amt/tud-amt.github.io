@@ -21,7 +21,7 @@ organizations:
     url: 'https://www.tudelft.nl/ae/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: I really like microstructures
+bio: I really like microstructures, I am cool.
 
 interests:
   - Microstructures
