@@ -18,7 +18,7 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Tailoring perfoming phase morphologies
+      - title: Tailoring preforming phase morphologies
         content: ...by tailoring time and temperature dependent phase separation between thermosets and thermoplastics (Farooq et al.)
         align: left
         background:
@@ -49,7 +49,7 @@ sections:
           position: center
           color: '#333'
       - title: Characterizing microstructures
-        content: ...y applying temporal correlation to spatial descriptors (Gomarasca et al.)
+        content: ... applying temporal correlation to spatial descriptors (Gomarasca et al.)
         align: left
         background:
           image:
@@ -58,8 +58,8 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: ...towards scalable technologies
-        content: Translating scientific knowledge to industrial technologies (TapeLine)
+      - title: Translating scientific knowledge to industrial technologies (TapeLine)
+        content: ...towards scalable technologies
         align: left
         background:
           image:
