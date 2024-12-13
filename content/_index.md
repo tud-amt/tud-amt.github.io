@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-10-24
 type: landing
 
 sections:
@@ -12,7 +12,7 @@ sections:
       image:
         filename: researchthemes.jpg
       text:
-        The PAAM Lab at the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at [*Delft University of Technology*](https://www.tudelft.nl) is investigating the structure-processing-property relationship of lightweight architected materials. We combine (self) assembly, processing und manufacturing methods to architect materials at multiple scales to explore their synergistic properties.
+        The PAAM Lab at the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at [*Delft University of Technology*](https://www.tudelft.nl) is investigating the structure-processing-property relationship of lightweight architected materials. We combine (self-)assembly, processing and manufacturing methods to architect materials at multiple scales to explore their synergistic properties.
   
   # - block: collection
   #   content:

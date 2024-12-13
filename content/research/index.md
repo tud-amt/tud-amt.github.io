@@ -19,7 +19,7 @@ sections:
           position: right
           color: '#666'
       - title: Tailoring preforming phase morphologies
-        content: ...by tailoring time and temperature dependent phase separation between thermosets and thermoplastics (Farooq et al.)
+        content: ...by tailoring time- and temperature-dependent phase separation between thermosets and thermoplastics (Farooq et al.)
         align: left
         background:
           image:
@@ -29,7 +29,7 @@ sections:
           position: center
           color: '#555'
       - title: Exploring fibre microstructures
-        content: By advanced imaging methods (Gomarasca et al.)
+        content: ...through advanced imaging methods (Gomarasca et al.)
         align: center
         background:
           image:
@@ -39,7 +39,7 @@ sections:
           position: center
           color: '#333'
       - title: Understanding mesoscopic assembly
-        content: through bio inspired approaches (Gulmez et al.)
+        content: ...through bio-inspired approaches (Gulmez et al.)
         align: right
         background:
           image:
@@ -49,7 +49,7 @@ sections:
           position: center
           color: '#333'
       - title: Characterizing microstructures
-        content: ... applying temporal correlation to spatial descriptors (Gomarasca et al.)
+        content: ...by applying temporal correlation to spatial descriptors (Gomarasca et al.)
         align: left
         background:
           image:
