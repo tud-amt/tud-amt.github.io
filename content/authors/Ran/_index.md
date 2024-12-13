@@ -30,10 +30,13 @@ interests:
 
 education:
   courses:
-    - course: PhD
-      institution: KAUST
+    - course: PhD, Mechanical Engineering
+      institution: KAUST (King Abdullah University of Science and Technology)
       year: 2020
-    - course: Master
+    - course: MSc, Mechanical Engineering
+      institution: KAUST (King Abdullah University of Science and Technology)
+      year: 2015
+    - course: BSc, Mechanical Engineering
       institution: Peking University
       year: 2013
 

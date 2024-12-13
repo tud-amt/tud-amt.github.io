@@ -32,9 +32,12 @@ interests:
 
 education:
   courses:
-    - course: Master Degree
-      institution: TU Delft
+    - course: MSc, Structures and Materials
+      institution: TU Delft, Faculty of Aerospace Engineering
       year: 2023
+    - course: BSc, Civil Engineering
+      institution: Delft University of Technology
+      year: 2020
 
 
 # Social/Academic Networking
