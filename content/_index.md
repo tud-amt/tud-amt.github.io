@@ -23,11 +23,6 @@ sections:
      filters:
         folders:
           - event
-       author: ''
-       category: ''
-       exclude_featured: false
-       publication_type: ''
-       tag: ''
      offset: 0
      order: desc
      page_type: post
@@ -35,6 +30,27 @@ sections:
      view: card
      columns: '1'
   
+# - block: collection
+#   content:
+#     title: Latest Event
+#     subtitle:
+#     text:
+#     count: 2
+#     filters:
+#        folders:
+#          - event
+#       author: ''
+#       category: ''
+#       exclude_featured: false
+#       publication_type: ''
+#       tag: ''
+#     offset: 0
+#     order: desc
+#     page_type: post
+#   design:
+#     view: card
+#     columns: '1'
+
   # - block: markdown
   #   content:
   #     title:
