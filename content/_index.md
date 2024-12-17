@@ -17,15 +17,11 @@ sections:
  - block: collection
    content:
      title: Latest Event
-     subtitle:
-     text:
+     text: ""
      count: 2
      filters:
         folders:
           - event
-     offset: 0
-     order: desc
-     page_type: post
    design:
      view: card
      columns: '1'
