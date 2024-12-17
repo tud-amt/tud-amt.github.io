@@ -29,10 +29,10 @@ interests:
 
 education:
   courses:
-    - course: MSc
+    - course: MSc, Aerospace Structures and Materials - Materials Specialization
       institution: TU Delft, Faculty of Aerospace Engineering
       year: 2018
-    - course: BSc
+    - course: BSc, Aerospace Engineering
       institution: Università degli Studi di Padova
       year: 2015
 
@@ -66,3 +66,16 @@ user_groups:
 ---
 
  Silvia is a doctoral candidate with co-PIs [*Dr. B. Atli Veltin*](https://www.linkedin.com/in/bilimatliveltin/?originalSubdomain=nl) and [*Dr. D. Peeters*](https://www.linkedin.com/in/daniël-peeters-17601262/?originalSubdomain=nl). She investigates the microstructural organisation in unidirectional composites.
+
+  - block: collection
+    content:
+      title: Latest Publications
+      text: ""
+      count: 5
+      filters:
+        folders:
+          - publication
+        publication_type: 'article-journal'
+    design:
+      view: citation
+      columns: '1'
