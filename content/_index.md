@@ -18,7 +18,7 @@ sections:
    content:
      title: Latest Event
      text: ""
-     count: 2
+     count: 1
      filters:
         folders:
           - event
