@@ -58,7 +58,7 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: Translating scientific knowledge to industrial technologies (TapeLine)
+      - title: Translating scientific knowledge to industrial technologies (TapeLab)
         content: ...towards scalable technologies
         align: left
         background:
