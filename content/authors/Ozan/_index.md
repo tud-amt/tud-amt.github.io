@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Ozan Celik
+title: Nico Katuin
 
 # Full name (for SEO)
-first_name: Ozan
-last_name: Celik
+first_name: Nico
+last_name: Katuin
 
 # Username (this should match the folder name)
 authors:
-  - Ozan
+  - Al_Nico
 
 # Is this the primary user of the site?
 superuser: false
@@ -48,12 +48,12 @@ social:
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=PMkiPhcAAAAJ&hl=en
-# - icon: linkedin
-#   icon_pack: fab
-#   link: https://www.linkedin.com/in/nkatuin/
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: https://scholar.google.com/citations?user=eAEBQvQAAAAJ&hl=en
+ - icon: linkedin
+   icon_pack: fab
+   link: https://www.linkedin.com/in/nkatuin/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
