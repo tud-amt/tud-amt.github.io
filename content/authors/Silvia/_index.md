@@ -29,10 +29,10 @@ interests:
 
 education:
   courses:
-    - course: MSc
+    - course: MSc, Aerospace Structures and Materials - Materials Specialization
       institution: TU Delft, Faculty of Aerospace Engineering
       year: 2018
-    - course: BSc
+    - course: BSc, Aerospace Engineering
       institution: Università degli Studi di Padova
       year: 2015
 
