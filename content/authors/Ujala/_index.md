@@ -47,7 +47,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@U.Farooq@tudelft.nl'
+    link: 'mailto:U.Farooq@tudelft.nl'
   - icon: linkedin
     icon_pack: fab
     link: https://nl.linkedin.com/in/ujala-farooq-71258528b

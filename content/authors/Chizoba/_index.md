@@ -42,7 +42,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@C.J.Ogugua@tudelft.nl'
+    link: 'mailto:C.J.Ogugua@tudelft.nl'
   - icon: linkedin
     icon_pack: fab
     link: https://nl.linkedin.com/in/chizoba-josphine-ogugua-314b89a8

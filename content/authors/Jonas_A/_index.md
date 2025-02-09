@@ -42,7 +42,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@J.P.Appels@tudelft.nl'
+    link: 'mailto:J.P.Appels@tudelft.nl'
   - icon: linkedin
     icon_pack: fab
     link: https://de.linkedin.com/in/jonas-appels
