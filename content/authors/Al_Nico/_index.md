@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Al_Nico
+title: Nico Katuin
 
 # Full name (for SEO)
 first_name: Nico
