@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Ozan Celik
+title: Al_Nico
 
 # Full name (for SEO)
-first_name: Ozan
-last_name: Celik
+first_name: Nico
+last_name: Katuin
 
 # Username (this should match the folder name)
 authors:
-  - Ozan
+  - Al_Nico
 
 # Is this the primary user of the site?
 superuser: false
