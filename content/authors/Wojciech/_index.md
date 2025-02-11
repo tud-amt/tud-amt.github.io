@@ -48,12 +48,12 @@ social:
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
-#  - icon: google-scholar
-#    icon_pack: ai
-#    link: https://nl.linkedin.com/in/palak-singh-verma
- - icon: linkedin
-   icon_pack: fab
-   link: https://ch.linkedin.com/in/wojciech-szmyt-b21aaa107
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=oUBXfdUAAAAJ&hl=en
+  - icon: linkedin
+    icon_pack: fab
+    link: https://ch.linkedin.com/in/wojciech-szmyt-b21aaa107
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -69,6 +69,5 @@ user_groups:
   - Alumni
 ---
 
-Link to the [*MSc thesis*](https://repository.tudelft.nl/record/uuid:b1273070-ba0d-4c0f-8ab4-4ad6b2666378)
 
 
