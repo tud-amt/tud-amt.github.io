@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Huub Urselmann
+title: Jasper Oranje
 
 # Full name (for SEO)
-first_name: Huub
-last_name: Urselmann
+first_name: Jasper
+last_name: Oranje
 
 # Username (this should match the folder name)
 authors:
-  - Huub
+  - Jasper
 
 # Is this the primary user of the site?
 superuser: false
@@ -51,9 +51,9 @@ social:
 #  - icon: google-scholar
 #    icon_pack: ai
 #    link: https://nl.linkedin.com/in/h-urselmann
-  - icon: linkedin
-    icon_pack: fab
-    link: https://nl.linkedin.com/in/h-urselmann
+# - icon: linkedin
+#   icon_pack: fab
+#   link: https://www.linkedin.com/in/nkatuin/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -69,6 +69,6 @@ user_groups:
   - Alumni
 ---
 
-Link to the [*MSc thesis*](https://repository.tudelft.nl/record/uuid:04214cf0-53e2-413f-8555-757622815ee6)
+Link to the [*MSc thesis*](https://repository.tudelft.nl/record/uuid:0ca5791b-a8ff-4562-865d-fbade61df267)
 
 
