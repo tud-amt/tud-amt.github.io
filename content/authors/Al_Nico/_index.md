@@ -67,5 +67,8 @@ email: ''
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Alumni
----
+
+
+Link to the [*MSc thesis*](https://repository.tudelft.nl/record/uuid:071a2a22-fa4d-423b-b049-6f2e70dbfc19)
+
 
