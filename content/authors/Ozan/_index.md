@@ -69,3 +69,5 @@ user_groups:
   - Alumni
 ---
 
+Link to the [*PhD dissertation*](https://research.tudelft.nl/en/publications/consolidation-during-laser-assisted-fiber-placement-heating-compa)
+
