@@ -48,12 +48,12 @@ social:
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: https://nl.linkedin.com/in/palak-singh-verma
+  - icon: linkedin
+    icon_pack: fab
     link: https://nl.linkedin.com/in/palak-singh-verma
-# - icon: linkedin
-#   icon_pack: fab
-#   link: https://www.linkedin.com/in/nkatuin/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
