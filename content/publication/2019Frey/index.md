@@ -8,7 +8,7 @@ title: Fabrication and Design of Wood-Based High-Performance Composites https://
 authors:
 - Marion Frey
 - Meri Zirkelbach
-- Clemens Dransfeld
+- Clemens
 - Eric Faude
 - Etienne Trachsel
 - Mikael Hannus

@@ -6,9 +6,9 @@ title: 'Solving the inverse Knudsen problem: Gas diffusion in random fibrous med
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Wojciech Szmyt
+- Wojciech
 - Carlos Guerra-Nuñez
-- Clemens Dransfeld
+- Clemens
 - Ivo Utke
 
 # Author notes (such as 'Equal Contribution')

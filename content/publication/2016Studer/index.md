@@ -8,7 +8,7 @@ title: An analytical model for B-stage joining and co-curing of carbon fibre epo
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - J. Studer
-- C. Dransfeld
+- Clemens
 - K. Masania
 
 # Author notes (such as 'Equal Contribution')

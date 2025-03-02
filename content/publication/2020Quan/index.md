@@ -9,7 +9,7 @@ title: Co-cure joining of epoxy composites with rapidly UV-irradiated PEEK and P
 authors:
 - D. Quan
 - R. Alderliesten
-- C. Dransfeld
+- Clemens
 - I. Tsakoniatis
 - R. Benedictus
 

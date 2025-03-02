@@ -8,7 +8,7 @@ title: Damping of carbon fibre and flax fibre angle-ply composite laminates
 authors:
 - M. Rueppel
 - J. Rion
-- C. Dransfeld
+- Clemens
 - C. Fischer
 - K. Masania
 

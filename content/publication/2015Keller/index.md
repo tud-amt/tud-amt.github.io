@@ -10,7 +10,7 @@ authors:
 - A. Keller
 - K. Masania
 - A. C. Taylor
-- C. Dransfeld
+- Clemens
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

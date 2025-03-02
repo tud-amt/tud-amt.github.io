@@ -8,7 +8,7 @@ title: 'Thin Ply: From Size-Effect Characterization to Real Life Design'
 authors:
 - R. Amacher
 - W. Smith
-- C. Dransfeld
+- Clemens
 - J. Botsis
 - J. Cugnoni
 

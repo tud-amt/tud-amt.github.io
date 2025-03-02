@@ -12,7 +12,7 @@ authors:
 - Ali Gooneie
 - Patrick Rupper
 - Kunal Masania
-- Clemens Dransfeld
+- Clemens
 - Rudolf Hufenus
 
 # Author notes (such as 'Equal Contribution')

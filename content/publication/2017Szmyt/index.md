@@ -8,13 +8,13 @@ title: Protective effect of ultrathin alumina film against diffusion of iron int
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- W. Szmyt
+- Wojciech
 - S. Vogel
 - A. Diaz
 - M. Holler
 - J. Gobrecht
 - M. Calame
-- C. Dransfeld
+- Clemens
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

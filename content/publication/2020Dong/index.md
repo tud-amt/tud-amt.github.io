@@ -9,7 +9,7 @@ title: Enhancing the fracture toughness of carbon fibre/epoxy composites by inte
 authors:
 - D. Quan
 - R. Alderliesten
-- C. Dransfeld
+- Clemens
 - N. Murphy
 - A. Ivanković
 - R. Benedictus

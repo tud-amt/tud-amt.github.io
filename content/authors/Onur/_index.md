@@ -36,7 +36,6 @@ education:
       institution: University of Twente
       year: 2024
 
-
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -62,6 +61,9 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

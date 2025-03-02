@@ -10,7 +10,7 @@ authors:
 - Dong Quan
 - Jiaming Liu
 - Liaojun Yao
-- Clemens Dransfeld
+- Clemens
 - René Alderliesten
 - Guoqun Zhao
 

@@ -7,14 +7,14 @@ title: The influence of inter-laminar thermal contact resistance on the cooling 
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Ozan Çelik
+- Ozan
 - S. M. Amin Hosseini
 - Ismet Baran
 - Wouter J. B. Grouve
 - Remko Akkerman
 - Daniël M. J. Peeters
-- Julie J. E. Teuwen
-- Clemens A. Dransfeld
+- Julie
+- Clemens
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
