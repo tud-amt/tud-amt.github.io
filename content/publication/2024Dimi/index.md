@@ -9,8 +9,8 @@ title: An algae-derived partially renewable epoxy resin formulation for glass fi
 authors:
 - Dimitrios Apostolidis
 - William E. Dyer
-- Clemens A. Dransfeld
-- Baris Kumru
+- Clemens
+- BarisK
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

@@ -8,7 +8,7 @@ title: Effect of fabric architecture, compaction and permeability on through thi
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Julia Studer
-- Clemens Dransfeld
+- Clemens
 - Jon Jauregui Cano
 - Andre Keller
 - Marianne Wink

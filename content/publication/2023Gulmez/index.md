@@ -11,7 +11,7 @@ authors:
 - Jesus Maldonado
 - Kunal Masania
 - Jos Sinke
-- Clemens Dransfeld
+- Clemens
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

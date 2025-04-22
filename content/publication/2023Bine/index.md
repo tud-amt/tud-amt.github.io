@@ -7,9 +7,9 @@ title: ECCM Research Topic on Advanced Manufacturing of Composites
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Christophe Binetruy
-- Baris Caglar
+- BarisC
 - Lode Daelemans
-- Clemens Dransfeld
+- Clemens
 - Veronique Michaud
 
 # Author notes (such as 'Equal Contribution')

@@ -21,7 +21,7 @@ organizations:
     url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ujala Farooq received her Bachelor’s degree in Polymer Engineering from University of Engineering & Technology Lahore, Pakistan, in 2015. She obtained her Master’s degree in Erasmus Mundus Membrane Engineering from Université Montpellier, Université Paul Sabatier, Institute of Chemical Technology Prague, and University of Zaragoza in 2017. She was awarded with Karlsruhe house of young scientist. From 2017 to 2019, she served as a lecturer in the Department of Chemical, Polymer & Composite Materials Engineering, University of Engineering & Technology Lahore. She is now a Ph.D. candidate at the Faculty of Aerospace Engineering, Delft University of Technology, The Netherlands. Her research topic focuses on the hierarchically structured polymer matrices under the supervision of Dr. Julie Teuwen and Professor Clemens Dransfeld.
+bio: 
 
 interests:
 
@@ -60,10 +60,13 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
 
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Doctoral Candidates
 ---
 
-Ujala is a co-PI [*Dr. Julie Teuwen*](https://www.tudelft.nl/staff/j.j.e.teuwen/?cHash=c8c11426f4365f9c7824ed720c3189f0). 
+Ujala is a Doctoral candidate of a co-PI [*Dr. Julie Teuwen*](https://www.tudelft.nl/staff/j.j.e.teuwen/?cHash=c8c11426f4365f9c7824ed720c3189f0). Ujala Farooq received her Bachelor’s degree in Polymer Engineering from University of Engineering & Technology Lahore, Pakistan, in 2015. She obtained her Master’s degree in Erasmus Mundus Membrane Engineering from Université Montpellier, Université Paul Sabatier, Institute of Chemical Technology Prague, and University of Zaragoza in 2017. She was awarded with Karlsruhe house of young scientist. From 2017 to 2019, she served as a lecturer in the Department of Chemical, Polymer & Composite Materials Engineering, University of Engineering & Technology Lahore. She is now a Ph.D. candidate at the Faculty of Aerospace Engineering, Delft University of Technology, The Netherlands. Her research topic focuses on the hierarchically structured polymer matrices under the supervision of Dr. Julie Teuwen and Professor Clemens Dransfeld.

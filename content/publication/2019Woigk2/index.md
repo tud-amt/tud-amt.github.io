@@ -12,7 +12,7 @@ authors:
 - D. Hegemann
 - A. W. van Vuure
 - E. Kramer
-- C. Dransfeld
+- Clemens
 - K. Masania
 
 # Author notes (such as 'Equal Contribution')

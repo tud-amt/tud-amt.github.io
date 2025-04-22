@@ -7,11 +7,11 @@ title: Synergistic Toughening of Epoxy through Layered Poly(ether imide) with Du
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Ujala Farooq
+- Ujala
 - Ekaterina Sakarinen
-- Julie Teuwen
+- Julie
 - René Alderliesten
-- Clemens Dransfeld
+- Clemens
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

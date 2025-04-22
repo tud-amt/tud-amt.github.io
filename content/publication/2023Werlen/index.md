@@ -10,7 +10,7 @@ authors:
 - Vincent Werlen
 - Richard Vocke
 - Christian Brauner
-- Clemens Dransfeld
+- Clemens
 - Véronique Michaud
 - Christian Rytka
 

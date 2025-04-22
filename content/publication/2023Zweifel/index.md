@@ -8,8 +8,8 @@ title: Multiscale Characterisation of Staple Carbon Fibre-Reinforced Polymers
 authors:
 - Lucian Zweifel
 - Julian Kupski
-- Clemens Dransfeld
-- Baris Caglar
+- Clemens
+- BarisC
 - Stephan Baz
 - Damian Cessario
 - Götz T. Gresser

@@ -12,7 +12,7 @@ authors:
 - J. Rion
 - D. Hegemann
 - A. W. van Vuure
-- C. Dransfeld
+- Clemens
 - K. Masania
 
 # Author notes (such as 'Equal Contribution')

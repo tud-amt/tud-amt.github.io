@@ -9,7 +9,7 @@ authors:
 - Madeleine Grossman
 - Dmitriy Pivovarov
 - Florian Bouville
-- Clemens Dransfeld
+- Clemens
 - Kunal Masania
 - André R. Studart
 

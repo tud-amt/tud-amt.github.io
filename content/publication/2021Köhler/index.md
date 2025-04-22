@@ -9,7 +9,7 @@ title: Static ultrasonic welding of carbon fibre unidirectional thermoplastic ma
 authors:
 - F. Köhler
 - I. F. Villegas
-- C. Dransfeld
+- Clemens
 - A. Herrmann
 
 # Author notes (such as 'Equal Contribution')

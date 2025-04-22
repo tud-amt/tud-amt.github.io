@@ -7,7 +7,7 @@ title: Cure kinetics of a fast cure epoxy with silica nanoparticles
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - A. Keller
-- C. Dransfeld
+- Clemens
 - A. C. Taylor
 - K. Masania
 - K. Ritter

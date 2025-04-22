@@ -12,7 +12,7 @@ authors:
 - H. Guo
 - W. Woigk
 - K. Masania
-- C. Dransfeld
+- Clemens
 - J. De Coninck
 - C. Dupont-Gillain
 - D. Seveno
