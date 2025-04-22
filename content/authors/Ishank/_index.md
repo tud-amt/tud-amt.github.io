@@ -75,4 +75,4 @@ user_groups:
   - Doctoral Candidates
 ---
 
-Eshhan is a co-PI [*Dr Sid Kumar*](https://www.tudelft.nl/staff/sid.kumar/). He works on phase field modelling of polymer composites.
+Ishank is a co-supervised by [*Dr Sid Kumar*](https://www.tudelft.nl/staff/sid.kumar/). He works on phase field modelling of polymer composites.
