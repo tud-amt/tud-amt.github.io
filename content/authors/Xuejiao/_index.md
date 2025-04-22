@@ -69,4 +69,4 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-Description to be updated...
+Xuejiao is co-supervised by [*Dr Reza Sabzevari*](https://www.tudelft.nl/en/staff/r.sabzevari/). 
