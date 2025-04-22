@@ -13,7 +13,7 @@ authors: Emma
 superuser: false
 
 # Role/position
-role: Master Student
+role: Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -60,7 +60,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Students
+  - Researchers
 ---
 
 Emma is a Master student with [*Dr. Laura Rossi*](http://www.mycolloids.com). She investigates the heating properties of magnetic nanoparticles.
