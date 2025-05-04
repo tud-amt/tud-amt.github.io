@@ -1,0 +1,1045 @@
+<!--
+ * Project: Permeation Tool
+ * Author: Feltin Joffrey
+ * Date: August, 2023
+ *
+ * © 2023 Feltin Joffrey. All rights reserved.
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Permeation Tool</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- Latex Imports (to display equations) -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+  <!-- Chart Imports (for interactives graphs) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+
+</head>
+
+<body onload= "showPage('home')"> <!-- "showPage('permeation-determination'), showSubPage('method1')" -->
+  <div id="app">
+    <div id="sidebar">
+      <a href="https://www.tudelft.nl/">
+        <img src="img/TUDelft_logo_white.png" alt="Logo TU Delft" class="logo">
+      </a>     
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('permeation-definition')">What is permeation ?</button>
+      <div class="parent-button">
+        <button id="exp_button_sidebar" onmouseover="showSubmenus()" onmouseout="hideSubmenus()" onclick="showPage('permeation-determination'), showSubPage('permeation-determination-home')">How to determine permeation ? →</button>
+        <div id="submenus" onmouseover="showSubmenus()" onmouseout="hideSubmenus()">
+          <button class="submenu-button" onclick="showPage('permeation-determination'), showSubPage('method1'), hideSubmenus()",>Mass Spectrometer</button>
+          <button class="submenu-button" onclick="showPage('permeation-determination'), showSubPage('method2'), hideSubmenus()",>Pressure Sensor</button>
+        </div>
+      </div>
+      <button onclick="showPage('unit-converter')">Unit converter</button>
+      <button onclick="showPage('flow-evolution')">Evolution of the flow</button>
+      <button onclick="showPage('glossary')">Glossary</button>
+      <button onclick="showPage('ressources')">Resources</button>
+    </div>
+  
+    <div id="content"> 
+      <div id="home" class="page">
+        <h1>Permeation Tool</h1>
+        <div class="content_text_introduction content_text">
+          <p>
+            This tool has been developed to clarify and explain the physical phenomena of permeation.
+            <br/><br/>On this web page, you'll find :
+            <ul>
+              <li>
+                Explanations, definitions and animations of this phenomena, 
+              </li>
+              <li>
+                A tool to determine the permeation coefficient (permeability) from experimental data,
+              </li>
+              <li>
+                A unit converter to convert all the differents units you can find in paper about permeability,
+              </li>
+              <li>
+                A tool to see the evolution of the permeate flow in cases of cracks, or not.
+              </li>
+              <li>
+                A glossary and some usefuls ressources and references.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <br><br>
+        <div class="content_text_introduction content_text">
+          <p>
+            This tool has been developed by Joffrey Feltin as part of his engineering internship at TU Delft during summer 2023.
+          </p>
+          <p>All the sources used to build this site can be found in the "Resources" tab.</p>
+        </div>
+      </div>
+      
+      <div id="permeation-definition" class="page">
+        <h2>What is Permeation ?</h2>
+        <div class="content_text">
+          Permeation can be observed in various scenarios, such as the movement of gases through bottle walls, the permeation of fluids through membranes, or the penetration of fluids through solid materials.     
+          <br><br>
+          <b>Permeation is the process of fluid or gas movement through a barrier or solid material.</b> 
+          It involves into several essential steps, including <b>absorption</b>, <b>diffusion</b>, and <b>desorption</b>.
+          <!-- <br><img src="img/absorption_diffusion_desorption.PNG" alt="absorption_diffusion_desorption_picture" class="img"> -->
+          <br><img src="img/permeation.svg" alt="absorption_diffusion_desorption_picture" class="img">
+          
+          <div class="row">
+            <div class="column">
+                <h3 style="text-align: center">Absorbtion :</h3>
+                During absorption, gas molecules are taken up or absorbed by the material's structure. This occurs when a gas comes into contact with the material, and some of its molecules become integrated within the material itself.
+                <br><br><br><br>
+                The absorption of gases in metals is described by <b>Henry’s law</b> :
+                <p><center><span class="tex2jax_process">\(C_f = S\cdot p_f\)</span></center></p>
+                Where <span class="tex2jax_process">\(C \space [kmol/cm^3]\)</span> is the gas concentration, <span class="tex2jax_process">\(p \space [Pa]\)</span> is the pressure, and <span class="tex2jax_process">\(S \space [kmol/(Pa.cm^3) ]\)</span> is the solubility.
+            </div>
+
+            <div class="column">
+                <h3 style="text-align: center;">Diffusion :</h3>
+                Following absorption, diffusion takes place. Diffusion refers to the movement or spreading out of the absorbed gas molecules within the material. This movement occurs due to the random thermal motion of the gas molecules.
+                <br><br><br><br>
+                The diffusion is described by <b>Fick’s law</b> :
+                <p><center><span class="tex2jax_process">\(J = - D \cdot \dfrac{\partial C}{\partial x}\)</span></center></p>
+                Where <span class="tex2jax_process">\(J \space [mol/(m​^2.s)]\)</span> is the flux, <span class="tex2jax_process">\(D \space [m^2/s]\)</span> is the diffusion coefficient, <span class="tex2jax_process">\(C \space [mol/m^3]\)</span> is the concentration, and  <span class="tex2jax_process">\(x \space [m]\)</span> is the coordinate in thickness direction.
+            </div>
+              
+            <div class="column">
+                <h3 style="text-align: center;">Desorption :</h3>
+                Ultimately, the desorption stage occurs, where the absorbed gas molecules are released or desorbed from the material. This can happen when there is a lower concentration of the gas on the other side of the material or due to changes in temperature or pressure.
+                <br><br><br>
+                The desorption of gases in metals is described by <b>Henry’s law</b> :
+                <p><center><span class="tex2jax_process">\(C_p = S\cdot p_p\)</span></center></p>
+                Where <span class="tex2jax_process">\(C \space [kmol/cm^3]\)</span> is the gas concentration, <span class="tex2jax_process">\(p \space [Pa]\)</span> is the pressure, and <span class="tex2jax_process">\(S \space [kmol/(Pa.cm^3) ]\)</span> is the solubility.
+            </div>
+          </div>
+          <br><br>
+          By combining these equations, we have : <span class="tex2jax_process">\(J = D\cdot S \cdot \dfrac{\partial p}{\partial x}\)</span>
+          <br><br>
+          Defining the permeability <span class="tex2jax_process">\(P:=DS\)</span>, one obtains :
+          <span class="tex2jax_process">\(J = P \cdot \dfrac{\partial p}{\partial x}\)</span>
+          <br><br>
+          The permeability expresses the material ability to allow gases permeate through a material, while permeation refers to the actual process of substances passing through a material. Permeability determines the ease of permeation, and permeation is the result of substances diffusing or flowing through a material.
+          <br><br>
+          Permeability is also sometimes referred as the permeation coefficient and is expressed in SI units of <span class="tex2jax_process">\(\dfrac{mol \cdot m}{s \cdot m^2 \cdot Pa}\)</span> (it is also sometimes expressed in <span class="tex2jax_process">\(\dfrac{cm^3_{STP} \cdot m}{s \cdot m^2 \cdot Pa}\)</span> ).
+          <br><br><span class="tex2jax_process">\(\Rightarrow cm^3_{STP}\)</span> (or <span class="tex2jax_process">\(scc\)</span>) is standard cubic centimeter, a mass unit. It represents the mass of a gas contained in a volume of 1 cubic centimetre at standard temperature and pressure. 
+          <br>
+
+        </div>
+      </div>
+
+      <div id="permeation-determination" class="page content_text">
+        <h1>How to determine permeation ? </h1>
+        <div id="permeation-determination-home" class="sub_page">
+          <p class="content_text">
+            When it comes to studying permeation, there are two commonly used experimental methods
+            to determine its value. These methods are mass spectrometry and pressure sensing.
+          </p>
+          <h3>How it works ?</h3>
+          <p class="content_text">
+            
+          </p>
+          <div class= "container">
+            <button class = exp_button onclick="showSubPage('method1'),setActiveButton(this)">Mass<br />Spectrometer</button>
+            <button class = exp_button onclick="showSubPage('method2'),setActiveButton(this)">Pressure<br />Sensor</button>
+          </div>
+        </div>
+
+        <div id="method1" class="sub_page">
+          <h2>Mass Spectrometer</h2>
+          <div class="content_text">
+            <p>One way to determine permeation is by using mass spectrometry. Mass spectrometry can quantify the concentration of molecules that have permeated 
+              through the sample. By analyzing the mass spectrum of the collected samples before and after the permeation experiment, we can determine the change 
+              in concentration of specific molecules.</p>
+            <h3>How it works ?</h3> 
+            <p>This method involves placing the sample for which we want to determine permeation between two tanks: one under high pressure and the other under low pressure. 
+              Certain molecules will permeate from the first tank to the second tank through our sample. Consequently, the concentration in the second tank will vary over time. 
+            </p>
+            
+            <div class="mass_spectrum_container">
+              <div class="mass_spectrum_text">
+                To determine this concentration, we can use mass spectrometry.
+                First, the molecules of interest are converted into ions by a process called ionization.
+                Then, the ionized molecules are then introduced into the mass spectrometer. This mass spectrometer sorts these ions based on their mass-to-charge ratio (m/z) and measures their abundance. 
+                This results in a mass spectrum, which is a graphical representation of ion intensity (abundance) versus m/z.
+                <br>In the mass spectrum, we observe peaks corresponding to different ions. Each peak represents an ion with a specific m/z value. By comparing the mass spectrum of the permeated samples to a reference spectrum of the original source, we can identify the peaks that correspond to the permeating molecules.
+                The intensity of the peaks in the mass spectrum is proportional to the concentration of the corresponding molecules. 
+                By comparing the peak intensities between different samples and using appropriate calibration standards, it is possible to quantitatively determine the concentration of permeating molecules over time.
+              </div>
+              <div class="mass_spectrum_sketch_container">
+                <div class="sketch-mass-spectrum-title">
+                  Example of a mass spectrum : 
+                </div>
+                <img src="img/mass_spectrum_example.jpg" alt="mass_spectrum_example" class="img_mass_spectrum">
+                <br>
+              </div>
+            </div>
+
+            <p>By measuring this change in concentration over time, we can calculate the permeation rate coefficient of the sample by using the parameters of the experimental device.</p>
+            <p>All this is represented and explained by the animation below :</p>
+            <!-- ANIMATION -->
+            <div class="animation-container">
+              <video width=70% height=auto autoplay muted loop class="animation-video">
+                <source src="img\permeation_animation_lq.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+              <div class="sketch-container">
+                <div class="sketch-title">
+                  Evolution of the concentration in the low pressure tank : 
+                </div>
+                <img src="img/concentration_curve.svg" alt="Evolution of the concentration over time" class="svg_img">
+              </div> 
+            </div>
+            <!-- /ANIMATION -->
+            <details>
+              <summary class="details-summary">Calculation methods :</summary>
+              <div class="details-content">
+                <p>We know that the concentration <span class="tex2jax_process">\(C\)</span> of the right tank, which is under low pressure is equal to :</p>
+                <p><span class="tex2jax_process">\(C = \dfrac{n}{V_{right-tank}}\)</span></p>
+                <p>In this setup, both tanks have constant volume.            
+                As a result, only the concentration (<span class="tex2jax_process">\(C\)</span>) and the number of moles (<span class="tex2jax_process">\(n\)</span>) will change over time.</p>
+                <p>Hence, we can express the relationship as follows:</p>
+                <p><span class="tex2jax_process">\(\dfrac{dC}{dt} = \dfrac{dn}{dt} \cdot \dfrac{1}{V_{right-tank}}\)</span></p>
+                <p><span class="tex2jax_process">\(\Rightarrow\dfrac{dn}{dt} = \dfrac{dC}{dt}\cdot V_{right-tank} \)</span></p>
+
+                <p>Now we have a relation between our experimental data: the change of concentration over time, and the variation of the mole number over time.</p>
+                <p>It is now possible to determine the permeation coefficient value. As a reminder, permeation coefficient is in <span class="tex2jax_process">\(\dfrac{𝑚𝑜𝑙}{𝑠} \cdot \dfrac{m}{m^2 \cdot Pa}\)</span>  </p>
+                <p>Permeation coefficient is determined by multiplying our variation of the mole number over time by the sample thickness and dividing by the sample surface area and the pressure difference between the two tanks.</p>
+                <p><span class="tex2jax_process">\(Permeability = \dfrac{dC}{dt} \cdot V_{right-tank} \cdot \dfrac{Thickness}{Area \cdot (P_{left\;tank} - P_{right\,tank}) } \)</span></p>
+              </div>
+            </details>
+          </div>
+
+          <br>
+          <h3>Calculation tool</h3>
+          <div class="table-container">
+            <table>
+              <tr class="group">
+                <th colspan="2" rowspan="2" class="separator">Concentration variation over time</th>
+                <th colspan="4"  class="separator">Sample</th>
+                <th colspan="4" class="separator">Pressure</th>
+                <th colspan="2" rowspan="2" class="separator">Volume of the tank under low pressure</th>
+                <th colspan="2" rowspan="2">Molar Weight <br>(for concentration conversion)</th>
+              </tr>
+              <tr>
+                <th colspan="2">Thickness</th>
+                <th colspan="2" class="separator">Area</th>
+                <th colspan="2">Left Tank</th>
+                <th colspan="2" class="separator">Right Tank</th>
+              </tr>
+              <tr>
+                <td class="input-cell"><input onchange="Mass_Determine_Permeation()" type="number" id="Mass_LeakRateValue"></td>
+                <td class="select-cell separator">
+                  <select onchange="Mass_Determine_Permeation()" id="Mass_LeakRateUnit">
+                    <option value="mol/L">mol/L</option>
+                    <option value="mmol/L">mmol/L</option>
+                    <option value="µmol/L">µmol/L</option>
+                    <option value="µg/L">µg/L</option>
+                    <option value="mg/L">mg/L</option>
+                    <option value="g/L">g/L</option>
+                    <option value="mol/m³">mol/m³</option>
+                    <option value="mmol/m³">mmol/m³</option>
+                    <option value="µmol/m³">µmol/m³</option>
+                    <option value="ppm">ppm</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Mass_Determine_Permeation()" type="number" value="1" id="Mass_ThicknessValue"></td>
+                <td class="select-cell">
+                  <select onchange="Mass_Determine_Permeation()" id="Mass_ThicknessUnit">
+                    <option value="mm">mm</option>
+                    <option value="cm">cm</option>
+                    <option value="m">m</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Mass_Determine_Permeation()" type="number" value="10000" id="Mass_AreaValue"></td>
+                <td class="select-cell separator">
+                  <select onchange="Mass_Determine_Permeation()" id="Mass_AreaUnit">
+                    <option value="mm²">mm²</option>
+                    <option value="cm²">cm²</option>
+                    <option value="m²">m²</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Mass_Determine_Permeation()" type="number" value="10" id="Mass_LetftTankPressureValue"></td>
+                <td class="select-cell">
+                  <select onchange="Mass_Determine_Permeation()" id="Mass_LetftTankPressureUnit">
+                    <option value="bar">bar</option>
+                    <option value="Pa">Pa</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Mass_Determine_Permeation()" type="number" value="0.001" id="Mass_RightTankPressureValue"></td>
+                <td class="select-cell separator">
+                  <select onchange="Mass_Determine_Permeation()" id="Mass_RightTankPressureUnit">
+                    <option value="bar">bar</option>
+                    <option value="Pa">Pa</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Mass_Determine_Permeation()" type="number" value="1" id="Mass_TankVolumeValue"></td>
+                <td class="select-cell separator">
+                  <select onchange="Mass_Determine_Permeation()" id="Mass_TankVolumeUnit">
+                    <option value="L">L</option>
+                    <option value="m³">m³</option>
+                    <option value="cm³">cm³</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Mass_Determine_Permeation()" type="number" value="2.02" id="Mass_MolarWeight"></td>
+                <td class="select-cell">
+                  g/mol
+                </td>
+              </tr>
+            </table>            
+          </div>
+          <br>
+          <div>
+            <table>
+                <tr class="group">
+                    <th colspan="2">Permeation coefficient</th>
+                </tr>
+                <tr>
+                    <th><input id="Permeation_mass" type="number" readonly="true"></th>
+                    <th><span class="tex2jax_process">\(\dfrac{𝑚𝑜𝑙\cdot𝑚}{𝑠\cdot𝑚^2\cdot𝑃𝑎}\)</span></th>
+                </tr>     
+            </table>
+          </div>
+          <div class="MolarWeightTableContenair">
+            <table>
+              <tr>
+                <th colspan="2">Common Molar Masses</th>
+              </tr>
+              <tr>
+                <th>Substance</th>
+                <th>Molar Mass (g/mol)</th>
+              </tr>
+              <tr>
+                <td>Hydrogen (H2)</td>
+                <td>2.02</td>
+              </tr>
+              <tr>
+                <td>Helium (He)</td>
+                <td>4.00</td>
+              </tr>
+              <tr>
+                <td>Water (H2O)</td>
+                <td>18.015</td>
+              </tr>
+              <tr>
+                <td>Oxygen (O2)</td>
+                <td>32.00</td>
+              </tr>
+              <tr>
+                <td>Carbon Dioxide (CO2)</td>
+                <td>44.01</td>
+              </tr>
+              <tr>
+                <td>Methane (CH4)</td>
+                <td>16.04</td>
+              </tr>
+              <tr>
+                <td>Nitrogen (N2)</td>
+                <td>28.02</td>
+              </tr>
+              <tr>
+                <td>Ozone (O3)</td>
+                <td>47.99</td>
+              </tr>
+            </table>
+          </div>  
+        </div>
+
+        <div id="method2" class="sub_page">
+          <h2>Pressure Sensor</h2>
+          <div class="content_text">
+            <p>One of the most common way to determine permeation is by using a pressor sensor.</p>
+            <h3>How it works ?</h3>
+            <p>This method involves placing the sample for which we want to determine permeation between two tanks: one under high pressure and the other under low pressure. 
+              Certain molecules will permeate from the first tank to the second tank through our sample. 
+              Consequently, the pressure in the second tank will vary over time. By measuring this change in pressure over time using a pressure sensor, 
+              we can apply the laws of perfect gases and utilize the parameters of the experimental device to calculate the permeation rate of the sample</p>
+              <p>All this is represented and explained by the animation below :</p>
+              
+              <!-- ANIMATION -->
+              <div class="animation-container">
+                <video width=70% height=auto autoplay muted loop class="animation-video">
+                  <source src="img\permeation_animation_lq.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <div class="sketch-container">
+                  <div class="sketch-title">
+                    Evolution of the pressure in the low pressure tank : 
+                  </div>
+                  <img src="img/pressure_curve.svg" alt="Logo TU Delft" class="svg_img">
+                </div>
+              </div>
+            <!-- /ANIMATION -->
+
+            <details>
+              <summary class="details-summary">Calculation methods :</summary>
+              <div class="details-content">
+                <p>We begin with the application of the law of perfect gases, to our tank on the right, which is under low pressure and equipped with a pressure sensor.</p>
+                <p><span class="tex2jax_process">\(PV = nRT\)</span></p>
+                <p>In this setup, both tanks have constant volume and temperature.            
+                  As a result, only the pressure (<span class="tex2jax_process">\(P\)</span>) and the number of moles (<span class="tex2jax_process">\(n\)</span>) will change over time.</p>
+                <p>Hence, we can express the relationship as follows: </p>
+                <p><span class="tex2jax_process">\(\Rightarrow\dfrac{dP}{dt}V = \dfrac{dn}{dt}RT\)</span></p>
+                <p><span class="tex2jax_process">\(\dfrac{d}{dt}(PV) = \dfrac{d}{dt}(nRT)\)</span></p>
+                <p><span class="tex2jax_process">\(\Rightarrow\dfrac{dn}{dt} = \dfrac{dP}{dt}\cdot \dfrac{V}{RT}\)</span></p>
+                <p>Now we have a relation between our experimental data: the change of pressure over time, and the variation of the mole number over time.</p>
+                <p>It is now possible to determine the permeation coefficient value. As a reminder, permeation coefficient is in <span class="tex2jax_process">\(\dfrac{𝑚𝑜𝑙}{𝑠} \cdot \dfrac{m}{m^2 \cdot Pa}\)</span></p>
+                <p>Permeation coefficient is determined by multiplying our variation of the mole number over time by the sample thickness and dividing by the sample surface area and the pressure difference between the two tanks.</p>
+                <p><span class="tex2jax_process">\(Permeation = \dfrac{dP}{dt} \cdot \dfrac{V}{RT} \cdot \dfrac{Thickness}{Area \cdot (P_{left\;tank} - P_{right\,tank}) } \)</span></p>
+              </div>
+            </details>
+            
+          </div>
+
+          <br>
+          <h3>Calculation tool</h3> 
+          <div class="table-container">
+            <table>
+              <tr class="group">
+                <th colspan="2" rowspan="2" class="separator">Pressure variation over time</th>
+                <th colspan="4"  class="separator">Sample</th>
+                <th colspan="4" class="separator">Pressure</th>
+                <th colspan="2" rowspan="2" class="separator">Volume of the tank under low pressure</th>
+                <th colspan="2" rowspan="2">Temperature</th>
+              </tr>
+              <tr>
+                <th colspan="2">Thickness</th>
+                <th colspan="2" class="separator">Area</th>
+                <th colspan="2">Left Tank</th>
+                <th colspan="2" class="separator">Right Tank</th>
+              </tr>
+              <tr>
+                <td class="input-cell"><input onchange="Pressure_Determine_Permeation()" type="number" value="0.02" id="Pressure_LeakRateValue"></td>
+                <td class="select-cell separator">
+                  <select onchange="Pressure_Determine_Permeation()" id="Pressure_LeakRateUnit">
+                    <option value="Pa/s">Pa/s</option>
+                    <option value="bar/s">bar/s</option>
+                    <option value="mPa/s">mPa/s</option>
+                    <option value="mbar/s">mbar/s</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Pressure_Determine_Permeation()" type="number" value="1" id="Pressure_ThicknessValue"></td>
+                <td class="select-cell">
+                  <select onchange="Pressure_Determine_Permeation()" id="Pressure_ThicknessUnit">
+                    <option value="mm">mm</option>
+                    <option value="cm">cm</option>
+                    <option value="m">m</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Pressure_Determine_Permeation()" type="number" value="10000" id="Pressure_AreaValue"></td>
+                <td class="select-cell separator">
+                  <select onchange="Pressure_Determine_Permeation()" id="Pressure_AreaUnit">
+                    <option value="mm²">mm²</option>
+                    <option value="cm²">cm²</option>
+                    <option value="m²">m²</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Pressure_Determine_Permeation()" type="number" value="10" id="Pressure_LetftTankPressureValue"></td>
+                <td class="select-cell">
+                  <select onchange="Pressure_Determine_Permeation()" id="Pressure_LetftTankPressureUnit">
+                    <option value="bar">bar</option>
+                    <option value="Pa">Pa</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Pressure_Determine_Permeation()" type="number" value="0.001" id="Pressure_RightTankPressureValue"></td>
+                <td class="select-cell separator">
+                  <select onchange="Pressure_Determine_Permeation()" id="Pressure_RightTankPressureUnit">
+                    <option value="bar">bar</option>
+                    <option value="Pa">Pa</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Pressure_Determine_Permeation()" type="number" value="1" id="Pressure_TankVolumeValue"></td>
+                <td class="select-cell separator">
+                  <select onchange="Pressure_Determine_Permeation()" id="Pressure_TankVolumeUnit">
+                    <option value="L">L</option>
+                    <option value="m³">m³</option>
+                    <option value="cm³">cm³</option>
+                  </select>
+                </td>
+                <td class="input-cell"><input onchange="Pressure_Determine_Permeation()" type="number" value="293" id="Pressure_TemperatureValue"></td>
+                <td class="select-cell">
+                  <select onchange="Pressure_Determine_Permeation()" id="Pressure_TemperatureUnit">
+                    <option value="K">K</option>
+                    <option value="°C">°C</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br>
+          <div>
+            <table>
+                <tr class="group">
+                    <th colspan="2">Permeation coefficient</th>
+                </tr>
+                <tr>
+                    <th><input id="Permeation" type="number" readonly="true"></th>
+                    <th><span class="tex2jax_process">\(\dfrac{𝑚𝑜𝑙\cdot𝑚}{𝑠\cdot𝑚^2\cdot𝑃𝑎}\)</span></th>
+                </tr>     
+            </table>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="unit-converter" class="page">
+        <h1>Unit Converter App</h1>
+        <div id="unitsConverter" class="content_text">
+          <h2>Permeability Units Converter</h2>
+          <p>
+            As a reminder, permeability is also sometimes referred as the permeation coefficient and is expressed in <span class="tex2jax_process">\(\dfrac{mol \cdot m}{s \cdot m^2 \cdot Pa}\)</span> or in <span class="tex2jax_process">\(\dfrac{cm^3_{STP} \cdot m}{s \cdot m^2 \cdot Pa}\)</span>.
+          </p>
+          <p>
+            The intriguing outcome is that this unit simplifies to "seconds". The real complication arises from the diversity of values selected for Mass, Length, Area, Time, and Pressure by different people, leading to the existence of thousands of potential unit combinations.
+          </p>
+          <p>
+            That's why this tool allows you to convert these units, in order to be able to compare the different values that can be found online or in the literature.
+          </p>
+          <div class="selectedElements">
+            <span id="selectedFromUnits"></span>
+            <span class="tex2jax_process">\(\Longrightarrow\)</span>
+            <span id="selectedToUnits"></span>
+          </div>
+          <div class="container">
+            <!-- Unit converter table-->
+            <table class="table table1">
+              <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Mass</td>
+                  <td>Length</td>
+                  <td>Area</td>
+                  <td>Time</td>
+                  <td>Pressure</td>
+              </tr>
+              <tr>
+                  <td>From</td>
+                  <td><input onchange="convert_unit()" title="From" id="From_value" type="number" value="1"></td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="FromMass">
+                          <option value="Kg">Kg</option>
+                          <option value="g">g</option>
+                          <option value="moles">moles</option>
+                          <option value="m³">m³ₛₜₚ</option>
+                          <option value="cm³">cm³ₛₜₚ</option>
+                          <option value="pound">pound</option>
+                      </select>
+                  </td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="FromLength">
+                          <option value="m">m</option>
+                          <option value="cm">cm</option>
+                          <option value="mm">mm</option>
+                          <option value="µm">μm</option>
+                          <option value="in">in</option>
+                          <option value="mil">mil</option>
+                      </select>
+                  </td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="FromArea">
+                          <option value="m²">m²</option>
+                          <option value="cm²">cm²</option>
+                          <option value="mm²">mm²</option>
+                          <option value="100in²">100in²</option>
+                      </select>
+                  </td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="FromTime">
+                          <option value="s">s</option>
+                          <option value="min">min</option>
+                          <option value="hr">hr</option>
+                          <option value="day">day</option>
+                      </select>
+                  </td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="FromPressure">
+                          <option value="Pa">Pa</option>
+                          <option value="kPa">kPa</option>
+                          <option value="Mpa">MPa</option>
+                          <option value="psi">psi</option>
+                          <option value="atm">atm</option>
+                          <option value="bar">bar</option>
+                          <option value="mm/Hg">mm/Hg</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td>To</td>
+                  <td><input title="To" id="To_Value" type="text" readonly="true"></td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="ToMass">
+                          <option value="Kg">Kg</option>
+                          <option value="g">g</option>
+                          <option value="moles">moles</option>
+                          <option value="m³">m³ₛₜₚ</option>
+                          <option value="cm³">cm³ₛₜₚ</option>
+                          <option value="pound">pound</option>
+                      </select>
+                  </td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="ToLength">
+                          <option value="m">m</option>
+                          <option value="cm">cm</option>
+                          <option value="mm">mm</option>
+                          <option value="µm">μm</option>
+                          <option value="in">in</option>
+                          <option value="mil">mil</option>
+                      </select>
+                  </td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="ToArea">
+                          <option value="m²">m²</option>
+                          <option value="cm²">cm²</option>
+                          <option value="mm²">mm²</option>
+                          <option value="100in²">100in²</option>
+                      </select>
+                  </td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="ToTime">
+                          <option value="s">s</option>
+                          <option value="min">min</option>
+                          <option value="hr">hr</option>
+                          <option value="day">day</option>
+                      </select>
+                  </td>
+                  <td>
+                      <select onchange="convert_unit()" style="font-size:20px" id="ToPressure">
+                          <option value="Pa">Pa</option>
+                          <option value="kPa">kPa</option>
+                          <option value="Mpa">MPa</option>
+                          <option value="psi">psi</option>
+                          <option value="atm">atm</option>
+                          <option value="bar">bar</option>
+                          <option value="mm/Hg">mm/Hg</option>
+                      </select>
+                  </td>
+              </tr>
+            </table>
+            <!-- Parameters table -->
+            <table class="table table2">
+              <tr>
+                <th colspan="2">Parameters</th>
+              </tr>
+              <tr>
+                <td>Molar Weigth<br />(g/mol)</td>
+                <td><input onchange="convert_unit()" title="Molar Weigth" id="MWt" type="number" value="2.02"></td>
+              </tr>
+              <tr>
+                <td>Standard Temperature<br />(K)</td>
+                <td><input onchange="convert_unit()" title="Std Temperature" id="Std_Temperature" type="number" value="293.15"></td>
+              </tr>
+              <tr>
+                <td>Standard Pressure<br />(Pa)</td>
+                <td><input onchange="convert_unit()" title="Std Pressure" id="Std_Pressure" type="number" value="101325"></td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <button onclick="autoselectUnits()" class="button">Autoselect Standards Units</button>
+          </div>
+
+          <div class="MolarWeightTableContenair">
+            <table>
+              <tr>
+                <th colspan="2">Common Molar Masses</th>
+              </tr>
+              <tr>
+                <th>Substance</th>
+                <th>Molar Mass (g/mol)</th>
+              </tr>
+              <tr>
+                <td>Hydrogen (H2)</td>
+                <td>2.02</td>
+              </tr>
+              <tr>
+                <td>Helium (He)</td>
+                <td>4.00</td>
+              </tr>
+              <tr>
+                <td>Water (H2O)</td>
+                <td>18.015</td>
+              </tr>
+              <tr>
+                <td>Oxygen (O2)</td>
+                <td>32.00</td>
+              </tr>
+              <tr>
+                <td>Carbon Dioxide (CO2)</td>
+                <td>44.01</td>
+              </tr>
+              <tr>
+                <td>Methane (CH4)</td>
+                <td>16.04</td>
+              </tr>
+              <tr>
+                <td>Nitrogen (N2)</td>
+                <td>28.02</td>
+              </tr>
+              <tr>
+                <td>Ozone (O3)</td>
+                <td>47.99</td>
+              </tr>
+            </table>
+          </div>          
+        </div>
+      </div>      
+
+      <div id="flow-evolution" class="page">
+        <h1>Evolution of the permeate flow</h1>
+        <div class="content_text">
+          <p class="content_text_introduction content_text">
+            When looking into permeation studies, an interesting aspect to consider is how the flow of the gas changes over time. 
+            This observation not only piques curiosity but also helps us determine a key factor : the diffusion coefficient.
+            <br><br>
+            In an ideal scenario, where our sample exhibits perfect conditions without any cracks, only the process of diffusion is at play. 
+            This principle is rooted in Fick's law, which governs the behavior of diffusion. However, if our sample does exhibit cracks, the 
+            applicability of Fick's law diminishes. In this scenario, the permeant substance will simply seep through these cracks, rendering 
+            the diffusion of the permeant comparatively inconsequential when contrasted with the permeant's leakage. To effectively characterize 
+            the permeant flow in cases involving cracked samples, we introduce the Knudsen number. This parameter plays a pivotal role in 
+            understanding and quantifying the flow behavior of the permeant under these specific circumstances.
+            <!-- <br><br>Moreover, a clearer perspective emerges when we compare the resulting curve with the theoretical one defined 
+            by Fick's law. This comparison serves as a useful tool, allowing us to figure out whether issues with hydrogen storage 
+            are mainly due to leaks or permeation. By aligning this theoretical curve with the actual experimental results, we can 
+            more definitively identify the dominant factor at play. -->
+          </p>
+
+          <div class="fick-law-ideal">
+
+            <h2>Fick's Law Curve (ideal conditions, without cracks) :</h2>
+            <p>In ideal conditions, if our sample presents no cracks, only the process of diffusion defined by Fick’s Law take place.</p>
+            <p>
+              As a reminder, here is how diffusion is described by <b>Fick’s law</b> :
+              <p><center><span class="tex2jax_process">\(J = - D \cdot \dfrac{\partial C}{\partial x} \;\;\;with\;\;\; \dfrac{\partial C}{\partial t} = D \dfrac{\partial^2 C}{\partial x^2}\)</span></center></p>
+              Where <span class="tex2jax_process">\(J \space [mol/(m​^2.s)]\)</span> is the flux, <span class="tex2jax_process">\(D \space [m^2/s]\)</span> is the diffusion coefficient, <span class="tex2jax_process">\(C \space [mol/m^3]\)</span> is the concentration, and  <span class="tex2jax_process">\(x \space [m]\)</span> is the coordinate in thickness direction.
+            </p>
+        
+            <p>The belowing tool enables you to create a graph showing the theoretical flow <span class="tex2jax_process">\((J)\)</span> over time based on Fick's law, and gives you the ability to adjust its parameters interactively.</p>
+            <h4>Hypothesis :</h4>
+            <p>
+              The concentration at the feed side, <span class="tex2jax_process">\(x=0\)</span> and permeate side, <span class="tex2jax_process">\(x=l\)</span>, 
+              may be termed <span class="tex2jax_process">\(C_f\)</span> and <span class="tex2jax_process">\(C_p\)</span>, respectively. Initially, 
+              the concentration is zero throughout the material: <span class="tex2jax_process">\(C(x,t < 0) =0 \)</span>. At <span class="tex2jax_process">\(t=0\)</span>, 
+              a constant concentration is applied at the feed side: <span class="tex2jax_process">\(C_f(t\ge0)= C_f^0\)</span>.
+              Owing to this change of charge, a flow from the feed side to the permeate side starts and <span class="tex2jax_process">\(C_p\)</span> changes with time. 
+              <br>Crank* calculated the flux at the permeate side, if <span class="tex2jax_process">\(C_p \simeq 0\)</span> and <span class="tex2jax_process">\(C_p \le C_f\)</span> for all <span class="tex2jax_process">\(t\)</span>:
+              <br><br>
+            </p>
+            <p><center><span class="tex2jax_process">\(J(t) = \dfrac{D \cdot C_f^0}{l}  \left[ 1 + \sum\limits_{n=1}^{\infty} (-1)^{n} \exp{\left( \dfrac{-Dn^2\pi^2}{l^2}t \right)} \right] \)</span></center></p>
+
+            <div class="curve-controls-container">
+              <div class=sketch-title>
+                Evolution of the flux at the permeate side (Fick law):
+              </div>
+              <canvas id="chartCanvas"></canvas>
+              <div class="controls">
+                <div class="sub-controls">
+                  <label for="D">D (Diffusion coefficient) [m²/s]:</label>
+                  <input type="range" id="D" min="1e-9" max="1e-5" step="1e-9" value="4e-6">
+                  <input type="text" id="DValue" value="4e-6">
+                </div>
+                <div class="sub-controls">
+                  <label for="x">x (Thickness) [m]:</label>
+                  <input type="range" id="x" min="0.001" max="0.1" step="0.001" value="0.05">
+                  <input type="text" id="xValue" value="0.05">
+                </div>
+                  
+                <div class="sub-controls">
+                  <label for="C">C (Concentration) [mol/m³]:</label>
+                  <input type="range" id="C" min="1" max="10000" step="1" value="1000">
+                  <input type="text" id="CValue" value="1000">
+                </div>
+
+                <div class="sub-controls">
+                  <label for="t">t (Total time) [s]:</label>
+                  <input type="range" id="t" min="10" max="3600" step="10" value="600">
+                  <input type="text" id="tValue" value="600">
+                </div>
+                
+                <div class="sub-controls">
+                  <label for="numPoints">Number of Points:</label>
+                  <input type="range" id="numPoints" min="10" max="1000" step="10" value="100">
+                  <input type="text" id="numPointsValue" value="100">
+                </div>
+              </div>
+            </div>
+            
+            <p>Schultheiß - 2007 - Permeation Barrier for Lightweight Liquid Hydrogen Tanks
+            <br>*J. Crank. The Mathematics of Diffusion. Clarendon Press, Oxford, 1970.
+            </p>
+          </div>
+
+          <div class="knudsen">
+            <h2>Unperfect conditions (presence of cracks) :</h2>
+            <p>
+              If our sample exhibits some cracks, the applicability of Fick's law diminishes. the permeant substance will simply seep through 
+              these cracks, rendering the diffusion of the permeant comparatively inconsequential when contrasted with the permeant's leakage. 
+              To effectively characterize the permeant flow in cases involving cracked samples, we introduce the Knudsen number. This parameter 
+              plays a pivotal role in understanding and quantifying the flow behavior of the permeant under these specific circumstances.
+            </p>
+            <p>
+              The Knudsen number (Kn) is a dimensionless number used in fluid dynamics and gas dynamics to characterize the 
+              behavior of a gas flow when the mean free path of the gas molecules becomes comparable to the characteristic length 
+              of the flow.
+              <br>
+              The Knudsen number is defined as the ratio of the mean free path <span class="tex2jax_process">\((\lambda)\)</span> of 
+              gas molecules to a characteristic length <span class="tex2jax_process">\((L)\)</span> of the flow:
+
+              <br><br><center><span class="tex2jax_process">\(Kn=\dfrac{\lambda}{L}\)</span></center><br><br>
+
+              <ul>
+                <li>
+                  <span class="tex2jax_process">\(\lambda\)</span> is the mean free path of gas molecules. It's the average distance a gas molecule travels between collisions with other molecules. In simple terms, it represents the distance a molecule can move before it encounters another molecule.
+                </li>
+                <li>
+                  <span class="tex2jax_process">\(L\)</span> is a characteristic length of the flow, which could be the size of an object or the length scale over which the flow is occurring. In our case, it represent the critical length of the microcrack.
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              <h4>Determination of the mean free path <span class="tex2jax_process">\(\lambda\)</span> :</h4>
+              <center>
+                <span class="tex2jax_process">\(\lambda=\dfrac{\mu}{p}*\sqrt{\dfrac{\pi R T}{2M}} \;\;\; \)</span> with <span class="tex2jax_process">\(\;\;\; \mu=\dfrac{2}{3\sqrt{\pi}}\dfrac{\sqrt{MRT}}{\pi \cdot Na \cdot dm^2} \)</span>
+              </center>
+
+              <ul>
+                <li>
+                  <span class="tex2jax_process">\(\lambda\)</span> is the mean free path. <span class="tex2jax_process">\([m]\)</span> 
+                </li>
+                <li>
+                  <span class="tex2jax_process">\(\mu\)</span> is the gas dynamic viscosity. <span class="tex2jax_process">\([Pa.s]\)</span> 
+                </li>
+                <li>
+                  <span class="tex2jax_process">\(p\)</span> is the pressure. <span class="tex2jax_process">\([Pa]\)</span> 
+                </li>
+                <li>
+                  <span class="tex2jax_process">\(R\)</span> is the gas constant. <span class="tex2jax_process">\((8,314 J.K^{-1}.kmol^{-1})\)</span> 
+                </li>
+                <li>
+                  <span class="tex2jax_process">\(T\)</span> is the temperature. <span class="tex2jax_process">\([K]\)</span> 
+                </li>
+                <li>
+                  <span class="tex2jax_process">\(M\)</span> is the gas molar mass of the molecule. <span class="tex2jax_process">\([kg.kmol^{-1}]\)</span> 
+                </li>
+                <li>
+                  <span class="tex2jax_process">\(Na\)</span> is the Avogadro number. <span class="tex2jax_process">\((6.022 \cdot 10^{-26} kmol^{-1})\)</span> 
+                </li>
+                <li>
+                  <span class="tex2jax_process">\(dm\)</span> is the molecule diameter. <span class="tex2jax_process">\([m]\)</span> 
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              The Knudsen number helps determine the nature of gas flow in various regimes:
+              <ul>
+                <li>
+                  <b>Knudsen Flow <span class="tex2jax_process">\((0.1 < Kn < 10)\)</span>:</b><br> The gas flow is in the Knudsen flow regime. In this regime, the mean free path is much larger than the characteristic length, and gas molecules move independently with minimal interactions. Traditional fluid dynamics equations break down, and molecular effects dominate the behavior of the flow.
+                  <br><br>
+                </li>
+                <li>
+                  <b>Slip Flow <span class="tex2jax_process">\((0.001 < Kn < 0.1)\)</span>:</b><br> The gas flow is in the slip flow regime. In this case, the mean free path becomes comparable to the characteristic length of the flow, and the behavior of the gas molecules at the surface of the object becomes significant. Slip conditions at surfaces, where gas molecules can slip along the surface, need to be taken into account.
+                  <br><br>
+                </li>
+                <li>
+                  <b>Continuum Flow <span class="tex2jax_process">\((Kn < 0.001)\)</span>:</b><br> The gas behaves as a continuum, meaning that the interactions between gas molecules dominate over their individual motion. In this regime, the gas can be described using macroscopic equations like the Navier-Stokes equations.
+                  <br><br>
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              The belowing tool enables you to create a graph showing the evolution of the Knudsen number for <b>Hydrogen</b> according to the critical 
+              length of the microcrack and gives you the ability to adjust its parameters interactively.
+            </p>
+            <div class="curve-controls-container">
+              <div class=sketch-title>
+                Caracterization of the flow mechanism to the storage conditions of hydrogen according to the 
+                critical length of the microcrack:
+              </div>
+              <div class="KnudChart-Container">
+                <canvas id="KnudChart"></canvas>
+                <div class="controls">
+                  <div class="sub-controls">
+                    <label for="KnudT">T (Temperature) [°K]:</label>
+                    <input type="range" id="KnudT" min="0.1" max="1000" step="0.1" value="20">
+                    <input type="text" id="KnudTValue" value="20">
+                  </div>
+                  
+                  <div class="sub-controls">
+                    <label for="KnudP">P (Pressure) [bar]:</label>
+                    <input type="range" id="KnudP" min="1" max="700" step="1" value="5">
+                    <input type="text" id="KnudPValue" value="5">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="glossary" class="page content_text">
+        <h1>Glossary</h1>
+        <p>
+          <ul>
+            <li>
+              <b>Absorption:</b>
+              <br> The stage of permeation where gas molecules are taken up or absorbed by the material's structure.
+              <br><br>
+            </li>
+            <li>
+              <b>Concentration Gradient:</b>
+              <br> The difference in concentration of a substance between two points in space, driving the movement of substances by diffusion.
+              <br><br>
+            </li>
+            <li>
+              <b>Continuum Flow:</b>
+              <br> The gas flow regime where gas interactions between molecules dominate over their individual motion, allowing macroscopic equations like the Navier-Stokes equations to describe the gas behavior.
+              <br><br>
+            </li>
+            <li>
+              <b>Desorption:</b>
+              <br> The stage of permeation where absorbed gas molecules are released from the material, often due to changes in concentration, temperature, or pressure.
+              <br><br>
+            </li>
+            <li>
+              <b>Diffusion:</b>
+              <br> The stage of permeation where absorbed gas molecules spread out within the material due to random thermal motion.
+              <br><br>
+            </li>
+            <li>
+              <b>Flux:</b>
+              <br> The rate at which a substance passes through a given area per unit of time, often used to describe the flow of permeate through a membrane.
+              <br><br>
+            </li>
+            <li>
+              <b>Knudsen Diffusion:</b>
+              <br> A mechanism of diffusion that occurs when the mean free path of molecules is comparable to or larger than the pore size of a porous material, leading to unique diffusion behavior.
+              <br><br>
+            </li>
+            <li>
+              <b>Knudsen Flow:</b>
+              <br> The gas flow regime where the mean free path of gas molecules is much larger than the characteristic length, leading to molecular effects dominating the flow behavior.
+              <br><br>
+            </li>
+            <li>
+              <b>Knudsen Number (Kn):</b>
+              <br> A dimensionless number used in fluid dynamics and gas dynamics to characterize gas flow behavior when the mean free path of gas molecules becomes comparable to the characteristic length of the flow.
+              <br><br>
+            </li>
+            <li>
+              <b>Mass Transfer:</b>
+              <br> The movement of mass (substance) from one location to another, often driven by concentration gradients.
+              <br><br>
+            </li>
+            <li>
+              <b>Permeability:</b>
+              <br> A measure of how easily a substance can permeate through a material, often quantified as the permeability coefficient.
+              <br><br>
+            </li>
+            <li>
+              <b>Permeability Coefficient:</b>
+              <br> A numerical value that quantifies the rate of permeation of a substance through a material.
+              <br><br>
+            </li>
+            <li>
+              <b>Permeation:</b>
+              <br> The process of fluid or gas movement through a barrier or solid material. It involves absorption, diffusion, and desorption.
+              <br><br>
+            </li>
+            <li>
+              <b>Solubility:</b>
+              <br> The ability of a substance to dissolve in a solvent or another substance, which can affect the rate of permeation.
+              <br><br>
+            </li>
+            <li>
+              <b>Sorption:</b>
+              <br> The process of a material absorbing or adsorbing a substance, leading to changes in the material's properties or structure.
+              <br><br>
+            </li>
+            <li>
+              <b>Standard Cubic Centimeter (<span class="tex2jax_process">\(cm^3_{STP}\)</span> or <span class="tex2jax_process">\(scc\)</span>):</b>
+              <br> A unit of measurement used to quantify mass.  It represents the mass of a gas contained in a volume of 1 cubic centimetre at standard temperature and pressure.
+              <br><br>
+            </li>
+            <li>
+              <b>Standard Temperature:</b>
+              <br> The defined temperature condition used as a reference point in various scientific measurements and calculations. Standard temperature can be set at 0 degrees Celsius (0°C) or 273.15 Kelvin (K), but it is also sometimes defined as the ambient temperature, typically around 20 degrees Celsius (20°C). The specific standard temperature may vary depending on the context and application.
+              <br><br>
+            </li>           
+            <li>
+              <b>Standard Pressure:</b>
+              <br> The defined pressure condition used as a reference point in scientific measurements and calculations. Standard pressure is typically set at 1 atmosphere (atm), which is equivalent to 101.325 Pascals (Pa) or 1013.25 millibars (mbar). It represents the average atmospheric pressure at sea level under normal conditions.
+              <br><br>
+            </li>
+          </ul>
+        </p>
+
+      </div>
+
+      <div id="ressources" class="page content_text">
+        <h1>Resources and References</h1>
+
+        <h2>Scientific Papers and Articles</h2>
+        <ul>
+            <li>
+                <b>Analytical and numerical approach to determine effective diffusion coefficients for composite pressure vessels</b><br>
+                Authors: Ebermann et al. (2022)<br><br>
+            </li>
+            <li>
+                <b>Permeability of carbon fiber PEEK composites for cryogenic storage tanks of future space launchers</b><br>
+                Authors: Flanagan et al. (2017)<br><br>
+            </li>
+            <li>
+                <b>Gas permeability of CFRP cross-ply laminates with thin-ply barrier layers under cryogenic and biaxial loading conditions</b><br>
+                Authors: Hamori et al. (2020)<br><br>
+            </li>
+            <li>
+                <b>Permeation Barrier for Lightweight Liquid Hydrogen Tanks</b><br>
+                Author: Schultheiß (2007)<br><br>
+            </li>
+            <li>
+                <b>Methodology for the identification of hydrogen gas permeation paths in damaged laminates</b><br>
+                Authors: Hosseini et al. (2022)<br><br>
+            </li>
+            <li>
+                <b>Hydrogen permeability of thermoplastic composites and liner systems for future mobility applications</b><br>
+                Authors: Condé-Wolter et al. (2023)<br><br>
+            </li>
+        </ul>
+    
+        <h2>Websites</h2>
+        <ul>
+            <li>
+                <a href="https://www.stevenabbott.co.uk/practical-coatings/permeability.php">Practical Coatings - Permeability</a><br>
+                Description: This website provides practical information about permeability, offering valuable insights into the topic.<br><br>
+            </li>
+            <li>
+                <a href="https://leak-detection.pfeiffer-vacuum.com/en/leak-detection-know-how/leak-rate-units-and-calibrated-leaks/#:~:text=Leak%20rates%20can%20be%20defined,%2Fmin%20or%20mL%2Fmin.">Pfeiffer Vacuum - Leak Detection Know-How</a><br>
+                Description: This resource explains leak rate units and calibrated leaks, which are relevant to the study of permeation and leakage.<br><br>
+            </li>
+            <li>
+                <a href="https://www.ametekmocon.com/knowledge/learnaboutpermeation">AMETEK MOCON - Learn about permeation</a><br>
+                Description: This website provide practical information about permeation. It also contains a FAQ about permeation and a glossary of terms related to permeation.<br><br>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Permeation">Wikipedia - Permeation</a><br>
+                Description: Wikipedia provides an overview of permeation, making it a useful starting point for research and learning.<br><br>
+            </li>
+        </ul>
+    
+        <h2>Acknowledgments</h2>
+        <p>I would like to acknowledge the contributions of members from the Department of Aerospace Manufacturing Technologies (AMT) at TU Delft for their valuable insights and research. Their work has been instrumental in the development of this permeation tool.</p>
+    
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

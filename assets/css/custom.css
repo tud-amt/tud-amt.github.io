@@ -1,0 +1,553 @@
+/* 
+* Project: Permeation Tool
+* Author: Feltin Joffrey
+* Date: August, 2023
+*
+* © 2023 Feltin Joffrey. All rights reserved. 
+*/
+
+/* styles.css */
+
+/* ################### */
+/* ## GLOBAL STYLES ## */
+/* ################### */
+
+    /* Colors definition */
+      :root {
+      /* TU Delft Color */
+        /* Primary Color */
+        --primary-color-1-cyan: #00A6D6;
+        --primary-color-1-light-cyan: #6EBBD5;
+        --primary-color-1-lighter-cyan: #D9F0F6;
+
+        --primary-color-2-white: #FFFFFF;
+        --primary-color-2-light-grey: #E7E7E7;
+        --primary-color-2-medium-grey: #BABABA;
+
+        --primary-color-3-black: #000000;
+        --primary-color-3-dark-grey: #505050;
+        --primary-color-3-grey: #9B9B9B;
+
+        /* Secondary Color*/
+        --secondary-color-dark-blue: #0C2340;
+        --secondary-color-turquoise: #00B8C8;
+        --secondary-color-blue: #0076C2;
+        --secondary-color-purple: #6F1D77;
+        --secondary-color-pink: #EF60A3;
+        --secondary-color-raspberry: #A50034;
+        --secondary-color-red: #E03C31;
+        --secondary-color-orange: #EC6842;
+        --secondary-color-yellow: #FFB81C;
+        --secondary-color-light-green: #6CC24A;
+        --secondary-color-dark-green: #009B77;
+
+        /* Background color*/
+        --background-color: #F7F7F7;
+      }
+
+    /* Background color of the webpage */
+      body {
+        background-color: var(--background-color);
+      }
+
+    /* Style for the content */
+      #content {
+        margin-left: 200px;
+        padding: 20px;
+      }
+      .content_text {
+        text-align: justify;
+        font-family: Arial, sans-serif;
+        line-height: 1.4; 
+        font-size: 16px;
+      }
+      .content_text_introduction{
+        padding: 10px;
+        background-color: var(--primary-color-2-light-grey);
+        border-width: 0px;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-top-color: var(--primary-color-3-dark-grey);
+        border-style: solid;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+    /* Container of elements */
+      .container {
+        display:flex;
+      }
+
+    /* Style for image */
+      .img {
+        margin-top: 130px;
+        border-width: 0px;
+        border-color: black;
+        border-style: solid;
+        height: auto;
+        width: 100%;
+      }
+
+
+
+/* ###################### */
+/* ## PAGE AND SUBPAGE ## */
+/* ###################### */
+
+    /* Initial display of page and sub_page */
+      .page {
+        display: none;
+      }  
+      .sub_page {
+        display: none;
+      }
+
+
+
+/* ############# */
+/* ## SIDEBAR ## */
+/* ############# */
+    
+    /* Style for TU Delft Logo */
+      .logo {
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        max-width: 70%;
+        height: auto;
+      }
+    /* Style for the sidebar menu */
+      #sidebar {
+        background-color: var(--primary-color-1-cyan);
+        margin-top: 0px;
+        width: 200px;
+        height: 100%;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      /* Style for the button of the sidebar */
+      #sidebar button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: var(--primary-color-1-cyan);
+        text-align: left;
+        font-size: 16px;
+        color: var(--primary-color-2-white);
+        cursor: pointer;
+        font-family: Arial;
+      }
+      #sidebar button:hover,
+      #sidebar .parent-button:hover > button {
+        background-color: var(--primary-color-1-light-cyan);
+      }
+
+      /* Style for the submenus buttons of the sidebar */
+      .parent-button {
+        position: relative;
+      }
+      #submenus {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        display: none;
+      }
+      #submenus button {
+        background-color: var(--primary-color-1-light-cyan);
+      }
+      #submenus button:hover {
+        background-color: var(--primary-color-1-lighter-cyan);
+        -webkit-text-fill-color: var(--primary-color-3-black);
+      }
+
+
+
+/* ############################# */
+/* ## WHAT IS PERMEATION PAGE ## */
+/* ############################# */
+
+      /* Style for the page "permeation definition" (What is permeation?) */
+      .column {
+        display: table-cell;
+        padding: 2%;
+        box-sizing: border-box;
+        text-align: justify;
+        font-family: Arial, sans-serif;
+        vertical-align: top;
+        padding-top: 0%;
+        width: 33.333%;
+      }
+      .column:not(:last-child) {
+        border-right: 1px solid #000;
+      }
+      .row {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+
+/* ###################################### */
+/* ## HOW TO DETERMINE PERMEATION PAGE ## */
+/* ###################################### */
+
+    /* Style for the button of the home page of "How to determine permeation ?" */
+      .exp_button {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--primary-color-1-light-cyan);
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        opacity: 0.9;
+        transform: scale(0.90);
+      }
+      .exp_button:hover {
+        background-color: var(--primary-color-1-cyan);
+        transform: scale(0.95);
+        opacity: 1;
+      }
+
+    /* Style for "How to determine permeation" tables */
+      .table-container {
+        max-width: 100%;
+        overflow-x: auto;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 4px;
+        text-align: center;
+      }
+      th {
+        font-weight: bold;
+      }
+      .group {
+        background-color: #f2f2f2;
+      }
+      .separator {
+        border-right: 3px solid black;
+      }
+      input[type="number"] {
+        width: 100%;
+        box-sizing: border-box;
+      }
+      td.input-cell {
+        white-space: nowrap;
+      }
+      td.input-cell input {
+        width: 100%;
+        box-sizing: border-box;
+        min-width: 70px;
+      }
+      td.select-cell {
+        white-space: nowrap;
+      }
+      td.select-cell select {
+        width: auto;
+        box-sizing: border-box;
+      }
+
+    /* Style for "How to determine permeation" - video animation and sketch*/
+      .animation-container{
+        display: flex;
+        align-items: center;
+      }
+      .svg_img{
+        float: left;
+        width: 100%;
+      }
+      .sketch-container{
+        display: flex;
+        flex: 0 0 30%;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sketch-title{
+        font-size: calc(1.4vw); 
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin: 0px 10px;
+        text-decoration: underline;
+      }
+      .animation-video{
+        float: left;
+      }
+
+    /* Style for "How to determine permeation" - Mass spectrometer */
+      .mass_spectrum_container{
+      display: flex;
+      align-items: center;
+      }
+      .mass_spectrum_text{
+      width: 70%;  
+      height: auto;
+      margin-right: 30px;
+      float: left;
+      }
+      .mass_spectrum_sketch_container{
+      display: flex;
+      flex: 0 0 30%;
+      flex-direction: column;
+      align-items: center;
+      }
+      .sketch-mass-spectrum-title{
+      font-size: calc(1vw); 
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      margin: 0px 10px;
+      text-decoration: underline;
+      }
+      .img_mass_spectrum{
+      margin-top: 10px;
+      float: left;
+      width: 100%;
+      max-width: 230px;
+      min-width: 100px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+
+
+/* ######################### */
+/* ## UNIT CONVERTER PAGE ## */
+/* ######################### */
+
+    /* Style for the button "Autoselect Standards Units" in "Unit converter" page */
+      .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 15px;
+        background-color: var(--primary-color-1-cyan);
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .button:hover {
+        background-color: var(--primary-color-1-light-cyan);
+      }
+
+    /* Style for "Unit Converter" */
+      .selectedElements{
+        text-align: center;
+        font-size: 25px;
+        margin: 40px;
+        padding: 20px;
+        background-color: var(--primary-color-2-light-grey);
+        border-width: 0px;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-top-color: var(--primary-color-3-dark-grey);
+        border-style: solid;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+    /* Style for "Unit Converter" tables */
+      .table {
+        flex: 1;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+      } 
+      .table1 {
+        flex-grow : 7;
+        flex-basis: 70%;
+        background-color: #f2f2f2;
+        border-radius: 8px;
+        padding: 20px;
+        margin-right: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .table2 {
+        flex-grow :3;
+        flex-basis: 30%;
+        background-color: #f2f2f2;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .table1,
+      .table2 {
+        width: 100%;
+        border-collapse: collapse;
+        border-bottom: 2px solid #333;
+      }
+      /* Styles for column headers and cells */
+      .table1 th,
+      .table1 td,
+      .table2 th,
+      .table2 td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      /* Styles for column headers in table1 */
+      .table1 th {
+        background-color: #f8f8f8;
+        color: #333;
+      }
+      /* Styles for column headers in table2 */
+      .table2 th {
+        background-color: #f9f9f9;
+        color: #0b3b45;
+      }
+      /* Styles for even rows in table1 */
+      .table1 tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      /* Styles for even rows in table2 */
+      .table2 tr:nth-child(even) {
+        background-color: #f5f5f5;
+      }
+      /* Styles for hovered rows */
+      .table1 tr:hover,
+      .table2 tr:hover {
+        background-color: #d3d3d3;
+      }
+
+    /* Style for the contenair of the molar weight table */
+    .MolarWeightTableContenair{
+      width: 40%;
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+/* ################################ */
+/* ## EVOLUTION OF THE FLOW PAGE ## */
+/* ################################ */
+
+    /* Style for "Evolution of the flow" */
+      .curve-controls-container {
+        display: flex;
+        flex-direction: column; 
+        height :auto;
+        margin-top: 40px;
+        margin-bottom: 40px; 
+        align-items: center; 
+      }
+      .controls { 
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 15px;
+        background-color: var(--primary-color-2-light-grey);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .sub-controls{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin : 30px;
+      }
+      #chartCanvas { 
+        max-height: 400px; 
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+    
+      .KnudChart-Container{
+        height: 550px;   
+        width: 100%; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+      }
+      #KnudChart{ 
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+
+
+summary {
+  cursor: pointer;
+}
+
+
+.details-summary{
+  font-size: 20px; 
+  font-weight: bold;
+  color: #333;
+  text-decoration: underline;
+  letter-spacing: 1px;
+
+
+  text-align: center;
+  padding: 7px;
+  background-color: var(--primary-color-2-light-grey);
+  border-width: 1px;
+  border-color: var(--primary-color-3-dark-grey);
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+details[open] summary ~ * {
+  animation: open .5s ease-in-out;
+}
+
+details[open] summary {
+  background-color: var(--primary-color-2-medium-grey);
+}
+
+details[close] summary ~ * {
+  animation: close .5s ease-in-out;
+}
+
+@keyframes open {
+  0% {opacity: 0; margin-top: -20px}
+  100% {opacity: 1; margin-top: 0px}
+}
+
+@keyframes close {
+  0% {opacity: 1; margin-top: 0px;}
+  100% {opacity: 0; margin-top: -20px}
+}
+
+.details-content{
+    padding: 7px;
+    background-color: var(--primary-color-2-light-grey);
+    border-width: 1px;
+    border-color: var(--primary-color-3-dark-grey);
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+.details-summary:hover {
+  background-color: var(--primary-color-2-medium-grey);
+}
