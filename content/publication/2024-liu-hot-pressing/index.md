@@ -1,5 +1,6 @@
 ---
-title: Hot-pressing of uncured metal-composite laminates: A numerical study on simultaneous deformation
+title: 'Hot-pressing of uncured metal-composite laminates: A numerical study on simultaneous
+  deformation'
 authors:
 - Shichen
 - Jos Sinke
