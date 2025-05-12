@@ -4,7 +4,7 @@ title: Formulating Brown Algae Derived Phloroglucinol-Based Epoxy Resin for High
 authors:
 - William E. Dyer
 - Pranshul Gupta
-- Clemens A. Dransfeld
+- Clemens
 - Niklas Lorenz
 - Baris Kumru
 date: '2024-11-01'

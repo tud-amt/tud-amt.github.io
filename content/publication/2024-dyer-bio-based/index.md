@@ -3,7 +3,7 @@ title: 'Bio-Based Epoxies: Mechanical Properties And Free Volume Perspectives.'
 authors:
 - William E. Dyer
 - Henk Schut
-- Clemens A. Dransfeld
+- Clemens
 - Baris Kumru
 date: '2024-01-01'
 publishDate: '2025-05-12T21:27:01.526898Z'

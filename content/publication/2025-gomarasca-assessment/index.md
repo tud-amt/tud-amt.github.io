@@ -1,8 +1,8 @@
 ---
 title: Assessment of the variability of unidirectional prepregs at multiple scales
 authors:
-- S. Gomarasca
-- Clemens A. Dransfeld
+- Silvia
+- Clemens
 - Daniel Peeters
 - B. Atli-Veltin
 - S. M. A. Hosseini

@@ -4,7 +4,7 @@ title: On the Influence of Welding Parameters and Their Interdependence During R
 authors:
 - Filipp Köhler
 - Irene Fernandez Villegas
-- Clemens Dransfeld
+- Clemens
 - Axel Herrmann
 date: '2024-01-01'
 publishDate: '2025-05-12T21:27:01.447301Z'

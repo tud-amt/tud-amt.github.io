@@ -12,7 +12,7 @@ authors:
 - S. Kohler
 - J. Brunner
 - E. Kramer
-- C. Dransfeld
+- Clemens
 - W. Smith
 - K. Scobbie
 - L. Sorensen

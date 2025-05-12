@@ -2,12 +2,12 @@
 title: Characterising pore networks and their interrelation with the fibre architecture
   in unidirectional composites
 authors:
-- S. Gomarasca
+- Silvia
 - D.M.J. Peeters
 - B. Atli-Veltin
 - T. Slange
 - G. Ratouit
-- C. Dransfeld
+- Clemens
 date: '2025-03-01'
 publishDate: '2025-05-12T21:27:01.402954Z'
 publication_types:

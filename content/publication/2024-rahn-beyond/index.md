@@ -6,7 +6,7 @@ authors:
 - Melissa Schuch
 - Kai Wicke
 - Benjamin Sprecher
-- Clemens Dransfeld
+- Clemens
 - Gerko Wende
 date: '2024-05-01'
 publishDate: '2025-05-12T21:27:01.477215Z'

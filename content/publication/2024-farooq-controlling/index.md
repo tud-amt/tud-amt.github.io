@@ -2,9 +2,9 @@
 title: Controlling Dual Scale Morphologies Of Epoxy And Poly (Etherimide) Towards
   Improved Interlayer Toughening Of Composites
 authors:
-- U. Farooq
+- Ujala
 - J. Teuwen
-- C. Dransfeld
+- Clemens
 date: '2024-01-01'
 publishDate: '2025-05-12T21:27:01.520636Z'
 publication_types:

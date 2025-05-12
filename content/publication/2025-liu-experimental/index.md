@@ -2,9 +2,9 @@
 title: Experimental Characterisation of Cure-Dependent Spring-Back Behaviour of Metal-Composite
   Laminates in a Hot-Pressing Process
 authors:
-- Shichen Liu
+- Shichen
 - Jos Sinke
-- Clemens Dransfeld
+- Clemens
 date: '2025-02-01'
 publishDate: '2025-05-12T21:27:01.462123Z'
 publication_types:

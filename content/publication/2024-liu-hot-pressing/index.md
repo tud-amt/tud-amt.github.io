@@ -1,14 +1,14 @@
 ---
-title: 'Hot-pressing of uncured metal-composite laminates: A numerical study on simultaneous
-  deformation'
+title: Hot-pressing of uncured metal-composite laminates
 authors:
-- Shichen Liu
+- Shichen
 - Jos Sinke
-- Clemens Dransfeld
-date: -01-01
-publishDate: '2025-05-12T21:27:01.513834Z'
+- Clemens
+date: '2024-01-01'
+publishDate: '2025-05-12T21:27:01.491965Z'
 publication_types:
 - paper-conference
+publication: '*21st European Conference on Composite Materials (ECCM21)*'
 abstract: The research focuses on the simultaneous deformation of uncured metal-composite
   laminates under the press forming process of a double-curved dome part. The study
   is designed to evaluate the influence of material type, inter-ply friction and clamping
@@ -22,4 +22,7 @@ abstract: The research focuses on the simultaneous deformation of uncured metal-
   during the forming process. This work provides a numerical method on the material
   selection and process parameter optimisation where compatible deformation of the
   individual layers can be achieved through its own mechanisms.
+links:
+- name: URL
+  url: https://repository.tudelft.nl/record/uuid:f2728019-c225-4d9e-b110-1a60e9744cb2
 ---

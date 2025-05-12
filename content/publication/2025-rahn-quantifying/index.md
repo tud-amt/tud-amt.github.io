@@ -7,7 +7,7 @@ authors:
 - Florian Linke
 - Markus Kühlen
 - Benjamin Sprecher
-- Clemens Dransfeld
+- Clemens
 - Gerko Wende
 date: '2025-04-01'
 publishDate: '2025-05-12T21:27:01.392459Z'
