@@ -7,9 +7,9 @@ main:
   - name: Research
     url: research
     weight: 10
-  - name: Permeation
-    url: permeation_tool
-    weight: 20
+  # - name: Permeation
+  #   url: permeation_tool
+  #   weight: 20
   - name: People
     url: people
     weight: 30

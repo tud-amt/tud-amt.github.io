@@ -12,7 +12,15 @@ sections:
         filename: researchthemes.jpg
       text: >
         The PAAM Lab at the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at [*Delft University of Technology*](https://www.tudelft.nl) is investigating the structure-processing-property relationship of lightweight architected materials. We combine (self-)assembly, processing and manufacturing methods to architect materials at multiple scales to explore their synergistic properties.
-  
+
+  - block: markdown
+    content:
+      title:
+      subtitle: 
+      text: |
+        {{% cta cta_link="./permeation_tool/Permeation_Tool.html" cta_text="Permeation Tool" %}} {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+    design:
+      columns: '2'
 
   - block: collection
     content:
@@ -80,12 +88,12 @@ sections:
       view: citation
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle:
+  #     text: |
+  #       {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+  #   design:
+  #     columns: '1'
 ---
