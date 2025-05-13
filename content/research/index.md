@@ -8,6 +8,21 @@ sections:
   - block: slider
     content:
       slides:
+      - title: Hydrogen Permeation Tool
+        content: ...interactive understanding of the permeation physics (Feltin et al.)
+        align: left
+        background:
+          image:
+            filename: permeation.PNG
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+        link:
+          icon: wrench
+          icon_pack: fas
+          text: Tool Page
+          url: ../permeation_tool/Permeation_Tool.html
       - title: Architecting at the smallest scale
         content: ...like growing carbon nanotubes on carbon fibres (Szmyt et al.)
         align: right
@@ -58,21 +73,6 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: Hydrogen Permeation Tool
-        content: ...interactive understanding of the permeation physics (Feltin et al.)
-        align: left
-        background:
-          image:
-            filename: permeation.PNG
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-        link:
-          icon: wrench
-          icon_pack: fas
-          text: Tool Page
-          url: ../permeation_tool/Permeation_Tool.html
       - title: Translating scientific knowledge to industrial technologies (TapeLab)
         content: ...towards scalable technologies
         align: left
