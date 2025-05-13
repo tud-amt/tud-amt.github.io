@@ -8,7 +8,7 @@ title: On improving process efficiency and weld quality in ultrasonic welding of
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - C. B. G. Brito
-- Julie
+- J. Teuwen
 - Clemens
 - I. F. Villegas
 
