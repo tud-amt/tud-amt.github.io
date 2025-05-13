@@ -3,7 +3,7 @@ title: 'Ultrasonic welding of thermoplastic composites: A comparison between pol
   and low-melt polyaryletherketone as resin in the adherends and energy directors'
 authors:
 - C.B.G. Brito
-- J. Teuwen
+- Julie
 - Clemens
 - I.F. Villegas
 date: '2025-05-01'
