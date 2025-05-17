@@ -1,29 +1,27 @@
 ---
-title: People
-date: 2022-10-24
+title: Opportunities
+date: 2025-05-17
 
 type: landing
 
 sections:
-  - block: people
+  - block: markdown
     content:
-      title: Meet our Team
-      # Choose which groups/teams of users to display.
-      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-      user_groups:
-          - Principal Investigator
-          - Postdoctoral Researchers
-          - Doctoral Candidates
-          - Researchers
-          - Master Students
-          - Cooperation with Research Groups
-          - Visitors
-          - Alumni
-          
-      sort_by: Params.last_name
-      sort_ascending: true
+      title:
+      subtitle: ''
+      text:
     design:
-      show_interests: false
-      show_role: true
-      show_social: true
+      columns: '1'
+      background:
+        image: 
+          filename: coders.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
 ---
