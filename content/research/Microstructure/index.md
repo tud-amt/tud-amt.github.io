@@ -24,14 +24,14 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2024-10-01T00:00:00Z'
 
-authors: []
+authors: [-]
 tags: [Microstructure]
 
 # Is this a featured talk? (true/false)
 featured: true
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 url_code: ''

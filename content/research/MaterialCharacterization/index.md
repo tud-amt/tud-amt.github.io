@@ -24,7 +24,7 @@ abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
 # Schedule page publish date (NOT talk date).
 publishDate: '2024-10-01T00:00:00Z'
 
-authors: []
+authors: [-]
 tags: [Material Characterization]
 category: []
 

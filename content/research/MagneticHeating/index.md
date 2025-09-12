@@ -24,14 +24,14 @@ abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
 # Schedule page publish date (NOT talk date).
 publishDate: '2024-10-01T00:00:00Z'
 
-authors: []
+authors: [-]
 tags: [Magnetic Heating]
 
 # Is this a featured talk? (true/false)
 featured: true
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 url_code: ''

@@ -17,7 +17,7 @@ sections:
     content:
       slides:
       - title: Hydrogen Permeation Tool
-        content: ...interactive understanding of the permeation physics (Feltin et al.)
+        content: ...interactive understanding of the permeation physics
         align: left
         background:
           image:

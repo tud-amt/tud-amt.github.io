@@ -12,7 +12,7 @@ address:
   postcode: '2629 HS'
   country: The Netherlands
 
-summary: Permeation tool to explain the physical phenomena
+summary: Interactive permeation tool to understand the physical phenomena
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
@@ -24,7 +24,7 @@ abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
 # Schedule page publish date (NOT talk date).
 publishDate: '2024-10-01T00:00:00Z'
 
-authors: []
+authors: [-]
 tags: [Tools]
 category: []
 
@@ -32,7 +32,7 @@ category: []
 featured: true
 
 image:
-  caption: 'Gomarasca et al.'
+  caption: ''
   focal_point: Right
 
 url_code: ''
@@ -63,4 +63,4 @@ On this [*web page*](/permeation_tool/Permeation_Tool.html), you'll find :
  - A tool to determine the permeation coefficient (permeability) from experimental data,
  - A unit converter to convert all the differents units you can find in paper about permeability,
  - A tool to see the evolution of the permeate flow in cases of cracks, or not.
- - A glossary and some usefuls ressources and references.
+ - A glossary and some useful resources and references.
