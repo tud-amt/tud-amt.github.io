@@ -290,8 +290,8 @@ function convert_unit() {
     molar_weight = molar_weight/1000 // (kg/mol)
 
     const MassConversionFactors = {
-        "Kg": {
-            "Kg": 1,
+        "kg": {
+            "kg": 1,
             "g": 1000,
             "moles": 1 / molar_weight,
             "m^3_{STP}": R*Std_Temp/(Std_Pressure*molar_weight),
@@ -300,7 +300,7 @@ function convert_unit() {
         },
         "g": {
             "g": 1,
-            "Kg": 1 / 1000,
+            "kg": 1 / 1000,
             "moles": (1 / 1000) / molar_weight,
             "m³": 1 / 1000 * R*Std_Temp/(Std_Pressure*molar_weight),
             "cm³": 1/1000*(100*100*100) * R*Std_Temp/(Std_Pressure*molar_weight),
@@ -308,7 +308,7 @@ function convert_unit() {
         },
         "moles": {
             "moles": 1,
-            "Kg": molar_weight,
+            "kg": molar_weight,
             "g": molar_weight * 1000,
             "m³": molar_weight * R*Std_Temp/(Std_Pressure*molar_weight),
             "cm³": molar_weight * (100*100*100) * R*Std_Temp/(Std_Pressure*molar_weight),
@@ -316,7 +316,7 @@ function convert_unit() {
         },
         "m³": {
             "m³": 1,
-            "Kg": (Std_Pressure*molar_weight)/(R*Std_Temp),
+            "kg": (Std_Pressure*molar_weight)/(R*Std_Temp),
             "g":  1000 * (Std_Pressure*molar_weight)/(R*Std_Temp),
             "moles": 1 / molar_weight,
             "cm³": (100*100*100),
@@ -324,7 +324,7 @@ function convert_unit() {
         },
         "cm³": {
             "cm³": 1,
-            "Kg": 1/((100*100*100)*R*Std_Temp/(Std_Pressure*molar_weight)),
+            "kg": 1/((100*100*100)*R*Std_Temp/(Std_Pressure*molar_weight)),
             "g": 1/(1/1000*(100*100*100) * R*Std_Temp/(Std_Pressure*molar_weight)),
             "moles": (1 / 1000) / molar_weight,
             "m³": 1 / (100*100*100),
@@ -332,7 +332,7 @@ function convert_unit() {
         },
         "pound": {
             "pound": 1,
-            "Kg": 1 / 0.453592,
+            "kg": 1 / 0.453592,
             "g": (1 / 0.453592) * 1000,
             "moles": (1 / 0.453592) / molar_weight,
             "m³": 1 / 0.453592 * R*Std_Temp/(Std_Pressure*molar_weight),
