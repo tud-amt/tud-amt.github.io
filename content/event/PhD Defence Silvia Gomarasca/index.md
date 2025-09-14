@@ -4,20 +4,13 @@ title: Congrats to Dottoressa Silvia Gomarasca
 event: PhD Defence of Silvia Gomarasca
 event_url: https://www.tudelft.nl/en/events/2025/lr/tu-delft-nxtgen-innovation-days
 
-location: TU Delft, Faculty of Aerospace Engineering
-address:
-  street: Kluyverweg 1
-  city: Delft
-  region: ZH
-  postcode: '2629 HS'
-  country: The Netherlands
 
 summary: Inauguration and Seminar for Open research facility for unidirectional thermoplastic composites
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-09-14'
+date: '2025-09-10'
 all_day: true
 
 
