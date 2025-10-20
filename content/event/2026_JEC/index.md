@@ -1,28 +1,38 @@
 ---
-title: Congrats to Dottoressa Silvia Gomarasca
+title: JEC World 2026
 
-event: PhD Defence of Silvia Gomarasca
-event_url: https://www.tudelft.nl/en/events/2025/lr/tu-delft-nxtgen-innovation-days
+event: Open research facility for unidirectional thermoplastic composites
+event_url: https://www.jec-world.events/
 
+location: Paris
+# address:
+#   street: Kluyverweg 1
+#   city: Delft
+#   region: ZH
+#   postcode: '2629 HS'
+#   country: Paris
 
-summary: Inauguration and Seminar for Open research facility for unidirectional thermoplastic composites
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Visit our Tapelab in the leading trade show JEC World in Paris
+abstract: 
+  'JEC World is the leading trade show in the world dedicated to composite materials, their technologies, and their applications sectors. Held annually in Paris for more than 60 years, JEC World is the industry’s leading event, hosting all the major players of the entire value chain of composites, in a spirit of innovation, business, and networking.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-09-10'
+date: '2026-03-10T08:30:00Z'
+date_end: '2026-03-12T17:00:00Z'
 all_day: true
 
+# Schedule page publish date (NOT talk date).
+publishDate: '2024-10-01T00:00:00Z'
 
-
-authors: []
+authors: [-]
 tags: []
 
 # Is this a featured talk? (true/false)
 featured: true
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 url_code: ''

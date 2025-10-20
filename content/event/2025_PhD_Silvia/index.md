@@ -1,37 +1,26 @@
 ---
-title: Inauguration Tapeline - TU Delft NXTGEN Innovation Days
+title: Congrats to Dottoressa Silvia Gomarasca
 
-event: Open research facility for unidirectional thermoplastic composites
+event: PhD Defence of Silvia Gomarasca
 event_url: https://www.tudelft.nl/en/events/2025/lr/tu-delft-nxtgen-innovation-days
 
-location: TU Delft, Faculty of Aerospace Engineering
-address:
-  street: Kluyverweg 1
-  city: Delft
-  region: ZH
-  postcode: '2629 HS'
-  country: The Netherlands
 
-summary: Inauguration and Seminar for Open research facility for unidirectional thermoplastic composites
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Silvia Gomarasca's PhD dessertation ''Deconvoluting microstructural features in unidirectional composites''
+abstract: 'Unidirectional composite tapes are extensively used in automated manufacturing to produce high-performance composite parts with significant design flexibility. Their superior mechanical properties stem from the alignment of continuous fibres in a single direction, making them ideal for advanced engineering applications. However, the performance of these components is closely linked to their microstructure, and accurately predicting their behaviour requires a detailed understanding of their microstructural characteristics.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-02-06T15:30:00Z'
-date_end: '2025-02-07T16:00:00Z'
-all_day: false
+date: '2025-10-11'
+all_day: true
 
-# Schedule page publish date (NOT talk date).
-publishDate: '2024-10-01T00:00:00Z'
-
-authors: []
+authors: [-]
 tags: []
 
 # Is this a featured talk? (true/false)
 featured: true
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 url_code: ''

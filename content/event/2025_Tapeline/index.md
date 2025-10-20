@@ -1,30 +1,34 @@
 ---
-title: AE4ASM110-22 Polymer Composite Manufacturing
+title: Inauguration Tapeline - TU Delft NXTGEN Innovation Days
 
-event: AE4ASM110-22 PCM
-event_url: 
+event: Open research facility for unidirectional thermoplastic composites
+event_url: https://www.tudelft.nl/en/events/2025/lr/tu-delft-nxtgen-innovation-days
 
-# location: TU Delft, Faculty of Aerospace Engineering
-# address:
-#   street: Kluyverweg 1
-#   city: Delft
-#   region: ZH
-#   postcode: '2629 HS'
-#   country: The Netherlands
+location: TU Delft, Faculty of Aerospace Engineering
+address:
+  street: Kluyverweg 1
+  city: Delft
+  region: ZH
+  postcode: '2629 HS'
+  country: The Netherlands
 
-summary: Main lecturer
-abstract: 'The course explores in depth the manufacturing of polymer composite structures and its underlying physics. By understanding the relationships among physics, part/material quality and the design of the manufacturing process, you will be able to critically assess any given manufacturing process. The course is built around a number of polymer composite manufacturing processes highly relevant to the current and future aerospace industry for the manufacturing of high-performance individual parts (autoclave processing of prepreg, liquid composite moulding, thermoplastic composite processing), for the assembling of complex structures (manufacturing of integrated structures, thermoplastic composite welding) and for end of life and recycling. The main basic physical phenomena governing polymer composites manufacturing, e.g. flow (of polymer and of fibres), void formation, curing, shrinkage and crystallization, are interwoven within the course.'
+summary: Inauguration and Seminar for open research facility for unidirectional thermoplastic composites
+abstract: 
+  'Climate neutral aviation will be enabled by sustainable lightweight materials with unprecedented performance. In this scope, unidirectional composite materials represent a crucial keystone in architecting the most performing structures in tomorrow’s aircraft. How do we control all aspect of the microstructure of such materials? What is the effect of novel fibres and polymers? Will circular fibre sources replace those made of fossil sources? Can we control the properties through unconventional fibre architectures? How do I tailor unidirectional tapes to specific processes? These and many more question led to the creation of the Delft TapeLab, a one-of-its kind open research infrastructure for the manufacturing of unidirectional thermoplastic tapes.
+
+
+  A long-term investment of TU Delft, enabling research and technology development with societal impact, for the scientific community in the Netherlands and abroad.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-10-06T15:30:00Z'
-date_end: '2025-01-18T16:00:00Z'
+date: '2025-02-06T15:30:00Z'
+date_end: '2025-02-07T16:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2024-10-01T00:00:00Z'
 
-authors: []
+authors: [-]
 tags: []
 
 # Is this a featured talk? (true/false)

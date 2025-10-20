@@ -1,30 +1,31 @@
 ---
-title: AE4ASM110-22 Polymer Composite Manufacturing
+title: Multiscale Manufacturing of Composites (MUMAC) 2026 Summer School
 
-event: AE4ASM110-22 PCM
-event_url: 
+event: MUMAC 2026 Summer School
+event_url: https://www.tudelft.nl/lr/mumac-summer-school
 
-# location: TU Delft, Faculty of Aerospace Engineering
-# address:
-#   street: Kluyverweg 1
-#   city: Delft
-#   region: ZH
-#   postcode: '2629 HS'
-#   country: The Netherlands
+location: TU Delft, Faculty of Aerospace Engineering
+address:
+  street: Kluyverweg 1
+  city: Delft
+  region: ZH
+  postcode: '2629 HS'
+  country: The Netherlands
 
-summary: Main lecturer
-abstract: 'The course explores in depth the manufacturing of polymer composite structures and its underlying physics. By understanding the relationships among physics, part/material quality and the design of the manufacturing process, you will be able to critically assess any given manufacturing process. The course is built around a number of polymer composite manufacturing processes highly relevant to the current and future aerospace industry for the manufacturing of high-performance individual parts (autoclave processing of prepreg, liquid composite moulding, thermoplastic composite processing), for the assembling of complex structures (manufacturing of integrated structures, thermoplastic composite welding) and for end of life and recycling. The main basic physical phenomena governing polymer composites manufacturing, e.g. flow (of polymer and of fibres), void formation, curing, shrinkage and crystallization, are interwoven within the course.'
+summary: Interactive experiments and workshops participants will develop new insights into current research
+abstract: 
+  'Fibre reinforced polymer composites continue to fascinate researchers for their compelling properties at low weight, having an increasing impact in large industrial sectors such as aerospace, automotive and wind energy. In spite of the relative maturity of these materials, researchers are intrigued by the morphologies from the molecular scale to the micro- and meso-scale up the scale of the engineered structure and how they can be controlled.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-10-06T15:30:00Z'
-date_end: '2025-01-18T16:00:00Z'
-all_day: false
+date: '2026-06-01T08:30:00Z'
+date_end: '2026-06-05T18:00:00Z'
+all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2024-10-01T00:00:00Z'
+publishDate: '2025-10-12T00:00:00Z'
 
-authors: []
+authors: [-]
 tags: []
 
 # Is this a featured talk? (true/false)

@@ -1,8 +1,8 @@
 ---
-title: Production of Aerospace Systems
+title: AE3211-II Production of Aerospace Systems
 
-event: Open research facility for unidirectional thermoplastic composites
-event_url: https://www.tudelft.nl/en/events/2025/lr/tu-delft-nxtgen-innovation-days
+event: 
+event_url: 
 
 location: TU Delft, Faculty of Aerospace Engineering
 address:
@@ -12,7 +12,7 @@ address:
   postcode: '2629 HS'
   country: The Netherlands
 
-summary: Inauguration and Seminar for Open research facility for unidirectional thermoplastic composites
+summary: Main lecturer
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
