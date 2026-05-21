@@ -1,0 +1,114 @@
+{{/* layouts/opportunities/single.html — Opportunities page with card grid */}}
+{{ define "main" }}
+
+{{/* Title block — uses universal-wrapper so it centres exactly like Publications */}}
+<div class="universal-wrapper pt-3 pb-1">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.intro_text }}
+  <p class="opp-page-intro">{{ . | markdownify }}</p>
+  {{ end }}
+</div>
+
+<div class="opp-page">
+  <div class="container py-4">
+
+    {{/* ── Sections ── */}}
+    {{ range .Params.sections }}
+    <section class="opp-section mb-5">
+
+      {{ with .section_title }}
+      <h3 class="opp-section-title">{{ . }}</h3>
+      {{ end }}
+      {{ with .section_desc }}
+      <p class="opp-section-desc">{{ . | markdownify }}</p>
+      {{ end }}
+
+      <div class="opp-grid mt-3">
+        {{ $page := $ }}
+        {{ range .cards }}
+        {{ $isOpen := eq (.status | lower) "open" }}
+        <div class="opp-card{{ if not $isOpen }} opp-card--filled{{ end }}">
+
+          {{/* Preview: JPG thumbnail (preferred) → iframe PDF fallback → accent bar */}}
+          {{ if .thumbnail }}
+          <div class="opp-card__preview opp-card__preview--thumb">
+            <img src="{{ $page.Page.RelPermalink }}{{ .thumbnail }}"
+                 class="opp-thumb-img"
+                 alt="{{ .title }} thumbnail"
+                 loading="lazy">
+            <a href="{{ $page.Page.RelPermalink }}{{ .pdf }}" target="_blank" rel="noopener noreferrer"
+               class="opp-card__preview-overlay" aria-label="Open PDF"></a>
+          </div>
+          {{ else if .pdf }}
+          <div class="opp-card__preview">
+            <div class="opp-pdf-a4">
+              <iframe src="{{ $page.Page.RelPermalink }}{{ .pdf }}#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
+                      class="opp-pdf-frame"
+                      loading="lazy"
+                      tabindex="-1"
+                      title="{{ .title }} preview"></iframe>
+            </div>
+            <a href="{{ $page.Page.RelPermalink }}{{ .pdf }}" target="_blank" rel="noopener noreferrer"
+               class="opp-card__preview-overlay" aria-label="Open PDF preview"></a>
+          </div>
+          {{ else }}
+          <div class="opp-card__accent-bar"></div>
+          {{ end }}
+
+          {{/* Card body */}}
+          <div class="opp-card__body">
+
+            {{/* Pills: type + status */}}
+            <div class="opp-card__pills">
+              <span class="opp-type-badge">{{ .type }}{{ with .year }} · {{ . }}{{ end }}</span>
+              <span class="opp-status {{ if $isOpen }}opp-status--open{{ else }}opp-status--filled{{ end }}">
+                {{- if $isOpen }}Open{{ else }}Filled{{ end -}}
+              </span>
+            </div>
+
+            {{/* Title */}}
+            <h5 class="opp-card__title">{{ .title }}</h5>
+
+            {{/* Supervisors — person_colour: pink → pink icon, blue/omitted → cyan */}}
+            {{ range .supervisors }}
+            {{ $isPink := eq (.person_colour | lower) "pink" }}
+            <div class="opp-card__supervisor">
+              <i class="fas fa-user-tie{{ if $isPink }} opp-supervisor-icon--pink{{ end }}"></i><span>{{ .name }}</span>
+            </div>
+            {{ end }}
+
+            {{/* Keywords */}}
+            {{ with .keywords }}
+            <div class="opp-card__tags">
+              {{ range . }}<span class="opp-tag">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+
+            {{/* Buttons */}}
+            <div class="opp-card__actions">
+              {{ with .pdf }}
+              <a href="{{ $page.Page.RelPermalink }}{{ . }}" target="_blank" rel="noopener noreferrer"
+                 class="opp-btn opp-btn--outline">
+                <i class="fas fa-file-pdf"></i>Full Proposal
+              </a>
+              {{ end }}
+              {{ with .supervisors }}
+              {{ $first := index . 0 }}
+              {{ with $first.email }}
+              <a href="mailto:{{ . }}" class="opp-btn opp-btn--primary">
+                <i class="fas fa-envelope"></i> Contact
+              </a>
+              {{ end }}
+              {{ end }}
+            </div>
+
+          </div>{{/* end .opp-card__body */}}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,347 @@
+/* 
+* Project: Permeation Tool
+* Author: Feltin Joffrey
+* Date: August, 2023
+*
+* © 2023 Feltin Joffrey. All rights reserved. 
+*/
+
+/* styles.css */
+
+/* ################### */
+/* ## GLOBAL STYLES ## */
+/* ################### */
+
+    /* Colors definition */
+      :root {
+      /* TU Delft Color */
+        /* Primary Color */
+        --primary-color-1-cyan: #00A6D6;
+        --primary-color-1-light-cyan: #6EBBD5;
+        --primary-color-1-lighter-cyan: #D9F0F6;
+
+        --primary-color-2-white: #FFFFFF;
+        --primary-color-2-light-grey: #E7E7E7;
+        --primary-color-2-medium-grey: #BABABA;
+
+        --primary-color-3-black: #000000;
+        --primary-color-3-dark-grey: #505050;
+        --primary-color-3-grey: #9B9B9B;
+
+        /* Secondary Color*/
+        --secondary-color-dark-blue: #0C2340;
+        --secondary-color-turquoise: #00B8C8;
+        --secondary-color-blue: #0076C2;
+        --secondary-color-purple: #6F1D77;
+        --secondary-color-pink: #EF60A3;
+        --secondary-color-raspberry: #A50034;
+        --secondary-color-red: #E03C31;
+        --secondary-color-orange: #EC6842;
+        --secondary-color-yellow: #FFB81C;
+        --secondary-color-light-green: #6CC24A;
+        --secondary-color-dark-green: #009B77;
+
+        /* Background color*/
+        --background-color: #F7F7F7;
+
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================ */
+/* ## OPPORTUNITIES PAGE                           ## */
+/* ================================================ */
+
+/* Page wrapper — light tint so white cards stand out */
+.opp-page {
+  background: #f0f4f9;
+  min-height: 60vh;
+}
+
+/* ── Intro paragraph (inside universal-wrapper) ── */
+.opp-page-intro {
+  font-size: 1rem;
+  color: var(--primary-color-3-dark-grey);
+  max-width: 680px;
+  margin: 0.5rem auto 1.5rem;
+  text-align: center;
+  line-height: 1.7;
+}
+
+/* ── Section heading ── */
+.opp-section-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--secondary-color-dark-blue);
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.25rem;
+}
+.opp-section-title::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 1.15em;
+  background: var(--primary-color-1-cyan);
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.opp-section-desc {
+  font-size: 0.9rem;
+  color: var(--primary-color-3-dark-grey);
+  max-width: 680px;
+  margin-bottom: 0;
+  padding-left: calc(4px + 0.7rem);
+}
+
+/* ── Card grid — 3 columns, responsive ── */
+.opp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .opp-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .opp-grid { grid-template-columns: 1fr; }
+}
+
+/* ── Card ── */
+.opp-card {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid #c0d0e4;
+  box-shadow: 0 3px 14px rgba(12, 35, 64, 0.10), 0 1px 3px rgba(12, 35, 64, 0.05);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.opp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 36px rgba(0, 100, 180, 0.16), 0 2px 6px rgba(12, 35, 64, 0.07);
+  border-color: var(--primary-color-1-cyan);
+}
+.opp-card--filled {
+  opacity: 0.55;
+}
+.opp-card--filled:hover {
+  transform: none;
+  box-shadow: 0 3px 14px rgba(12, 35, 64, 0.10);
+  border-color: #c0d0e4;
+}
+
+/* Accent bar (when no PDF) */
+.opp-card__accent-bar {
+  height: 4px;
+  background: linear-gradient(90deg, #00A6D6, #0C2340);
+  flex-shrink: 0;
+}
+
+/* ── PDF preview: centered A4 thumbnail ── */
+.opp-card__preview {
+  position: relative;
+  height: 260px;
+  background: #dce5f0;
+  border-bottom: 1px solid #c8d8ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+/* A4 paper card: 165 × 233 px (ratio 1:√2) */
+.opp-pdf-a4 {
+  width: 165px;
+  height: 233px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.22), 0 1px 4px rgba(0,0,0,0.10);
+  border-radius: 2px;
+  background: #fff;
+}
+/* Iframe renders at 800px wide then scales down to 165px */
+.opp-pdf-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 1131px;
+  border: none;
+  pointer-events: none;
+  transform: scale(0.20625);
+  transform-origin: top left;
+  display: block;
+}
+.opp-thumb-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.opp-card__preview--thumb {
+  height: auto;
+  align-items: stretch;
+}
+.opp-card__preview-overlay {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  background: transparent;
+  z-index: 1;
+}
+
+/* ── Card body ── */
+.opp-card__body {
+  padding: 1.1rem 1.25rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Pill row */
+.opp-card__pills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 0.65rem;
+}
+
+/* Type badge */
+.opp-type-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary-color-dark-blue);
+  background: var(--primary-color-1-lighter-cyan);
+  border: 1px solid #90d0e8;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* Status pill */
+.opp-status {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.opp-status--open {
+  background: #e0f5ea;
+  color: #16733f;
+  border: 1px solid #8dd4b0;
+}
+.opp-status--filled {
+  background: #f0f0f2;
+  color: #888;
+  border: 1px solid #d4d4d8;
+}
+
+/* Title */
+.opp-card__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--secondary-color-dark-blue);
+  line-height: 1.4;
+  margin: 0 0 0.6rem;
+}
+
+/* Supervisor */
+.opp-card__supervisor {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.83rem;
+  color: var(--primary-color-3-dark-grey);
+  margin-bottom: 0.6rem;
+}
+.opp-card__supervisor .fas {
+  color: var(--primary-color-1-cyan);
+  font-size: 0.78rem;
+  flex-shrink: 0;
+}
+.opp-card__supervisor .fas.opp-supervisor-icon--pink {
+  color: #d63384;
+}
+
+/* Keyword tags */
+.opp-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 0.6rem;
+}
+.opp-tag {
+  font-size: 0.68rem;
+  font-weight: 600;
+  background: #edf3fb;
+  color: var(--secondary-color-dark-blue);
+  border: 1px solid #c5d5e8;
+  padding: 3px 9px;
+  border-radius: 20px;
+}
+
+/* Action buttons */
+.opp-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid #dde6f0;
+}
+.opp-btn {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 7px;
+  text-decoration: none;
+  transition: background 0.18s ease, color 0.18s ease,
+              border-color 0.18s ease, box-shadow 0.18s ease;
+  white-space: nowrap;
+}
+.opp-btn:hover { text-decoration: none; }
+.opp-btn--primary {
+  background: var(--primary-color-1-cyan);
+  color: #fff;
+  border: 1px solid var(--primary-color-1-cyan);
+  box-shadow: 0 2px 8px rgba(0,166,214,0.28);
+}
+.opp-btn--primary:hover {
+  background: #0090ba;
+  border-color: #0090ba;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,166,214,0.4);
+}
+.opp-btn--outline {
+  background: transparent;
+  color: var(--secondary-color-dark-blue);
+  border: 1.5px solid #b8c8d8;
+}
+.opp-btn--outline:hover {
+  background: #edf3fb;
+  border-color: var(--primary-color-1-cyan);
+  color: var(--secondary-color-dark-blue);
+}
