@@ -1,38 +1,41 @@
 ---
 # Display name
-title: Isabell Korn
+title: Prof. Arjan Houtepen
 
 # Full name (for SEO)
-first_name: Isabell
-last_name: Korn
+first_name: Arjan
+last_name: Houtepen
 
 # Username (this should match the folder name)
-authors: Isabell
+authors:
+  - Arjan
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Master Student
+role: Full Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'https://www.tudelft.nl/ae'
+  - name: TU Delft, Faculty of Applied Sciences
+    url: 'https://scholar.google.com/citations?user=CJw-QJcAAAAJ&hl=nl/'
 
 # Short bio (displayed in user profile at end of posts)
-# bio: My research interests include machine learning
+# bio: My research interests include spreading of carbon fibre tows and defect detection and imaging
 
-#interests:
-#  - Artificial Intelligence
-#  - Computational Linguistics
-#  - Information Retrieval
+# interests:
+#   - Composite processing
+#   - Tow spreading
+#   - Imaging methods
+#   - Microstructures
 
 # education:
 #   courses:
-#     - course: BSc in Aerospace, Aeronautical and Astronautical Engineering
-#       institution: Università degli Studi di Padova
-#       year: 2021
+#     - course: Master Degree
+#       institution: TU Delft
+#       year: 2023
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -41,10 +44,16 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:isabell.korn@bambooder.com'
-  # - icon: linkedin
-  #   icon_pack: fab
-  #   link: https://www.linkedin.com/in/emma-chiavelli/
+    link: 'mailto:A.J.Houtepen@tudelft.nl'
+#  - icon: twitter
+#    icon_pack: fab
+#    link: https://twitter.com/GeorgeCushen
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: https://scholar.google.com/citations?user=eAEBQvQAAAAJ&hl=en
+  - icon: linkedin
+    icon_pack: fab
+    link: https://nl.linkedin.com/in/arjanhoutepen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -54,13 +63,9 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Alumni
+  - Cooperation with Research Groups
 ---
 
-Emma is a Master student in collaboration with [*Bambooder Biobased Fibers B.V.*](https://www.bambooder.com/). She investigates biocomposites based on bamboo fibres.

@@ -13,7 +13,7 @@ authors: Silvia
 superuser: false
 
 # Role/position
-role: Doctoral Candidate
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
