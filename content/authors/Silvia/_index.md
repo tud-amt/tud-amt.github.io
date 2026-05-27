@@ -29,6 +29,9 @@ interests:
 
 education:
   courses:
+    - course: PhD, Aerospace Structures and Materials, PAAM group. The project was co-PIed by [*Dr. B. Atli Veltin*](https://www.linkedin.com/in/bilimatliveltin/?originalSubdomain=nl) and [*Dr. D. Peeters*](https://www.linkedin.com/in/daniël-peeters-17601262/?originalSubdomain=nl). She investigates the microstructural organisation in unidirectional composites.
+      institution: Università degli Studi di Padova
+      year: 2015
     - course: MSc, Aerospace Structures and Materials - Materials Specialization
       institution: TU Delft, Faculty of Aerospace Engineering
       year: 2018
@@ -68,4 +71,4 @@ user_groups:
   - Postdoctoral Researcher
 ---
 
- Silvia is a doctoral candidate with co-PIs [*Dr. B. Atli Veltin*](https://www.linkedin.com/in/bilimatliveltin/?originalSubdomain=nl) and [*Dr. D. Peeters*](https://www.linkedin.com/in/daniël-peeters-17601262/?originalSubdomain=nl). She investigates the microstructural organisation in unidirectional composites.
+ Silvia is a postdoctoral researcher with co-PIs [*Dr. Sid Kumar*](https://nl.linkedin.com/in/sid41). She investigates morphogenic approaches for the generation of composite microstructures.
