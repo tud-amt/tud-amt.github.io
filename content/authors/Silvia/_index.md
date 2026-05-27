@@ -65,7 +65,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Doctoral Candidates
+  - Postdoctoral Researcher
 ---
 
  Silvia is a doctoral candidate with co-PIs [*Dr. B. Atli Veltin*](https://www.linkedin.com/in/bilimatliveltin/?originalSubdomain=nl) and [*Dr. D. Peeters*](https://www.linkedin.com/in/daniël-peeters-17601262/?originalSubdomain=nl). She investigates the microstructural organisation in unidirectional composites.
