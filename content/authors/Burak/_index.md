@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Silvia Gomarasca
+title: Burak Akdeniz
 
 # Full name (for SEO)
-first_name: Silvia
-last_name: Gomarasca
+first_name: Burak
+last_name: Akdeniz
 
 # Username (this should match the folder name)
-authors: Silvia
+authors: Burak
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,26 +18,22 @@ role: Postdoctoral Researcher
 # Organizations/Affiliations
 organizations:
   - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'https://www.tudelft.nl/ae/'
+    url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
-# bio: I really like microstructures.
+bio: Advanced characterization of microstructural variability of composites
 
 interests:
+
   - Microstructures
-  - Micro Computed Tomography
+  - Imaging
 
 education:
   courses:
-    - course: PhD, Aerospace Structures and Materials, PAAM group. The project was co-PIed by Dr. B. Atli Veltin and Dr. D. Peeters. She investigates the microstructural organisation in unidirectional composites.
-      institution: Delft University of Technology
+    - course: PhD 
+      institution: UTwente
       year: 2025
-    - course: MSc, Aerospace Structures and Materials - Materials Specialization
-      institution: TU Delft, Faculty of Aerospace Engineering
-      year: 2018
-    - course: BSc, Aerospace Engineering
-      institution: Università degli Studi di Padova
-      year: 2015
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -46,13 +42,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:s.gomarasca@tudelft.nl'
-#  - icon: google-scholar
-#    icon_pack: ai
-#    link: https://scholar.google.com/citations?user=yJYiGtsAAAAJ&hl=en
+    link: 'mailto:test@B.Akdeniz@tudelft.nl@tudelft.nl'
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/silvia-gomarasca-5636a3107/
+    link: https://nl.linkedin.com/in/b-akdeniz/tr
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -71,4 +64,4 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
- Silvia is a postdoctoral researcher with co-PIs [*Dr. Sid Kumar*](https://nl.linkedin.com/in/sid41). She investigates morphogenic approaches for the generation of composite microstructures.
+Description to be updated...
