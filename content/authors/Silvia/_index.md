@@ -35,7 +35,7 @@ interests:
 
 education:
   courses:
-    - course: PhD, Aerospace Structures and Materials, PAAM group. The project was co-PIed by Dr. B. Atli Veltin and Dr. D. Peeters. She investigates the microstructural organisation in unidirectional composites.
+    - course: PhD, Aerospace Structures and Materials, PAAM group. The project was co-PIed by Dr. B. Atli Veltin and Dr. D. Peeters. She investigated the microstructural organisation in unidirectional composites at a single fibre level via X-ray Computed Tomography.
       institution: Delft University of Technology
       year: 2025
     - course: MSc, Aerospace Structures and Materials - Materials Specialization
