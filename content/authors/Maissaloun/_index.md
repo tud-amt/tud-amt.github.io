@@ -25,14 +25,15 @@ bio: Advanced processing of composites
 
 interests:
 
-  - Manufacturing
-  - Pultrusion
+  - Thermoplastic composites
+  - Composite manufacturing
+  - Process optimization
 
 education:
   courses:
-    - course: PhD 
+    - course: PhD, Mechanical Engineering. Thermoplastic composite pultrusion: process optimization and braided structures
       institution: Polytechnique Montréal
-      year: 2025
+      year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -63,5 +64,5 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-Description to be updated...
+Maissaloun is a postdoctoral researcher working on the development and optimization of manufacturing processes for thermoplastic composites.
 

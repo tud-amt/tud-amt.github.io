@@ -30,9 +30,16 @@ interests:
 
 education:
   courses:
-    - course: PhD 
+    - course: BSc, Chemical Engineering
+      institution: Middle East Technical University
+      year: 2017
+    - course: MSc, Chemical Engineering, Laboratory of Soft and Functional Materials
+      institution: Middle East Technical University
+      year: 2019
+    - course: PhD, Soft and Interfaces and Materials
       institution: UTwente
-      year: 2025
+      year: 2024
+
 
 
 # Social/Academic Networking

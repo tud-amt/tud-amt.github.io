@@ -21,18 +21,24 @@ organizations:
     url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Advanced characterization of microstructural variability of composites
+bio: I am working on manufacturing of ultra -thin ply carbon fiber thermoplastic prepreg tapes for morphing applications. I also try to understand the effect of manufacturing parameters during slurry-based impregnation on tape characteristics.
 
 interests:
 
-  - Microstructures
-  - Imaging
+  - Microstructure Analysis
+  - Thermoplastic tape manufacturing
+  - Imaging techniques
+  - Filament wound composites 
+
 
 education:
   courses:
-    - course: PhD 
+    - course: PhD in Materials Engineering titled ‘Microstructural Variability And Its Effect On Mechanical Properties In Filament Wound Composites'
       institution: KULeuven
       year: 2025
+    - course: MSc Materials Engineering, Department of Materials Engineering
+      institution: KULeuven
+      year: 2020
 
 
 # Social/Academic Networking
@@ -64,4 +70,5 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-Description to be updated...
+
+
