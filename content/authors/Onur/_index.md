@@ -68,7 +68,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Postdoctoral Researchers
+  - Alumni
 ---
 
 In his PhD at the University of Twente, Onur investigated the role of microstructural varialbility in pultrusion.
