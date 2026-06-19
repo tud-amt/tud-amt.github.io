@@ -66,5 +66,5 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-Yeajin is a post-doctoral researcher with co-PI Dr. Sergio Turteltaub. She investigates heat-transfer phenomena in thermoplastic composites during the compression moulding process.
+Yeajin is a post-doctoral researcher with co-PI [*Dr. Sergio Turteltaub*](https://www.tudelft.nl/staff/s.r.turteltaub/). She investigates heat-transfer phenomena in thermoplastic composites during the compression moulding process.
 
