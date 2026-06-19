@@ -77,4 +77,4 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
- Silvia is a postdoctoral researcher with co-PIs [*Dr. Sid Kumar*](https://nl.linkedin.com/in/sid41). She investigates bioinspired morphogenic approaches for the generation of composite microstructures.
+ Silvia is a postdoctoral researcher with co-PIs [*Dr. Sid Kumar*](https://nl.linkedin.com/in/sid41). She investigates bioinspired morphogenic approaches for generating representative volume elements of unidirectioal composite microstructures.
