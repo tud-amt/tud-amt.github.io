@@ -152,4 +152,43 @@ sections:
         keywords: ["Tape–Wire", "Thermoplastic Composite", "Joining Techniques"]
         pdf: "Master_Thesis_Opp_2026/Proposal-Maissaloun-3.pdf"
         thumbnail: "Master_Thesis_Opp_2026/Proposal-Maissaloun-1.jpg"
+
+        # Development of tow-spreading technique to achieve ultra-thin carbon fiber-PEEK tapes 
+      - title: "Development of tow-spreading technique to achieve ultra-thin carbon fiber-PEEK tapes"
+        type: "Master Thesis"
+        year: 2026
+        status: "open"
+        supervisors:
+          - name: "Shailee Upadhyay"
+            email: "s.upadhyay@tudelft.nl"
+            person_colour: pink
+        keywords: ["Thermoplastic prepreg tapes", "Spreading mechanism", "Morphing structures"]
+        pdf: "Master_Thesis_Opp_2026/Proposal_1_Tow spreading_Shailee Upadhyay.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/Shailee_1.jpg"
+
+        # Effect of polymer characteristics on slurry stability for slurry-based impregnation for thermoplastic CF-tape  manufacturing 
+      - title: "Effect of polymer characteristics on slurry stability for slurry-based impregnation for thermoplastic CF-tape manufacturing"
+        type: "Master Thesis"
+        year: 2026
+        status: "open"
+        supervisors:
+          - name: "Shailee Upadhyay"
+            email: "s.upadhyay@tudelft.nl"
+            person_colour: pink
+        keywords: ["Slurry rheology", "Particle characteristics", "Impregnation technique"]
+        pdf: "Master_Thesis_Opp_2026/Proposal_2_Slurry Optimization_Shailee Upadhyay.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/Shailee_2.jpg"
+
+        # Mechanical property characterization of ultra-thin thermoplastic CF/PEEK tapes for morphing application
+      - title: "Mechanical property characterization of ultra-thin thermoplastic CF/PEEK tapes for morphing application"
+        type: "Master Thesis"
+        year: 2026
+        status: "open"
+        supervisors:
+          - name: "Shailee Upadhyay"
+            email: "s.upadhyay@tudelft.nl"
+            person_colour: pink
+        keywords: ["Damage development", "Thin-ply laminates", "Mechanical testing"]
+        pdf: "Master_Thesis_Opp_2026/Proposal_3_Mechanical characterization_Shailee Upadhyay.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/Shailee_3.jpg"
 ---
