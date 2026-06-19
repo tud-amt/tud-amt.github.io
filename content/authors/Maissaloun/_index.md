@@ -31,7 +31,7 @@ interests:
 
 education:
   courses:
-    - course: PhD, Mechanical Engineering. Thermoplastic composite pultrusion: process optimization and braided structures
+    - course: "PhD, Mechanical Engineering. Thermoplastic composite pultrusion: process optimization and braided structures"
       institution: Polytechnique Montréal
       year: 2024
 
