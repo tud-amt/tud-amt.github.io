@@ -24,8 +24,14 @@ organizations:
 # bio: I really like microstructures.
 
 interests:
-  - Microstructures
-  - Micro Computed Tomography
+  - Composite microstructure
+  - Fibre architecture analysis
+  - Bioinspired approaches
+  - X-ray Computed Tomography
+  - Imaging analysis
+  - RVE generation
+   
+
 
 education:
   courses:
@@ -71,4 +77,4 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
- Silvia is a postdoctoral researcher with co-PIs [*Dr. Sid Kumar*](https://nl.linkedin.com/in/sid41). She investigates morphogenic approaches for the generation of composite microstructures.
+ Silvia is a postdoctoral researcher with co-PIs [*Dr. Sid Kumar*](https://nl.linkedin.com/in/sid41). She investigates morphogenic approaches for the generation of composite microstructures with bioinspired approaches.

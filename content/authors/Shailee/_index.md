@@ -70,5 +70,5 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-
+I am working on manufacturing of ultra -thin ply carbon fiber thermoplastic prepreg tapes for morphing applications. I also try to understand the effect of manufacturing parameters during slurry-based impregnation on tape characteristics.
 
