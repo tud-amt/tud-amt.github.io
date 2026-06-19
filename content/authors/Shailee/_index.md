@@ -48,7 +48,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@s.upadhyay@tudelft.nl'
+    link: 'mailto:s.upadhyay@tudelft.nl'
   - icon: linkedin
     icon_pack: fab
     link: https://be.linkedin.com/in/shaileeupadhyay

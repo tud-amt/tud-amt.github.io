@@ -49,7 +49,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@B.Akdeniz@tudelft.nl@tudelft.nl'
+    link: 'mailto:B.Akdeniz@tudelft.nl'
   - icon: linkedin
     icon_pack: fab
     link: https://nl.linkedin.com/in/b-akdeniz/tr

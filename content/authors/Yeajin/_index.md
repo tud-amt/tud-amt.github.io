@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Diwakar Singh
+title: Yeajin Lee
 
 # Full name (for SEO)
-first_name: Diwakar
-last_name: Singh
+first_name: Yeajin
+last_name: Lee
 
 # Username (this should match the folder name)
-authors: Diwakar
+authors: Yeajin
 
 # Is this the primary user of the site?
 superuser: false
@@ -21,21 +21,21 @@ organizations:
     url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Exploring material structures with machine learning
+bio: Yeajin is a post-doctoral researcher with co-PI Dr. Sergio Turteltaub. She investigates heat-transfer phenomena in thermoplastic composites during the compression moulding process.
 
 interests:
-  - Artificial Intelligence
-  - Microstructures
-  - Imaging
+
+  - Heat transfer
+  - Composite manufacturing 
+  - Computed Tomography 
+  - Micromechanical failure of composites 
+
 
 education:
   courses:
-    - course: PhD 
-      institution: IIT Mandi
-      year: 2024
-    - course: MTech
-      institution: IIT Mandi
-      year: 2019
+    - course: PhD. Her PhD research focused on the micro-mechanical analysis of failure processes in carbon fibre-reinforced polymer composites using synchrotron imaging and digital volume correlation
+      institution: University of Southampton
+      year: 2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,13 +44,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:D.Singh-2@tudelft.nl'
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=N4TeJfIAAAAJ&hl=en
+    link: 'mailto:Yeajin.lee@tudelft.nl'
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/diwakar-singh-650067104/
+    link: https://nl.linkedin.com/in/yeajin-lee
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -69,4 +66,5 @@ user_groups:
   - Postdoctoral Researchers
 ---
 
-Diwakar holds a PhD from the Indian Institute of Technology, Mandi, and has research experience at the University of Alberta. He specializes in wave propagation in structures and finite element analysis (FEA), with expertise in COMSOL Multiphysics. Currently, he explores the structure of recycled polymer composites with machine learning.
+Yeajin is a post-doctoral researcher with co-PI Dr. Sergio Turteltaub. She investigates heat-transfer phenomena in thermoplastic composites during the compression moulding process.
+
