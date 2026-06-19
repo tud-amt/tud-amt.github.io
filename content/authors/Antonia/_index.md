@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alejandro Jimenez del Toro
+title: Antonia Rahn
 
 # Full name (for SEO)
-first_name: Alejandro
-last_name: Jimenez del Toro
+first_name: Antonia
+last_name: Rahn
 
 # Username (this should match the folder name)
-authors: Alejandro
+authors: Antonia
 
 # Is this the primary user of the site?
 superuser: false
@@ -21,11 +21,11 @@ organizations:
     url: 'https://www.tudelft.nl/ae'
 
 # Short bio (displayed in user profile at end of posts)
-bio: I really like magnetic nanoparticles
+bio: Life Cycle Assessment of aerospace components.
 
 interests:
-  - Thermnoplastic Composites
-  - Crystallisation Kinetics
+  - LCA
+  - Aeronautics
 
 
 # Social/Academic Networking
@@ -35,13 +35,13 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:A.JimenezdelToro@tudelft.nl'
+    link: 'mailto:A.Rahn@tudelft.nl'
 #  - icon: google-scholar
 #    icon_pack: ai
 #    link: https://scholar.google.com/citations?user=yJYiGtsAAAAJ&hl=en
   - icon: linkedin
     icon_pack: fab
-    link: https://nl.linkedin.com/in/ajdeltoro
+    link: https://de.linkedin.com/in/antonia-rahn/de
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -60,4 +60,4 @@ user_groups:
   - Doctoral Candidates
 ---
 
-Alejandro is part of the ITN [*STEP4WIND*](https://step4wind.eu) European Industrial Doctorate with co-PI [*Dr. Julie Teuwen*](https://julieteuwen.com).He investigates the (re)crystallisation kinetics of polyphenylenesulfide.
+
