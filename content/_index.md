@@ -12,6 +12,28 @@ sections:
         filename: researchthemes.jpg
       text: >
         The PAAM Lab at the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at [*Delft University of Technology*](https://www.tudelft.nl) is investigating the structure-processing-property relationship of lightweight architected materials. We combine (self-)assembly, processing and manufacturing methods to architect materials at multiple scales to explore their synergistic properties.
+      cta:
+        label: 'Explore Our Research'
+        url: '../research/'
+        icon: arrow-right
+        icon_pack: fas
+      cta_alt:
+        label: 'Join Us'
+        url: '../opportunities/'
+    design:
+      # TU Delft brand gradient (cyan → dark blue) with light text for contrast
+      background:
+        gradient_start: '#00A6D6'
+        gradient_end: '#0C2340'
+        gradient_angle: 135
+        text_color_light: true
+
+  # ── Principal Investigator spotlight ──
+  # Pulls avatar, role & bio directly from content/authors/Clemens/_index.md
+  # To feature a different person, change `username` to their author folder name.
+  - block: about.avatar
+    content:
+      username: Clemens
 
   - block: slider
     content:
@@ -107,36 +129,15 @@ sections:
 
   - block: collection
     content:
-      title: Latest Event
+      title: Recent & Upcoming Events
       text: ""
-      count: 1
+      count: 3
       filters:
         folders:
           - event
     design:
       view: card
-      columns: '1'
-  
-# - block: collection
-#   content:
-#     title: Latest Event
-#     subtitle:
-#     text:
-#     count: 2
-#     filters:
-#        folders:
-#          - event
-#       author: ''
-#       category: ''
-#       exclude_featured: false
-#       publication_type: ''
-#       tag: ''
-#     offset: 0
-#     order: desc
-#     page_type: post
-#   design:
-#     view: card
-#     columns: '1'
+      columns: '3'
 
   # - block: markdown
   #   content:
