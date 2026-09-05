@@ -47,7 +47,7 @@ sections:
 
         Interested in joining, supporting, or collaborating with the PAAM Lab? [Learn more about ways to work with us.](../opportunities/)
       image:
-        filename: researchthemes.jpg
+        filename: researchthemes_updated.jpg
       design:
         flip: true
     design:
