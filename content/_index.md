@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: "**P**rocessing of **A**dvanced **A**rchitected **M**aterials"
-      text: "Computational systems design and optimization for next-generation aircraft and propulsion concepts"
+      text: "Integerating advanced imaging, multi-scale computational analysis, innovative manufacturing technologies, to engineer high-performance structural materials for next-generation aerospace applications."
         
       cta:
         label: 'Explore Our Research'
