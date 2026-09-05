@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: "**P**rocessing of **A**dvanced **A**rchitected **M**aterials"
-      text: "Integrating advanced imaging, multi-scale computational analysis, innovative manufacturing technologies, to engineer high-performance structural materials for next-generation aerospace applications."
+      text: "Integrating advanced imaging, multi-scale modeling, and innovative manufacturing to engineer structural materials for next-generation aerospace applications"
         
       cta:
         label: 'Explore Our Research'
@@ -20,7 +20,7 @@ sections:
         url: '../opportunities/'
     design:
       # Full-bleed background image with the lab name/description overlaid on top
-      
+      css_class: paam-hero
       background:
         image:
           filename: 01.jpg
