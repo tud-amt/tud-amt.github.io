@@ -36,7 +36,7 @@ sections:
         text_color_light: true
       # Extra top/bottom breathing room so the CTA buttons sit lower and the hero reads as a tall banner, not a narrow strip
       spacing:
-        padding: ['140px', '0', '140px', '0']
+        padding: ['140px', '120px', '140px', '120px']
 
   # ── About the lab (mirrors the "IDEAS Lab" section on gokcincinar.com) ──
   - block: markdown
