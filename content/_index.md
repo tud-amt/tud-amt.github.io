@@ -38,17 +38,22 @@ sections:
       spacing:
         padding: ['140px', '120px', '140px', '120px']
 
-  # ── About the lab (mirrors the "IDEAS Lab" section on gokcincinar.com) ──
-  - block: markdown
+  # ── About the lab section image left, text right)
+  - block: hero
     content:
       title: PAAM Lab
-      subtitle: ''
       text: |
         The PAAM Lab is a research group in the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at [*Delft University of Technology*](https://www.tudelft.nl). We investigate the structure-processing-property relationship of lightweight architected materials, combining (self-)assembly, processing and manufacturing methods to architect materials at multiple scales and explore their synergistic properties. [Read more about our research here.](../research/)
 
         Interested in joining, supporting, or collaborating with the PAAM Lab? [Learn more about ways to work with us.](../opportunities/)
+      image:
+        filename: researchthemes.jpg
+      design:
+        flip: true
     design:
-      columns: '1'
+      css_class: paam-about
+      background:
+        color: '#ffffff'
 
  
   - block: collection
