@@ -7,11 +7,9 @@ type: landing
 sections:
   - block: hero
     content:
-      title: "Processing of Advanced Architected Materials"
-      image:
-        filename: researchthemes.jpg
-      text: >
-        The PAAM Lab at the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at [*Delft University of Technology*](https://www.tudelft.nl) is investigating the structure-processing-property relationship of lightweight architected materials. We combine (self-)assembly, processing and manufacturing methods to architect materials at multiple scales to explore their synergistic properties.
+      title: "**P**rocessing of **A**dvanced **A**rchitected **M**aterials"
+      text: "Computational systems design and optimization for next-generation aircraft and propulsion concepts"
+        
       cta:
         label: 'Explore Our Research'
         url: '../research/'
@@ -21,111 +19,49 @@ sections:
         label: 'Join Us'
         url: '../opportunities/'
     design:
-      # TU Delft brand gradient (cyan → dark blue) with light text for contrast
+      # Full-bleed background image with the lab name/description overlaid on top
+      
       background:
-        gradient_start: '#00A6D6'
-        gradient_end: '#0C2340'
-        gradient_angle: 135
+        image:
+          filename: 01.jpg
+          filters:
+            brightness: 0.3
+          position: center
+          size: 
+          parallax: false
+        slideshow:
+          images: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"]
+          interval: 5000
+        color: '#0C2340'
         text_color_light: true
+      # Extra top/bottom breathing room so the CTA buttons sit lower and the hero reads as a tall banner, not a narrow strip
+      spacing:
+        padding: ['140px', '0', '140px', '0']
 
-  # ── Principal Investigator spotlight ──
-  # Pulls avatar, role & bio directly from content/authors/Clemens/_index.md
-  # To feature a different person, change `username` to their author folder name.
-  - block: about.avatar
+  # ── About the lab (mirrors the "IDEAS Lab" section on gokcincinar.com) ──
+  - block: markdown
     content:
-      username: Clemens
+      title: PAAM Lab
+      subtitle: ''
+      text: |
+        The PAAM Lab is a research group in the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at [*Delft University of Technology*](https://www.tudelft.nl). We investigate the structure-processing-property relationship of lightweight architected materials, combining (self-)assembly, processing and manufacturing methods to architect materials at multiple scales and explore their synergistic properties. [Read more about our research here.](../research/)
 
-  - block: slider
-    content:
-      slides:
-      - title: Hydrogen Permeation Tool
-        content: ...interactive understanding of the permeation physics
-        align: left
-        background:
-          image:
-            filename: permeation.PNG
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-        link:
-          icon: wrench
-          icon_pack: fas
-          text: Tool Page
-          url: ../permeation_tool/Permeation_Tool.html
-      - title: Architecting at the smallest scale
-        content: ...like growing carbon nanotubes on carbon fibres (Szmyt et al.)
-        align: right
-        background:
-          image:
-            filename: 01.jpg
-            filters:
-              brightness: 0.7
-          position: right
-          color: '#666'
-      - title: Tailoring preforming phase morphologies
-        content: ...by tailoring time- and temperature-dependent phase separation between thermosets and thermoplastics (Farooq et al.)
-        align: left
-        background:
-          image:
-            filename: 02.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-      - title: Exploring fibre microstructures
-        content: ...through advanced imaging methods (Gomarasca et al.)
-        align: center
-        background:
-          image:
-            filename: 03.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-      - title: Understanding mesoscopic assembly
-        content: ...through bio-inspired approaches (Gulmez et al.)
-        align: right
-        background:
-          image:
-            filename: 04.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-      - title: Characterizing microstructures
-        content: ...by applying temporal correlation to spatial descriptors (Gomarasca et al.)
-        align: left
-        background:
-          image:
-            filename: 05.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-      - title: Translating scientific knowledge to industrial technologies (TapeLab)
-        content: ...towards scalable technologies
-        align: left
-        background:
-          image:
-            filename: 06.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
+        Interested in joining, supporting, or collaborating with the PAAM Lab? [Learn more about ways to work with us.](../opportunities/)
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '400px'
-      is_fullscreen: false
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 2000
+      columns: '1'
+
+ 
+  - block: collection
+    content:
+      title: Recent News
+      text: ""
+      count: 3
+      filters:
+        folders:
+          - post
+    design:
+      view: card
+      columns: '3'
 
   - block: collection
     content:
@@ -139,29 +75,9 @@ sections:
       view: card
       columns: '3'
 
-  # - block: markdown
-  #   content:
-  #     title:
-  #     subtitle: ''
-  #     text:
-  #   design:
-  #     columns: '1'
-  #     background:
-  #       image: 
-  #         filename: coders.jpg
-  #         filters:
-  #           brightness: 1
-  #         parallax: false
-  #         position: center
-  #         size: cover
-  #         text_color_light: true
-  #     spacing:
-  #       padding: ['20px', '0', '20px', '0']
-  #     css_class: fullscreen
-
   - block: collection
     content:
-      title: Latest Publications
+      title: Featured Publications
       text: ""
       count: 5
       filters:

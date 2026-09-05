@@ -47,14 +47,26 @@
 
       }
 
+/* ================================================ */
+/* ## HERO BACKGROUND SLIDESHOW                    ## */
+/* ================================================ */
 
-
-
-
-
-
-
-
+.bg-slideshow {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.bg-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1.6s ease-in-out;
+}
+.bg-slide--active {
+  opacity: 1;
+}
 
 
 /* ================================================ */
