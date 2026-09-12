@@ -80,9 +80,12 @@ sections:
       filters:
         folders:
           - event
+      archive:
+        enable: true
+        text: See all events
     design:
-      view: card
-      columns: '3'
+      view: compact
+      columns: '2'
 
   - block: collection
     content:

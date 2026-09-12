@@ -1,6 +1,7 @@
 ---
 title: "Clemens Dransfeld Awarded NWO KIC Defence Grant"
 date: 2026-06-09
+share: false  
 authors:
   - Clemens
 categories:
