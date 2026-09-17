@@ -191,4 +191,51 @@ sections:
         keywords: ["Damage development", "Thin-ply laminates", "Mechanical testing"]
         pdf: "Master_Thesis_Opp_2026/Proposal_3_Mechanical characterization_Shailee Upadhyay.pdf"
         thumbnail: "Master_Thesis_Opp_2026/Shailee_3.jpg"
+
+        # Deep Generative Model for Image-Space 3D Microstructure Synthesis of UD Fiber-reinforced Polymer Composites
+      - title: "Deep Generative Model for Image-Space 3D Microstructure Synthesis of UD Fiber-reinforced Polymer Composites"
+        type: "Master Thesis"
+        year: 2026
+        status: "open"
+        supervisors:
+          - name: "Mohamad A. Raja"
+            email: "M.A.Raja@tudelft.nl"
+            person_colour: blue
+        keywords: ["Generative Microstructure Synthesis", "Depth-Conditioned Diffusion Models", "CFRP Microstructure"]
+        pdf: "Master_Thesis_Opp_2026/Master Proposal_1_MAR.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/Master Proposal_1_MAR.jpg"
+
+
+        # Neighborhood-Aware Stochastic Generation: Enforcing Fiber Group Coherence in the Conditional Joint Gaussian  Model to Generate Coherent/Continuous 3D FRP microstructures
+      - title: "Neighborhood-Aware Stochastic Generation: Enforcing Fiber  Group Coherence in the Conditional Joint Gaussian  Model to  Generate Coherent/Continuous 3D FRP microstructures"
+        type: "Master Thesis"
+        year: 2026
+        status: "open"
+        supervisors:
+          - name: "Mohamad A. Raja"
+            email: "M.A.Raja@tudelft.nl"
+            person_colour: blue
+        keywords: ["Fiber Group Cohesion", "Neighborhood-Aware Microstructure", "Statistical Coupling"]
+        pdf: "Master_Thesis_Opp_2026/Master Proposal_2_MAR.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/Master Proposal_2_MAR.jpg"
+
+        # Computer Graphics-based Method for efficient generation of 3D Microstructure of CFRPs via Blender Rigid/Soft-Body  Simulation: Investigating Modelling of Compaction-Induced Fiber Misalignment During Nip-Roller Impregnation 
+      - title: "Computer Graphics-based Method for efficient generation of  3D Microstructure of CFRPs via Blender Rigid/Soft-Body Simulation: Investigating Modelling of Compaction-Induced Fiber Misalignment During Nip-Roller Impregnation "
+        type: "Master Thesis"
+        year: 2026
+        status: "open"
+        supervisors:
+          - name: "Mohamad A. Raja"
+            email: "M.A.Raja@tudelft.nl"
+            person_colour: blue
+        keywords: ["Process-Induced Fiber Misalignment ", "Tow Compaction Simulation", "Blender Soft-Body Physics "]
+        pdf: "Master_Thesis_Opp_2026/Master Proposal_3_MAR.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/Master Proposal_3_MAR.jpg"
+
+
+
+
+
+
+
 ---
