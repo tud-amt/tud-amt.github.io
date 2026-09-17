@@ -47,14 +47,51 @@
 
       }
 
+/* ================================================ */
+/* ## HERO BACKGROUND SLIDESHOW                    ## */
+/* ================================================ */
+
+.bg-slideshow {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.bg-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1.6s ease-in-out;
+}
+.bg-slide--active {
+  opacity: 1;
+}
 
 
+/* ================================================ */
+/* ## MAIN HERO (top banner)                       ## */
+/* ================================================ */
+
+.paam-hero .hero-title {
+  font-family: Arial, sans-serif;
+}
+.paam-hero .hero-lead {
+  font-size: 1.0rem;
+  font-family: Arial, sans-serif;
+}
 
 
+/* ================================================ */
+/* ## ABOUT THE LAB (PAAM Lab hero section)        ## */
+/* ================================================ */
 
-
-
-
+.paam-about .hero-title {
+  font-size: 1.8rem;
+}
+.paam-about .hero-lead {
+  font-size: 0.9rem;
+}
 
 
 /* ================================================ */

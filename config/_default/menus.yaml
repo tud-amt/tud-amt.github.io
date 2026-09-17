@@ -19,9 +19,12 @@ main:
   - name: Teaching
     url: teaching
     weight: 50
+  - name: News
+    url: post
+    weight: 60
   - name: Events
     url: event
-    weight: 60
+    weight: 70
   - name: Contact
     url: contact
-    weight: 70
+    weight: 80
