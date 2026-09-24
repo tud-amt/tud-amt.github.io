@@ -13,12 +13,12 @@ authors: Ran
 superuser: false
 
 # Role/position
-role: Postdoctoral Researcher
+role: 
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'https://www.tudelft.nl/ae/'
+  - name: 
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests includes composite fracture
@@ -45,15 +45,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:r.tao@tudelft.nl'
+# - icon: envelope
+#   icon_pack: fas
+#   link: 'mailto:r.tao@tudelft.nl'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=yJYiGtsAAAAJ&hl=en
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/ran-tao-ab09856b/
+# - icon: linkedin
+#   icon_pack: fab
+#   link: https://www.linkedin.com/in/ran-tao-ab09856b/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,4 +72,4 @@ user_groups:
   - Alumni
 ---
 
-Ran is postdoctoral researcher at PAAM lab. His research interests include fracture phenomena in composites at the microscale. 
+Ran was postdoctoral researcher at PAAM lab. He explored fracture phenomena in composites at the microscale. 

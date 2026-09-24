@@ -13,12 +13,12 @@ authors: Emma
 superuser: false
 
 # Role/position
-role: Researcher
+role: Young Professional
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'https://www.tudelft.nl/ae'
+  - name: European Patent Office
+    url: 'https://www.epo.org'
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include machine learning
@@ -33,15 +33,18 @@ education:
     - course: BSc in Aerospace, Aeronautical and Astronautical Engineering
       institution: Università degli Studi di Padova
       year: 2021
+    - course: MSc in Aerospace Engineering
+      institution: Delft University of Technology
+      year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:E.Chiavelli@student.tudelft.nl'
+#  - icon: envelope
+#    icon_pack: fas
+#    link: 'mailto:E.Chiavelli@student.tudelft.nl'
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/emma-chiavelli/
@@ -60,7 +63,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Alumni
 ---
 
-Emma is a Master student with [*Dr. Laura Rossi*](http://www.mycolloids.com). She investigates the heating properties of magnetic nanoparticles.
+Emma was a Master student and the researcher working together with [*Dr. Laura Rossi*](http://www.mycolloids.com). She investigated the heating properties of magnetic nanoparticles.

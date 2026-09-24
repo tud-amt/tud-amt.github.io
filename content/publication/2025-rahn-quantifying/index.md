@@ -2,7 +2,7 @@
 title: 'Quantifying climate impacts of flight operations: A discrete-event life cycle
   assessment approach'
 authors:
-- Antonia Rahn
+- Antonia
 - Katrin Dahlmann
 - Florian Linke
 - Markus Kühlen

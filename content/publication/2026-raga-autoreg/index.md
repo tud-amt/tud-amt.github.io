@@ -1,33 +1,33 @@
 ---
-title: Solution and precipitation based radical polymerization of renewable vinyl
-  lactones in renewable solvents
+title: Autoregressive Modelling and Synthetic Generation of High-Fidelity, Statistically
+  Equivalent 3D Microstructures for As-Manufactured Misalignments in Fiber-Reinforced
+  Composites
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Dimitrios Apostolidis
-- William E Dyer
+- Mohamad A. Raja
 - Clemens
-- Baris Kumru
+- Boyang Chen
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2025-01-01'
+date: '2026-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2026-09-23T14:47:07.666892Z'
+publishDate: '2026-09-24T08:14:33.459020Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- article-journal
+- manuscript
 
 # Publication name and optional abbreviated publication name.
-publication: '*RSC advances*'
+publication: ''
 publication_short: ''
 
 doi: ''
@@ -43,7 +43,7 @@ tags: []
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2606.20117'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -70,6 +70,11 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2606.20117
+- name: URL
+  url: https://arxiv.org/abs/2606.20117
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

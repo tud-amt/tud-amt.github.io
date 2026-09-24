@@ -14,12 +14,12 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoctoral researcher
+role: Senior Composites R&D Engineer
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'https://www.tudelft.nl/ae'
+  - name: Collins Aerospace
+    url: 'https://www.rtx.com/collinsaerospace'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include composite microstructures and processing
@@ -41,12 +41,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:o.yuksel@tudelft.nl'
+#  - icon: envelope
+#    icon_pack: fas
+#    link: 'mailto:o.yuksel@tudelft.nl'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/onur-yuksel-386bb894/
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=eAEBQvQAAAAJ&hl=en

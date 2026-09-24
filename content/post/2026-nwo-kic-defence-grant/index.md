@@ -11,7 +11,7 @@ tags:
   - Composite Materials
   - Induction Welding
   - Defence and Security
-summary: "Professor Clemens Dransfeld and his collaborators have received NWO KIC funding to develop programmable magnetic joining layers for efficient manufacturing and repair of hybrid composites."
+summary: "Professor Clemens Dransfeld and his collaborators have received NWO KIC funding to develop programmable magnetic joining layers for efficient manufacturing and repair of hybrid composites. Advanced composites are key to lighter, more efficient structures, but current joining methods either add weight or demand strict factory conditions. Welding Made Easy introduces a programmable joining layer: a thermoplastic film applied to thermoset composites, functionalized with magnetic nanoparticles. Under an alternating magnetic field, these particles heat precisely to the plastic’s processing temperature, then stop, ensuring controlled bonding without complex equipment. This self-regulating process enables strong, lightweight welds in decentralized environments. The consortium unites polymer producers, OEMs, and researchers in nanoparticles, composite processing, and production science to accelerate industrial adoption."
 ---
 
 Professor Clemens Dransfeld and his collaborators have received funding through the NWO KIC call *High Performance Materials for Defence and Security* for the project **Welding Made Easy: Tunable Magnetic Materials for Decentralised Manufacturing and Repair of Hybrid Composites**.
@@ -25,7 +25,5 @@ By tuning the nanoparticles to the processing temperature of the thermoplastic, 
 This approach could support robust, energy-efficient fusion bonding for decentralised production and repair of polymer composites used in aerospace, defence, safety, wind-energy, and automotive applications.
 
 Clemens Dransfeld is working with co-applicants Professor Arjan Houtepen of TU Delft, Dr. Reinoud Lavrijsen of Eindhoven University of Technology, and Professor Sofia Kantorovich of the University of Vienna. The consortium also includes Airbus, GKN, Toray, the German Aerospace Center (DLR), SCIL Nanoimprint, and SABIC.
-
-The project is one of the successful proposals in an NWO programme awarding more than EUR 15 million for high-performance materials research, supplemented by EUR 4 million in co-funding from participating companies and organisations.
 
 [Read the original TU Delft announcement](https://www.tudelft.nl/en/2026/lr/clemens-dransfeld-and-yinglu-tang-awarded-nwo-kic-defence-grant).

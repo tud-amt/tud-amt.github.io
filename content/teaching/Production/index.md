@@ -12,7 +12,7 @@ address:
   postcode: '2629 HS'
   country: The Netherlands
 
-summary: Main lecturer
+summary: Responsible lecturer
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
@@ -53,7 +53,7 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
-
+This course provides an integrated introduction to aerospace manufacturing, covering the philosophy and physics of formative, subtractive, and additive manufacturing processes and their role in giving materials shape and function. It addresses the joining and integration of aerospace structures through methods such as bonding, riveting, bolting, and welding, and introduces the principles of sustainable manufacturing, including the assessment of environmental impact, recurring and non-recurring costs, production volume, and automation. These principles are applied to case studies from aviation, space, wind energy, and emerging manufacturing technologies. The course also considers large-scale manufacturing and assembly systems, including lean manufacturing and principles of quality improvement. Upon completion, students will be able to understand and apply manufacturing and joining processes to the realization of complex structures, assess their implications for design freedom, analyze manufacturing systems with respect to environmental impact and life-cycle considerations, evaluate production scenarios with different levels of automation and production volume, apply manufacturing-system decomposition to practical cases, and understand key principles of quality improvement in industrial manufacturing and assembly.
 <!-- Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file

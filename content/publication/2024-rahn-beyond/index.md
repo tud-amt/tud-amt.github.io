@@ -2,7 +2,7 @@
 title: 'Beyond flight operations: Assessing the environmental impact of aircraft maintenance
   through life cycle assessment'
 authors:
-- Antonia Rahn
+- Antonia
 - Melissa Schuch
 - Kai Wicke
 - Benjamin Sprecher

@@ -13,12 +13,12 @@ authors: Alejandro
 superuser: false
 
 # Role/position
-role: Doctoral Candidate
+role: Associate Research Engineer
 
 # Organizations/Affiliations
 organizations:
-  - name: TU Delft, Faculty of Aerospace Engineering
-    url: 'https://www.tudelft.nl/ae'
+  - name: GKN Aerospace
+    url: 'https://www.gknaerospace.com'
 
 # Short bio (displayed in user profile at end of posts)
 bio: I really like magnetic nanoparticles
@@ -33,9 +33,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:A.JimenezdelToro@tudelft.nl'
+# - icon: envelope
+#   icon_pack: fas
+#   link: 'mailto:A.JimenezdelToro@tudelft.nl'
 #  - icon: google-scholar
 #    icon_pack: ai
 #    link: https://scholar.google.com/citations?user=yJYiGtsAAAAJ&hl=en
@@ -57,7 +57,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Doctoral Candidates
+  - Alumni
 ---
 
-Alejandro is part of the ITN [*STEP4WIND*](https://step4wind.eu) European Industrial Doctorate with co-PI [*Dr. Julie Teuwen*](https://julieteuwen.com).He investigates the (re)crystallisation kinetics of polyphenylenesulfide.
+Alejandrowas part of the ITN [*STEP4WIND*](https://step4wind.eu) European Industrial Doctorate with co-PI [*Dr. Julie Teuwen*](https://julieteuwen.com).He investigated the (re)crystallisation kinetics of polyphenylenesulfide.

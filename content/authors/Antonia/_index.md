@@ -42,6 +42,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://de.linkedin.com/in/antonia-rahn/de
+  - icon: file-pdf
+    icon_pack: fas
+    link: https://repository.tudelft.nl/file/File_120cfb68-748d-421a-94e2-7a0af10bef08?preview=1
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -57,7 +60,8 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Doctoral Candidates
+  - Alumni
 ---
 
+Antonia was a doctoral candidate at the German Aerospace Center (DLR) and the Faculty of Aerospace Engineering at TU Delft. Her research focuses on Life Cycle Assessment (LCA) maintenance in flight operations. Check the pdf link above for her thesis.
 
