@@ -9,7 +9,7 @@ title: Synergistic Toughening of Epoxy through Layered Poly(ether imide) with Du
 authors:
 - Ujala
 - Ekaterina Sakarinen
-- Julie
+- Julie Teuwen
 - René Alderliesten
 - Clemens
 

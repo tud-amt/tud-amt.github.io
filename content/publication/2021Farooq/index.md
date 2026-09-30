@@ -9,7 +9,7 @@ title: Effect of a Dwell Stage in the Cure Cycle on the Interphase Formation in 
 authors:
 - Ujala
 - Sönke Heuer
-- Julie
+- Julie Teuwen
 - Clemens
 
 # Author notes (such as 'Equal Contribution')
