@@ -7,7 +7,7 @@ title: Energy analysis of autoclave CFRP manufacturing using thermodynamics base
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Chizoba J. Ogugua
+- Chizoba
 - Sabin V. Anton
 - Aditya P. Tripathi
 - Miguel Dominguez Larrabeiti

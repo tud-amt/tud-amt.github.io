@@ -8,8 +8,8 @@ title: Acquisition of multi voxel size X-ray computed tomography and optical mic
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Benedikt Boos
-- Silvia Gomarasca
-- Ran Tao
+- Silvia
+- Ran
 - Christoph Queck
 - Amin Hosseini
 - Clemens

@@ -7,7 +7,7 @@ title: Benchmarking and sensitivity analysis of segmentation methods for image-b
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Onur Yuksel
+- Onur
 - Guillaume Broggi
 - Robin Hartley
 - Vincent K. Maes
@@ -17,7 +17,7 @@ authors:
 - Christian Breite
 - Clemens
 - Wouter Grouve
-- Silvia Gomarasca
+- Silvia
 - Rui Guo
 - Adrien Le Reun
 - Arthur Levy
@@ -25,7 +25,7 @@ authors:
 - Mahoor Mehdikhani
 - Andrea Miene
 - Lars Pilgaard Mikkelsen
-- Diwakar Singh
+- Diwakar
 - Yentl Swolfs
 - Elena Syerko
 - James Kratz
