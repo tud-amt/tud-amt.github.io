@@ -4,13 +4,6 @@ summary: X-ray computed tomography of unidirectional carbon fiber composites
 date: '2026-10-12'
 tags: [Datasets]  # Tools, Codes or Datasets
 
-# Link buttons shown in the Resources list. Remove 'name' for an icon-only button.
-# Icons are Font Awesome names; use icon_pack: fab for brand icons such as github.
-links:
-  - name: Dataset
-    icon: database
-  #  icon_pack: fab
-    url: https://doi.org/10.4121/16437297
 
 # Optional link to an external resource (dataset, software, tool...)
 # external_link: https://example.org

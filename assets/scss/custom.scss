@@ -398,3 +398,10 @@
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
+.resource-group .view-list-item .btn-links {
+  display: none;
+}
+/* Tags are only used to sort resources into sections; don't show them. */
+.resource-page .article-tags {
+  display: none;
+}

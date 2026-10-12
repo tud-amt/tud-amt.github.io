@@ -4,13 +4,6 @@ summary: Method for the microstructural characterisation of unidirectional compo
 date: '2026-10-12'
 tags: [Codes]  # Tools, Codes or Datasets
 
-# Link buttons shown in the Resources list. Remove 'name' for an icon-only button.
-# Icons are Font Awesome names; use icon_pack: fab for brand icons such as github.
-links:
-  - name: Code
-    icon: github
-    icon_pack: fab
-    url: https://github.com/tud-amt/ud-micro
 
 # Optional link to an external resource (dataset, software, tool...)
 # external_link: https://example.org

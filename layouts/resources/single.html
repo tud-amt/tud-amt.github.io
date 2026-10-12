@@ -1,0 +1,19 @@
+{{- define "main" -}}
+
+{{/* Same as the theme's single page, with a class to style resource pages. */}}
+<article class="article resource-page">
+
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</article>
+
+{{- end -}}

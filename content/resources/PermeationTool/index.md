@@ -4,10 +4,6 @@ aliases:
   - /research/permeationtool/
 
 event: This tool has been developed to clarify and explain the physical phenomena of permeation.
-links:
-  - name: Open tool
-    icon: external-link-alt
-    url: /permeation_tool/Permeation_Tool.html
 
 location: TU Delft, Faculty of Aerospace Engineering
 address:
