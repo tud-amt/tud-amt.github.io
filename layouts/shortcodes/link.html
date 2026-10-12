@@ -1,0 +1,5 @@
+{{/* Link button for use in page text: {{< link url="/permeation_tool/Permeation_Tool.html" text="Open tool" >}}
+     Optional: icon="..." (Font Awesome solid icon name, default external-link-alt). */}}
+{{ $url := .Get "url" }}
+{{ $icon := .Get "icon" | default "external-link-alt" }}
+<a class="btn btn-outline-primary btn-sm" href="{{ $url | relURL }}" target="_blank" rel="noopener"><i class="fas fa-{{ $icon }} mr-1"></i>{{ .Get "text" | default $url }}</a>

@@ -1,0 +1,3 @@
+{{/* DOI button for use in page text: {{< doi "10.4121/16437297" >}} */}}
+{{ $doi := .Get 0 | strings.TrimPrefix "https://doi.org/" }}
+<a class="btn btn-outline-primary btn-sm" href="https://doi.org/{{ $doi }}" target="_blank" rel="noopener"><i class="ai ai-doi mr-1"></i>DOI: {{ $doi }}</a>

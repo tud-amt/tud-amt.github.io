@@ -382,3 +382,19 @@
   border-color: var(--primary-color-1-cyan);
   color: var(--secondary-color-dark-blue);
 }
+
+/* ================================================ */
+/* ## RESOURCES PAGE: SMALLER SECTION HEADINGS    ## */
+/* ================================================ */
+
+.resource-group .section-heading {
+  text-align: left !important;
+}
+.resource-group .section-heading h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.resource-group.home-section {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}

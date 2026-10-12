@@ -1,8 +1,13 @@
 ---
-title: Permeation Tool
+title: Gas Permeation Tool
+aliases:
+  - /research/permeationtool/
 
 event: This tool has been developed to clarify and explain the physical phenomena of permeation.
-project_url: ../permeation_tool/Permeation_Tool.html
+links:
+  - name: Open tool
+    icon: external-link-alt
+    url: /permeation_tool/Permeation_Tool.html
 
 location: TU Delft, Faculty of Aerospace Engineering
 address:
@@ -55,12 +60,14 @@ slides:
 projects: 
 ---
 
-This tool has been developed to clarify and explain the physical phenomena of permeation.
+This tool has been developed by Joffrey Feltin and Ran Tao, supervised by Bilim Atli-Veltin to clarify and explain the physical phenomena of gas permeation in materials.
 
-On this [*web page*](/permeation_tool/Permeation_Tool.html), you'll find :
+On this [web page](/permeation_tool/Permeation_Tool.html), you'll find :
 
  - Explanations, definitions and animations of this phenomena,
  - A tool to determine the permeation coefficient (permeability) from experimental data,
  - A unit converter to convert all the differents units you can find in paper about permeability,
  - A tool to see the evolution of the permeate flow in cases of cracks, or not.
  - A glossary and some useful resources and references.
+
+{{< link url="/permeation_tool/Permeation_Tool.html" text="Open the Gas Permeation Tool" >}}

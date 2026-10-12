@@ -8,16 +8,16 @@ sections:
   - block: hero
     content:
       title: "**P**rocessing of **A**dvanced **A**rchitected **M**aterials"
-      text: "Integrating advanced imaging, multi-scale modeling, and innovative manufacturing to engineer structural materials for next-generation aerospace applications"
+      text: "Exploring novel processing methods to Design advanced materials"
         
       cta:
         label: 'Explore Our Research'
         url: '../research/'
         icon: arrow-right
         icon_pack: fas
-      cta_alt:
-        label: 'Join Us'
-        url: '../opportunities/'
+     # cta_alt:
+      #  label: 'Join Us'
+      #  url: '../opportunities/'
     design:
       # Full-bleed background image with the lab name/description overlaid on top
       css_class: paam-hero
@@ -44,7 +44,7 @@ sections:
       title: PAAM Lab
       position: center
       text: |
-        The PAAM Lab is a research group in the [*Faculty of Aerospace Engineering*](https://www.tudelft.nl/lr) at [*Delft University of Technology*](https://www.tudelft.nl). We investigate the structure-processing-property relationship of lightweight architected materials, combining (self-)assembly, processing and manufacturing methods to architect materials at multiple scales and explore their synergistic properties. [Read more about our research here.](../research/)
+        The PAAM Lab is a research group in the [Faculty of Aerospace Engineering](https://www.tudelft.nl/lr) at [Delft University of Technology](https://www.tudelft.nl). We investigate the structure-processing-property relationship of lightweight architected materials, combining (self-)assembly, processing and manufacturing methods to architect materials at multiple scales and explore their synergistic properties. [Read more about our research here.](../research/)
 
         Interested in joining, supporting, or collaborating with the PAAM Lab? [Learn more about ways to work with us.](../opportunities/)
       image:
@@ -99,7 +99,7 @@ sections:
         publication_type: 'article-journal'
     design:
       view: citation
-      columns: '1'
+      columns: '2'
 
   - block: markdown
     content:

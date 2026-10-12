@@ -1,0 +1,3 @@
+{{/* GitHub button for use in page text: {{< github "tud-amt/ud-micro" >}} */}}
+{{ $repo := .Get 0 | strings.TrimPrefix "https://github.com/" | strings.TrimSuffix "/" }}
+<a class="btn btn-outline-primary btn-sm" href="https://github.com/{{ $repo }}" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub: {{ $repo }}</a>
