@@ -14,6 +14,7 @@ publication_types:
 - article-journal
 publication: '*Composites Part A: Applied Science and Manufacturing*'
 doi: 10.1016/j.compositesa.2024.108669
+featured: true
 abstract: This work proposes a methodology for the characterisation of complex pore
   features in unidirectional composite prepregs, and provides insights into the interaction
   between fibre architecture and pores. The method showcased allows to compare spatial

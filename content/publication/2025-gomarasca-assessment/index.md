@@ -13,6 +13,7 @@ date: '2025-01-01'
 publishDate: '2025-05-12T21:27:01.439939Z'
 publication_types:
 - paper-conference
+featured: false
 abstract: Understanding the microstructural variability in unidirectional composite
   prepreg tapes is relevant to investigating mechanisms of tape microstructure formation,
   their impact on its processability and the mechanical performance of the final composite

@@ -31,6 +31,7 @@ publication_short: ''
 
 doi: 10.1016/j.compscitech.2021.109030
 
+
 abstract: 'Understanding the three-dimensional variability of unidirectional composites
   is relevant to the material performance and the development of advanced material
   modelling strategies. This work proposes a new methodology for the characterization
@@ -58,7 +59,7 @@ tags:
   Microstructure
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
 url_pdf: ''

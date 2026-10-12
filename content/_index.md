@@ -95,6 +95,7 @@ sections:
       filters:
         folders:
           - publication
+        featured_only: true
         publication_type: 'article-journal'
     design:
       view: citation
