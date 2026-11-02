@@ -16,21 +16,6 @@ sections:
       for the full project description, and use the Contact button to reach the supervising researcher.
     cards:
 
-      # Induction Welding of Thermoplastic CompositesPolymer processing with engineered magnetic nanoparticles
-      - title: "Induction Welding of Thermoplastic CompositesPolymer processing with engineered magnetic nanoparticles"
-        type: "Master Thesis"
-        year: 2026
-        status: "open"
-        supervisors:
-          - name: "Emma Chiavelli"
-            email: "e.chiavelli@tudelft.nl"
-            person_colour: pink
-          - name: "Dnyandevi Deorukhkar"
-            email: "D.D.Deorukhkar@tudelft.nl"
-            person_colour: pink
-        keywords: ["Thermoplastics", "Induction Welding", "Magnetic nanoparticles"]
-        pdf: "Master_Thesis_Opp_2026/Induction Welding.pdf"
-        thumbnail: "Master_Thesis_Opp_2026/MagneticInduction.jpg"
 
 
       # A Comprehensive Understanding to the Slurry Impregnation Technique
@@ -47,21 +32,6 @@ sections:
         thumbnail: "Master_Thesis_Opp_2026/Proposal_BAkd.jpg"
 
 
-      # Investigation of Carbon Fiber Spreading Mechanism Using a Doctor Blade System  
-      - title: "Investigation of Carbon Fiber Spreading Mechanism Using a Doctor Blade System"
-        type: "Master Thesis"
-        year: 2026
-        status: "open"
-        supervisors:
-          - name: "Shailee Upadhyay"
-            email: "e.chiavelli@tudelft.nl"
-            person_colour: pink
-          - name: "Burak Akdeniz"
-            email: "B.Akdeniz@tudelft.nl"
-            person_colour: blue
-        keywords: ["Impregnation", "Surface–Fiber Interaction", "Spreading Mechanism"]
-        pdf: "Master_Thesis_Opp_2026/Proposal_BAkd_SU_1.pdf"
-        thumbnail: "Master_Thesis_Opp_2026/Proposal_BAkd_SU_1.jpg"
 
 
       # Investigation on role Fluid Mechanics in Nip-Roll Setup for composite tape manufacturing 
@@ -233,6 +203,34 @@ sections:
         pdf: "Master_Thesis_Opp_2026/Master Proposal_3_MAR.pdf"
         thumbnail: "Master_Thesis_Opp_2026/Master Proposal_3_MAR.jpg"
 
+      # Induction Welding of Thermoplastic CompositesPolymer processing with engineered magnetic nanoparticles
+      - title: "Induction Welding of Thermoplastic CompositesPolymer processing with engineered magnetic nanoparticles"
+        type: "Master Thesis"
+        year: 2026
+        status: "closed"
+        supervisors:
+          - name: "Dnyandevi Deorukhkar"
+            email: "D.D.Deorukhkar@tudelft.nl"
+            person_colour: pink
+        keywords: ["Thermoplastics", "Induction Welding", "Magnetic nanoparticles"]
+        pdf: "Master_Thesis_Opp_2026/Induction Welding.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/MagneticInduction.jpg"
 
+
+      # Investigation of Carbon Fiber Spreading Mechanism Using a Doctor Blade System  
+      - title: "Investigation of Carbon Fiber Spreading Mechanism Using a Doctor Blade System"
+        type: "Master Thesis"
+        year: 2026
+        status: "closed"
+        supervisors:
+          - name: "Shailee Upadhyay"
+            email: "e.chiavelli@tudelft.nl"
+            person_colour: pink
+          - name: "Burak Akdeniz"
+            email: "B.Akdeniz@tudelft.nl"
+            person_colour: blue
+        keywords: ["Impregnation", "Surface–Fiber Interaction", "Spreading Mechanism"]
+        pdf: "Master_Thesis_Opp_2026/Proposal_BAkd_SU_1.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/Proposal_BAkd_SU_1.jpg"
 
 ---
