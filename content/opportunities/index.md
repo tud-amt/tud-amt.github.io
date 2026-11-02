@@ -67,18 +67,6 @@ sections:
 
 
 
-      # Integrating Descriptor-Based Inputs into a Novel 3D Microstructure Generator  
-      - title: "Integrating Descriptor-Based Inputs into a Novel 3D Microstructure Generator"
-        type: "Master Thesis"
-        year: 2026
-        status: "open"
-        supervisors:
-          - name: "Silvia Gomarasca"
-            email: "s.gomarasca@tudelft.nl"
-            person_colour: pink
-        keywords: ["Microstructures", "Simulation", "Generative Models", "RVE"]
-        pdf: "Master_Thesis_Opp_2026/Proposal_Silvia_2.pdf"
-        thumbnail: "Master_Thesis_Opp_2026/Proposal_Silvia_2.jpg"
 
 
 
@@ -232,5 +220,19 @@ sections:
         keywords: ["Impregnation", "Surface–Fiber Interaction", "Spreading Mechanism"]
         pdf: "Master_Thesis_Opp_2026/Proposal_BAkd_SU_1.pdf"
         thumbnail: "Master_Thesis_Opp_2026/Proposal_BAkd_SU_1.jpg"
+
+
+      # Integrating Descriptor-Based Inputs into a Novel 3D Microstructure Generator  
+      - title: "Integrating Descriptor-Based Inputs into a Novel 3D Microstructure Generator"
+        type: "Master Thesis"
+        year: 2026
+        status: "closed"
+        supervisors:
+          - name: "Silvia Gomarasca"
+            email: "s.gomarasca@tudelft.nl"
+            person_colour: pink
+        keywords: ["Microstructures", "Simulation", "Generative Models", "RVE"]
+        pdf: "Master_Thesis_Opp_2026/Proposal_Silvia_2.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/Proposal_Silvia_2.jpg"
 
 ---
