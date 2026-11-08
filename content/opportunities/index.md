@@ -188,8 +188,8 @@ sections:
             email: "M.A.Raja@tudelft.nl"
             person_colour: blue
         keywords: ["Blender Soft-Body Physics", "Tow Compaction Simulation", "Process-Induced Fiber Misalignment"]
-        pdf: "Master_Thesis_Opp_2026/Master Proposal_3_MAR.pdf"
-        thumbnail: "Master_Thesis_Opp_2026/Master Proposal_3_MAR.jpg"
+        pdf: "Master_Thesis_Opp_2026/Master Master Proposal_3_MAR_updated.pdf"
+        thumbnail: "Master_Thesis_Opp_2026/Master Master Proposal_3_MAR_updated.jpg"
 
       # Induction Welding of Thermoplastic CompositesPolymer processing with engineered magnetic nanoparticles
       - title: "Induction Welding of Thermoplastic CompositesPolymer processing with engineered magnetic nanoparticles"
