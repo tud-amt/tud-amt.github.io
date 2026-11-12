@@ -103,11 +103,11 @@
   text-align: left !important;
 }
 
-/* Posts side by side, wrapping to one per row on narrow screens */
+/* Posts side by side from the left edge (lines up with other blocks), wrapping on narrow screens */
 .paam-linkedin .col-12:has(> .linkedin-embed) {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   gap: 1.5rem;
 }
