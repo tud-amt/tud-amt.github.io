@@ -81,7 +81,7 @@ sections:
         {{< linkedin "urn:li:share:7521260295005134850" >}}
         {{< linkedin "urn:li:share:7487239237399085056" "469" >}}
     design:
-      columns: '1'
+      columns: '2'
       css_class: paam-linkedin
 
   - block: collection
