@@ -95,6 +95,33 @@
 
 
 /* ================================================ */
+/* ## LINKEDIN POST (landing page)                 ## */
+/* ================================================ */
+
+/* Left-align the section title (theme centres single-column headings) */
+.paam-linkedin .section-heading {
+  text-align: left !important;
+}
+
+/* Posts side by side, wrapping to one per row on narrow screens */
+.paam-linkedin .col-12:has(> .linkedin-embed) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.linkedin-embed {
+  max-width: 100%;
+}
+.linkedin-embed iframe {
+  display: block;
+  max-width: 100%;
+  border: 0;
+}
+
+
+/* ================================================ */
 /* ## OPPORTUNITIES PAGE                           ## */
 /* ================================================ */
 

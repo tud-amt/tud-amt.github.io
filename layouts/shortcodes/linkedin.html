@@ -1,0 +1,6 @@
+{{/* Embedded LinkedIn post: {{< linkedin "urn:li:share:7521260295005134850" >}} (optional height as second value: "469", default 430); styled in assets/scss/custom.scss */}}
+{{ $urn := .Get 0 }}
+{{ $height := .Get 1 | default "430" }}
+<div class="linkedin-embed">
+  <iframe src="https://www.linkedin.com/embed/feed/update/{{ $urn }}?collapsed=1" height="{{ $height }}" width="504" allowfullscreen title="Embedded LinkedIn post" loading="lazy"></iframe>
+</div>
